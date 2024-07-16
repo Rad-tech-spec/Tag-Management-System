@@ -1,70 +1,85 @@
 from cryptography.fernet import Fernet
-import requests, urllib3, json, os.path
-import defs
+import requests, urllib3, json, os.path, datetime
+import utili
 import logging
 
+logger = logging.getLogger(__name__)
 urllib3.disable_warnings()
+logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
 # URLS
 URL_TOKEN = "https://www.mysmartcover.com/api/auth/refresh.php"
 URL_LIST = "https://www.mysmartcover.com/api/locations/list.php"
-Token_ = ""
+Token_ = "" # To be removed
 
 # Security
-#defs.write_key()
-key_ = defs.load_key()
-#defs.write_token(Token_.encode(), key_) 
-Token_ = defs.load_token(Fernet(key_))
+# defs.write_key()
+key_ = utili.load_key()
+# defs.write_token(Token_.encode(), key_)
+Token_ = utili.load_token(Fernet(key_))
 header_ = {"Authorization": "Bearer {}".format(Token_.decode())}
 
+def main(): 
+    
+    logger.info("Executed " + str(datetime.datetime.now()))
+    logger.info("Token age: " + str(utili.exp_time_) + ".")
 
-print("Token age: " + str(defs.exp_time_) + ".")
+    # Check Exp date
+    if utili.exp_time_ <= 5:
+        logging.warning("Token will exprire in " + str(utili.exp_time_) + " days.")
+        try:
+            logging.info("Generating a new Token...")
+            gettoken_ = json.loads(
+                requests.get(URL_TOKEN, headers=header_, verify=False).content
+            )
+            logging.info(gettoken_)
+            #print(gettoken_) # To be removed
+            Token_ = str(gettoken_["token"])
+            logger.info(str(Token_)) # To be removed
 
-# Check Exp date
-if defs.exp_time_ <= 5:
-    print("Token will exprire in " + str(defs.exp_time_) + " days.")
-    try:
-        print("Generating a new Token...")
-        gettoken_ = json.loads(
-            requests.get(URL_TOKEN, headers=header_, verify=False).content
-        )
-        print(gettoken_)
-        Token_ = str(gettoken_["token"])
-        print(str(Token_))
+            try:
+                if gettoken_["response_code"] == 0:
+                    utili.exp_time_ = 0
+                    utili.write_token(Token_.encode(), key_)
+                    utili.exp_time_ = gettoken_["days_remaining"]
+                    logger.info(
+                        "Token updated and replaced. Expires in "
+                        + str(utili.exp_time_)
+                        + " days."
+                    )
+            except Exception as ein:
+                logger.error("Could not write token: %s", repr(ein))
 
-        try: 
-            if gettoken_["response_code"] == 0:
-                defs.exp_time_ = 0
-                defs.write_token(Token_.encode(), key_)
-                defs.exp_time_ = gettoken_["days_remaining"]
-                print("Token updated and replaced. Expires in " + str(defs.exp_time_) + " days.")
-        except Exception as ein:
-            logging.error('Could not write token: %s', repr(ein))
-
-    except Exception as eout:
-        logging.error('Failed to update Token: %s', repr(eout))
+        except Exception as eout:
+            logger.error("Failed to update Token: %s", repr(eout))
 
 
-response_ = requests.get(URL_LIST, headers=header_, verify=False)
-# print(response.content)
+### Dealing with content
+    response_ = requests.get(URL_LIST, headers=header_, verify=False)
+    # print(response.content)
 
-# Write response into a file
-if os.path.isfile("data.json") == False:
-    with open("data.json", "w") as outfile:
-        outfile.write(str(response_.content))
+    # Write response into a file
+    if os.path.isfile("data.json") == False:
+        with open("data.json", "w") as outfile:
+            outfile.write(str(response_.content))
+        outfile.close()
+
+    # Filter the file
+    with open("data.json", "r") as infile:
+        data = infile.read()
+
+        with open("data.json", "w") as outfile:
+            data = data.replace("b'", "")
+            data = data.replace("'", "")
+            outfile.write(data)
+    infile.close()
     outfile.close()
 
-# Filter the file
-with open("data.json", "r") as infile:
-    data = infile.read()
+if __name__ == '__main__':
+    main()
 
-    with open("data.json", "w") as outfile:
-        data = data.replace("b'", "")
-        data = data.replace("'", "")
-        outfile.write(data)
-infile.close()
-outfile.close()
 
+# Token generated in 7/16/2024
 
 # Tasks:
 #   1) Program must be able to update both Token and verify or regenerate a token if neccessery.

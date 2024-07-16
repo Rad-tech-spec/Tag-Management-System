@@ -1,6 +1,7 @@
 from cryptography.fernet import Fernet
 from datetime import date
 
+Token_cr_at =  None
 exp_time_ = 365
 
 
@@ -24,3 +25,6 @@ def write_token(a, key):
 
 def load_token(f: Fernet):
     return f.decrypt(open("token.key", "rb").read())
+
+# def checkDate():
+    
