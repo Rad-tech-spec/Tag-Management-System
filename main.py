@@ -1,50 +1,48 @@
 from cryptography.fernet import Fernet
 import requests, urllib3, json, os.path, datetime
-import utili
+import utili, logging, var
 import logging
 
-logger = logging.getLogger(__name__)
 urllib3.disable_warnings()
+logger = logging.getLogger(__name__)
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
+utili.initDate()
+utili.showinfo(var.Token_cr_at, var.daysdate, var.exp_time_)
 
-# URLS
-URL_TOKEN = "https://www.mysmartcover.com/api/auth/refresh.php"
-URL_LIST = "https://www.mysmartcover.com/api/locations/list.php"
-Token_ = "" # To be removed
-
-# Security
 # defs.write_key()
 key_ = utili.load_key()
-# defs.write_token(Token_.encode(), key_)
-Token_ = utili.load_token(Fernet(key_))
-header_ = {"Authorization": "Bearer {}".format(Token_.decode())}
+#utili.write_token(var.Token_.encode(), key_)
+print(utili.load_token(Fernet(key_)))
+var.Token_ = utili.load_token(Fernet(key_))
+
+header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
 
 def main(): 
     
     logger.info("Executed " + str(datetime.datetime.now()))
-    logger.info("Token age: " + str(utili.exp_time_) + ".")
+    logger.info("Token age: " + str(var.exp_time_) + ".")
 
     # Check Exp date
-    if utili.exp_time_ <= 5:
-        logging.warning("Token will exprire in " + str(utili.exp_time_) + " days.")
+    if var.exp_time_ <= 5:
+        logging.warning("Token will exprire in " + str(var.exp_time_) + " days.")
         try:
             logging.info("Generating a new Token...")
             gettoken_ = json.loads(
-                requests.get(URL_TOKEN, headers=header_, verify=False).content
+                requests.get(var.URL_TOKEN, headers=header_, verify=False).content
             )
             logging.info(gettoken_)
-            #print(gettoken_) # To be removed
-            Token_ = str(gettoken_["token"])
-            logger.info(str(Token_)) # To be removed
+            print(gettoken_) # To be removed
+            var.Token_ = str(gettoken_["token"])
+            logger.info(str(var.Token_)) # To be removed
 
             try:
                 if gettoken_["response_code"] == 0:
-                    utili.exp_time_ = 0
-                    utili.write_token(Token_.encode(), key_)
-                    utili.exp_time_ = gettoken_["days_remaining"]
+                    var.exp_time_ = 0
+                    utili.write_token(var.Token_.encode(), key_)
+                    utili.updateDate(gettoken_["days_remaining"])
                     logger.info(
                         "Token updated and replaced. Expires in "
-                        + str(utili.exp_time_)
+                        + str(var.exp_time_)
                         + " days."
                     )
             except Exception as ein:
@@ -55,7 +53,7 @@ def main():
 
 
 ### Dealing with content
-    response_ = requests.get(URL_LIST, headers=header_, verify=False)
+    response_ = requests.get(var.URL_LIST, headers=header_, verify=False)
     # print(response.content)
 
     # Write response into a file
