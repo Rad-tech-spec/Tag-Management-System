@@ -3,20 +3,21 @@ import requests, urllib3, json, os.path
 import defs
 urllib3.disable_warnings()
 
-TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3BrIjoiMTAxNTgiLCJpYXQiOjE3MjEwNTQ2NzgsImV4cCI6MTc1MjU5MDY3OH0.ikNVfg42AkA_5NF5OJ-Mz8Kuz2XAwjpyZk5KeSB0Jz0"
-
-# Security
-defs.write_key()
-key = defs.load_key()
-defs.write_token(TOKEN.encode(), key) #!
-TOKEN = defs.load_token(Fernet(key))
-HEADER= {"Authorization": "Bearer {}".format(TOKEN)}
-
-
 # URLS
 URL_TOKEN = 'https://www.mysmartcover.com/api/auth/refresh.php'
 URL_LIST = 'https://www.mysmartcover.com/api/locations/list.php'
+TOKEN = ""
+
+# Security
+#defs.write_key()
+#defs.write_token(TOKEN.encode(), key) #!
+
+key = defs.load_key()
+TOKEN = defs.load_token(Fernet(key))
+HEADER= {"Authorization": "Bearer {}".format(TOKEN)}
+
 print("Token age: " + str(defs.EXP_TIME) + ".")
+
 # Check Exp date
 if defs.EXP_TIME <= 5:
     print ("Token will exprire in " + defs.EXP_TIME + " days.")

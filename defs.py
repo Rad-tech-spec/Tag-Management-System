@@ -16,6 +16,7 @@ def write_token(a, key):
     f = Fernet(key)
     with open("token.key", "wb") as outfile:
         outfile.write(f.encrypt(a))
+    outfile.close()
   
 def load_token(f: Fernet): 
     return f.decrypt(open("token.key", "rb").read()) 
