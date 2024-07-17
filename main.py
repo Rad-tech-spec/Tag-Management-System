@@ -20,13 +20,13 @@ def main():
     logger.info("Executed " + str(datetime.datetime.now()))
     
     if utili.initDate() == 1: logger.info("Dates initialized.")
-    if utili.updateTodayDate() == 1: logger.info("Todays date updated.")
+    if utili.updateTodayDate() == 1: logger.info("Todays date updated.") 
     
     logger.info("Token age: " + str(var.exp_time_) + ".")
-    utili.showinfo(var.Token_cr_at, var.daysdate_, var.exp_time_)
+    utili.showinfo()
 
     # Check Exp date
-    if var.exp_time_ <= 5:
+    if var.exp_time_ <= var.DAY:
         logging.warning("Token will exprire in " + str(var.exp_time_) + " days.")
         try:
             logging.info("Generating a new Token...")
@@ -34,17 +34,16 @@ def main():
                 requests.get(var.URL_TOKEN, headers=header_, verify=False).content
             )
             logging.info(gettoken_)
-            print(gettoken_) # To be removed
             var.Token_ = str(gettoken_["token"])
-            logger.info("New Token: " + str(var.Token_)) # To be removed
+            logger.info("New Token: " + str(var.Token_)) # REMOVE
 
             try:
                 if gettoken_["response_code"] == 0:
-                    var.exp_time_ = 0
                     utili.write_token(var.Token_.encode(), key_)
-                    utili.update_new_token_date(gettoken_["days_remaining"])
+                    if utili.update_new_token_date(gettoken_["days_remaining"]) == 1:
+                        logger.info("Token value replaced in info.json.")
                     logger.info(
-                        "Token updated and replaced. Expires in "
+                        "Token updated. Expires in "
                         + str(var.exp_time_)
                         + " days."
                     )
@@ -56,31 +55,23 @@ def main():
 
 
 ### Dealing with content
-    response_ = requests.get(var.URL_LIST, headers=header_, verify=False)
-    # print(response.content)
+
+    response_ = json.loads(
+        requests.get(var.URL_LIST, headers=header_, verify=False).content
+    )
+    #print(response_)
 
     # Write response into a file
-    if os.path.isfile("data.json") == False:
+    if os.path.isfile("data.json"):
         with open("data.json", "w") as outfile:
-            outfile.write(str(response_.content))
+            outfile.write(json.dumps(response_))
         outfile.close()
-
-    # Filter the file
-    with open("data.json", "r") as infile:
-        data = infile.read()
-
-        with open("data.json", "w") as outfile:
-            data = data.replace("b'", "")
-            data = data.replace("'", "")
-            outfile.write(data)
-    infile.close()
-    outfile.close()
 
 if __name__ == '__main__':
     main()
 
 
-# Token generated in 7/16/2024  
+# Token generated in 7/17/2024  
 
 # Tasks:
 #   1) Program must be able to update both Token and verify or regenerate a token if neccessery.

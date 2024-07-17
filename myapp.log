@@ -68,3 +68,85 @@ INFO:__main__:Executed 2024-07-17 12:16:12.270942
 INFO:__main__:Dates initialized.
 INFO:__main__:Todays date updated.
 INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:25:35.201889
+INFO:__main__:Dates initialized.
+INFO:__main__:Executed 2024-07-17 13:28:40.634842
+INFO:__main__:Dates initialized.
+INFO:__main__:Executed 2024-07-17 13:29:07.018771
+INFO:__main__:Dates initialized.
+INFO:__main__:Todays date updated.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:29:32.095071
+INFO:__main__:Dates initialized.
+INFO:__main__:Executed 2024-07-17 13:31:08.403432
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:31:25.592891
+INFO:__main__:Dates initialized.
+INFO:__main__:Executed 2024-07-17 13:32:15.129263
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:32:23.367184
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:33:38.442873
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:34:09.838661
+INFO:__main__:Dates initialized.
+INFO:__main__:Todays date updated.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:34:57.732572
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: -1.
+WARNING:root:Token will exprire in -1 days.
+INFO:root:Generating a new Token...
+INFO:root:{'response_code': 0, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3BrIjoiMTAxNTgiLCJpYXQiOjE3MjEyMzc2OTgsImV4cCI6MTc1Mjc3MzY5OH0.s5eCo2npJzEOKzds7jIBi8zHXbdSEQ7-dAJOpKxCxr0', 'days_remaining': 365, 'user_type': 'F', 'user_id': 10158, 'user_full_name': 'Summa API', 'chat_enable': 1, 'user_hash_android': '2e176fcd251c778ec11d4161db5920e0bbf425d6dc3ecdfb40eec73730fa03c3', 'user_hash_ios': 'c282a917dc4eb4bda3f6a9c2caf6471fb0b41faf68c925b6ced666abba86c21b', 'organization_id': 1083, 'alarm_holdoff_access_enable': 0}
+INFO:__main__:New Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3BrIjoiMTAxNTgiLCJpYXQiOjE3MjEyMzc2OTgsImV4cCI6MTc1Mjc3MzY5OH0.s5eCo2npJzEOKzds7jIBi8zHXbdSEQ7-dAJOpKxCxr0
+ERROR:__main__:Could not write token: TypeError('write() argument must be str, not dict')
+INFO:__main__:Executed 2024-07-17 13:39:55.500589
+INFO:__main__:Dates initialized.
+INFO:__main__:Todays date updated.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:41:42.387614
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 364.
+INFO:__main__:Executed 2024-07-17 13:42:48.005769
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 364.
+INFO:__main__:Executed 2024-07-17 13:43:12.831032
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 364.
+INFO:__main__:Executed 2024-07-17 13:43:35.144310
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 13:55:12.742769
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 14:04:17.214120
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 14:16:24.461778
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 14:27:02.754814
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 14:30:44.824610
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 14:32:36.487934
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 14:36:34.679382
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 15:04:14.053114
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 15:22:50.900390
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.
+INFO:__main__:Executed 2024-07-17 15:22:58.423297
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 365.

@@ -3,11 +3,11 @@ from datetime import datetime
 import json, var
 
 # For testing only
-def showinfo(a, b, c):
-    print(a)
-    print(b)
-    print(str(c))
-
+def showinfo():
+    print(var.Token_cr_at)
+    print(var.daysdate_)
+    print(var.exp_time_)
+    
 
 # Encryption & Decryption
 def write_key():
@@ -44,8 +44,12 @@ def update_new_token_date(days: int): # Needs Testing
         with open("info.json", "w") as outnfile:
             data["Token_cr_at"] = var.Token_cr_at
             data["exp_time"] = var.exp_time_
-            outnfile.write(data)
-        outnfile.close()
+            outnfile.write(json.dumps(data))
+            if( data["Token_cr_at"] == var.Token_cr_at and  
+               data["exp_time"] == var.exp_time_):
+                outnfile.close()
+                intfile.close()
+                return 1
     intfile.close()
 
 # Checking and updating daysdate on every run.
@@ -56,12 +60,12 @@ def updateTodayDate():
         if(data["daysdate"] != var.daysdate_):
             with open("info.json", "w") as outnfile:
                 data["daysdate"] = var.daysdate_
+                data["exp_time"] -= 1 # Should be in a function calc date
                 outnfile.write(json.dumps(data))
             if(data["daysdate"] == var.daysdate_):
                 outnfile.close()
                 intfile.close()
                 return 1
-        outnfile.close()
     intfile.close()
          
 # Initializing current updated JSON values every run.
@@ -73,4 +77,3 @@ def initDate():
         var.exp_time_ = data["exp_time"]
     infile.close()
     return 1
-
