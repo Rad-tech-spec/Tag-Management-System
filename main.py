@@ -6,8 +6,6 @@ import logging
 urllib3.disable_warnings()
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
-utili.initDate()
-utili.showinfo(var.Token_cr_at, var.daysdate, var.exp_time_)
 
 # defs.write_key()
 key_ = utili.load_key()
@@ -20,7 +18,12 @@ header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
 def main(): 
     
     logger.info("Executed " + str(datetime.datetime.now()))
+    
+    if utili.initDate() == 1: logger.info("Dates initialized.")
+    if utili.updateTodayDate() == 1: logger.info("Todays date updated.")
+    
     logger.info("Token age: " + str(var.exp_time_) + ".")
+    utili.showinfo(var.Token_cr_at, var.daysdate_, var.exp_time_)
 
     # Check Exp date
     if var.exp_time_ <= 5:
@@ -33,13 +36,13 @@ def main():
             logging.info(gettoken_)
             print(gettoken_) # To be removed
             var.Token_ = str(gettoken_["token"])
-            logger.info(str(var.Token_)) # To be removed
+            logger.info("New Token: " + str(var.Token_)) # To be removed
 
             try:
                 if gettoken_["response_code"] == 0:
                     var.exp_time_ = 0
                     utili.write_token(var.Token_.encode(), key_)
-                    utili.updateDate(gettoken_["days_remaining"])
+                    utili.update_new_token_date(gettoken_["days_remaining"])
                     logger.info(
                         "Token updated and replaced. Expires in "
                         + str(var.exp_time_)
@@ -77,7 +80,7 @@ if __name__ == '__main__':
     main()
 
 
-# Token generated in 7/16/2024
+# Token generated in 7/16/2024  
 
 # Tasks:
 #   1) Program must be able to update both Token and verify or regenerate a token if neccessery.
