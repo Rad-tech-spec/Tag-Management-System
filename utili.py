@@ -1,4 +1,5 @@
 from cryptography.fernet import Fernet
+from dateutil import relativedelta
 from datetime import datetime
 import json, var
 
@@ -60,14 +61,15 @@ def updateTodayDate():
         if(data["daysdate"] != var.daysdate_):
             with open("info.json", "w") as outnfile:
                 data["daysdate"] = var.daysdate_
-                data["exp_time"] -= 1 # Should be in a function calc date
+                value = calcDate() 
+                data["exp_time"] = 365 - value
                 outnfile.write(json.dumps(data))
             if(data["daysdate"] == var.daysdate_):
                 outnfile.close()
                 intfile.close()
                 return 1
     intfile.close()
-         
+
 # Initializing current updated JSON values every run.
 def initDate():
     with open("info.json", "r") as infile:
@@ -77,3 +79,12 @@ def initDate():
         var.exp_time_ = data["exp_time"]
     infile.close()
     return 1
+
+
+# Calculate date 
+def calcDate():
+    format = "%m/%d/%y"
+    date1 = datetime.strptime(var.Token_cr_at, format)
+    date2 = datetime.strptime(var.daysdate_, format)
+    difference = relativedelta.relativedelta(date2, date1)
+    return difference.days

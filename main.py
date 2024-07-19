@@ -27,7 +27,7 @@ def main():
 
     # Check Exp date
     if var.exp_time_ <= var.DAY:
-        logging.warning("Token will exprire in " + str(var.exp_time_) + " days.")
+        logging.warning("Token will expire in " + str(var.exp_time_) + " days.")
         try:
             logging.info("Generating a new Token...")
             gettoken_ = json.loads(
