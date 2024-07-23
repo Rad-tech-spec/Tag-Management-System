@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 from dateutil import relativedelta
 from datetime import datetime
-import json, var as var, os
+import json, var, os, pandas as pd
 
 
 # Folder switcher
@@ -115,6 +115,21 @@ def write_sc_data(res):
         outfile.close()
 
 # Managing and collecting values 
-def mag_data_types(): 
-    pathassigner("data")
-    
+# Check location id once found map into 
+# data_types then check id and compare description 
+# def mag_data_types():
+#     id = None # id == id  do something
+#     value = None # Store new value
+#     date = "" # Store new value
+#     pathassigner("data")
+#     with open("data.json", "r") as infile: 
+#         data_ = json.loads(infile.read())
+#         data2_ = pd.read_csv("tagnames.csv")
+#         print(data2_)
+#         for a in data2_:
+#             id = find_st(a)
+#             # for x in data_["locations"]:
+#             #     for y in x["data_types"]:
+
+
+# def find_st(str: str): 
