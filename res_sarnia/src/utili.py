@@ -4,7 +4,7 @@ from datetime import datetime
 import json, var as var, os
 
 
-# File mapping
+# Folder switcher
 def pathassigner(b):
     path = os.path.realpath(__file__)
     dir = os.path.dirname(path)
@@ -104,3 +104,17 @@ def calcDate():
     date2 = datetime.strptime(var.daysdate_, format)
     difference = relativedelta.relativedelta(date2, date1)
     return difference.days
+
+
+# Write SC response into a file
+def write_sc_data(res):
+    pathassigner("data")
+    if os.path.isfile("data.json"):
+        with open("data.json", "w") as outfile:
+            outfile.write(json.dumps(res))
+        outfile.close()
+
+# Managing and collecting values 
+def mag_data_types(): 
+    pathassigner("data")
+    

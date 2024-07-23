@@ -1,5 +1,5 @@
 from cryptography.fernet import Fernet
-import requests, urllib3, json, os.path, datetime
+import requests, urllib3, json, datetime
 import utili, logging, var 
 import logging
 
@@ -59,22 +59,12 @@ def main():
 
 ### Dealing with content
 
-    response_ = json.loads(
+    utili.write_sc_data( json.loads(
         requests.get(var.URL_LIST, headers=header_, verify=False).content
-    )
-    #print(response_)
-
-    # Write response into a file
-    if os.path.isfile("data.json"):
-        with open("data.json", "w") as outfile:
-            outfile.write(json.dumps(response_))
-        outfile.close()
+    ))
 
 
-
-
-
-
+   
 if __name__ == '__main__':
     main()
 
