@@ -63,7 +63,7 @@ def main():
         requests.get(var.URL_LIST, headers=header_, verify=False).content
     ))
 
-    #utili.mag_data_types()
+    utili.mag_data_types()
    
 if __name__ == '__main__':
     main()

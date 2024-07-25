@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 from dateutil import relativedelta
 from datetime import datetime
-import json, var, os, pandas as pd
+import json, var, os
 
 
 # Folder switcher
@@ -114,22 +114,32 @@ def write_sc_data(res):
             outfile.write(json.dumps(res))
         outfile.close()
 
-# Managing and collecting values 
-# Check location id once found map into 
-# data_types then check id and compare description 
-# def mag_data_types():
-#     id = None # id == id  do something
-#     value = None # Store new value
-#     date = "" # Store new value
-#     pathassigner("data")
-#     with open("data.json", "r") as infile: 
-#         data_ = json.loads(infile.read())
-#         data2_ = pd.read_csv("tagnames.csv")
-#         print(data2_)
-#         for a in data2_:
-#             id = find_st(a)
-#             # for x in data_["locations"]:
-#             #     for y in x["data_types"]:
+# Collecting needed prameters from SC
+# Task: Compare sensor type
+def mag_data_types():
+  pathassigner("data")
+  tag_p = var.Tag()
+  with open("data.json", "r") as infile: 
+        data_ = json.loads(infile.read())
+        for x in data_["locations"]:
+            tag_p.id = x["id"]
+            for y in x["data_types"]:
+                tag_p.des = y["description"]
+                if len(y) == 4:
+                    tag_p.date = y["last_reading"][0]
+                    tag_p.value = y["last_reading"][1]
+                    #tag_p.name = get_tag_name(tag_p.id, tag_p.des)
+        print(tag_p.name)
 
+# Returns the matching value
+# def get_tag_name(id): 
+#     with open("tagnames.txt", "r") as infile:
+#         lines = infile.readlines()
+    
+#     for a in lines:
+#         if str(id) in a:
+#             return a
 
-# def find_st(str: str): 
+#     for w in var.SENSORS.values():
+#         print(w)
+#         print (var.SENSORS.keys())

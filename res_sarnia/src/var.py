@@ -6,15 +6,34 @@ daysdate_ = None
 exp_time_ = None
 Token_ = "" # To be removed
 
-
 # Dictionaries
-SENSORS = {
-    "BATT" : "PowerPack Voltage", 
-    "LEVEL": "Analog Sensor", 
-    "SQ": "Signal Quality", 
-    "SS": "Signal Strength", 
-    "TEMP": "Temperature", 
-    "FLOW": "SmartFLOE(TM)", 
-    "RAIN": "Water Level above Bottom"
-}
+SENSORS = dict(
+    BATT = "PowerPack Voltage", 
+    LEVEL = "Analog Sensor", 
+    SQ =  "Signal Quality", 
+    SS =  "Signal Strength", 
+    TEMP =  "Temperature", 
+    FLOW =  "SmartFLOE(TM)", 
+    RAIN = "Water Level above Bottom"
+)
 
+# Classes
+class Tag: 
+    def __init__(self) -> None:
+        pass
+    
+    id = None
+    name = ""
+    des = ""
+    value = None  
+    date = ""
+
+    def getname(self):
+        return self.name
+    def getdes(self): 
+        return self.des
+    def getvalue(self): 
+        return self.value
+    def getdate(self): 
+        return self.date
+    
