@@ -118,28 +118,31 @@ def write_sc_data(res):
 # Task: Compare sensor type
 def mag_data_types():
   pathassigner("data")
-  tag_p = var.Tag()
   with open("data.json", "r") as infile: 
         data_ = json.loads(infile.read())
         for x in data_["locations"]:
-            tag_p.id = x["id"]
-            for y in x["data_types"]:
-                tag_p.des = y["description"]
-                if len(y) == 4:
-                    tag_p.date = y["last_reading"][0]
-                    tag_p.value = y["last_reading"][1]
-                    #tag_p.name = get_tag_name(tag_p.id, tag_p.des)
-        print(tag_p.name)
-
-# Returns the matching value
-# def get_tag_name(id): 
-#     with open("tagnames.txt", "r") as infile:
-#         lines = infile.readlines()
+            if x["id"] not in var.IG_ID:
+                for y in x["data_types"]:
+                    if "last_reading" in y and y["description"] != var.IG_PARA:
+                        get_tag_name(
+                            x["id"], 
+                            y["description"], 
+                            y["last_reading"][0], 
+                            y["last_reading"][1])
     
-#     for a in lines:
-#         if str(id) in a:
-#             return a
+# Make new function to make the POST call to update tag
+# Returns the matching value
+def get_tag_name(id, des, date, value):  
+   with open("tagnames.txt", "r") as insfile:
+    lines = insfile.readlines()
+    for a in lines: 
+        if str(id) in a:
+            prefix = {i for i in var.SENSORS if var.SENSORS[i] == des}
+            print(id)
+            print(prefix)       
+            break
 
-#     for w in var.SENSORS.values():
-#         print(w)
-#         print (var.SENSORS.keys())
+            # tag = var.Tag(a, id, des, value, date)
+            # print(tag.name_)
+            # print(tag.des_)
+            # print(tag.value_)

@@ -6,6 +6,7 @@ daysdate_ = None
 exp_time_ = None
 Token_ = "" # To be removed
 
+
 # Dictionaries
 SENSORS = dict(
     BATT = "PowerPack Voltage", 
@@ -17,23 +18,26 @@ SENSORS = dict(
     RAIN = "Water Level above Bottom"
 )
 
+# Ignoring ids
+IG_ID = (39583, 39704, 40694)
+IG_PARA = "Distance below Sensor"
+
 # Classes
 class Tag: 
+
+    id_ = None
+    name_ = ""
+    des_ = ""
+    value_ = None  
+    date_ = ""
+
     def __init__(self) -> None:
         pass
-    
-    id = None
-    name = ""
-    des = ""
-    value = None  
-    date = ""
 
-    def getname(self):
-        return self.name
-    def getdes(self): 
-        return self.des
-    def getvalue(self): 
-        return self.value
-    def getdate(self): 
-        return self.date
+    def __init__(self, name, id, des, value, date):
+        self.name_ = name
+        self.id_ = id
+        self.des_ = des
+        self.value_ = value
+        self.date_ = date
     
