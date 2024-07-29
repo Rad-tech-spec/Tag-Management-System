@@ -10,12 +10,13 @@ Token_ = "" # To be removed
 # Dictionaries
 SENSORS = dict(
     BATT = "PowerPack Voltage", 
-    LEVEL = "Analog Sensor", 
+    LEVEL = "Water Level above Bottom", 
+    ANL = "Analog Sensor",
     SQ =  "Signal Quality", 
     SS =  "Signal Strength", 
     TEMP =  "Temperature", 
     FLOW =  "SmartFLOE(TM)", 
-    RAIN = "Water Level above Bottom"
+    RAIN = "Rain"
 )
 
 # Ignoring ids
