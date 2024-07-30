@@ -1,8 +1,8 @@
 from cryptography.fernet import Fernet
-import requests, urllib3, json, datetime
+import requests, urllib3, json, datetime, time
 import utili, logging, var 
 import logging
-
+st = time.time()
 
 urllib3.disable_warnings()
 logger = logging.getLogger(__name__)
@@ -10,9 +10,10 @@ logger = logging.getLogger(__name__)
 utili.pathassigner("log")
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
-# defs.write_key()
+# defs.write_key() # Writes a new key
 key_ = utili.load_key()
-#utili.write_token(var.Token_.encode(), key_)
+# Uncomment to get the new token if expired
+#utili.write_token(var.Token_.encode(), key_) 
 print(utili.load_token(Fernet(key_)))
 var.Token_ = utili.load_token(Fernet(key_))
 
@@ -59,11 +60,23 @@ def main():
 
 ### Dealing with content
 
-    utili.write_sc_data( json.loads(
-        requests.get(var.URL_LIST, headers=header_, verify=False).content
-    ))
+    try:
+        utili.write_sc_data( json.loads(
+            requests.get(var.URL_LIST, headers=header_, verify=False).content
+        ))
+    except Exception as e:
+        logger.error("Failed to collect Sarnia Data: %s", repr(e)) 
 
-    utili.mag_data_types()
+    try:
+        utili.mag_data_types()
+    except Exception as e: 
+        logger.error("Failed to managing tag data: %s", repr(e))
+
+
+    # Program Timer 
+    et = time.time()
+    elapsed_time = et - st
+    logger.info("Execution time: " +str(elapsed_time)+" seconds.")
    
 if __name__ == '__main__':
     main()

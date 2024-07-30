@@ -1,8 +1,8 @@
 from cryptography.fernet import Fernet
 from dateutil import relativedelta
 from datetime import datetime
-import json, var, os
-
+import json, var, os, logging
+logger = logging.getLogger(__name__)
 
 # Folder switcher
 def pathassigner(b):
@@ -11,6 +11,8 @@ def pathassigner(b):
     dir = dir.replace("src", b)
     os.chdir(dir)
 
+pathassigner("log")
+logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
 # For testing only
 def showinfo():
@@ -130,18 +132,24 @@ def mag_data_types():
                             y["last_reading"][0], 
                             y["last_reading"][1])
     
-# Make new function to make the POST call to update tag
-# Returns the matching value
+
+# Matches tag from tagname.txt file based on id and key.
 def get_tag_name(id, des, date, value):
     #print(des)
-    key_list = list(var.SENSORS.keys())
-    val_list = list(var.SENSORS.values())  
-    with open("tagnames.txt", "r") as insfile:
-     lines = insfile.readlines()
-     position_ = val_list.index(des)
-     key = key_list[position_]
-     for a in lines:
-        if str(id) in a and key in a:
-            # print (a) Testing Only
-            break
-        continue
+    try:
+        key_list_ = list(var.SENSORS.keys())
+        val_list_ = list(var.SENSORS.values())  
+        with open("tagnames.txt", "r") as insfile:
+            lines_ = insfile.readlines()
+            position_ = val_list_.index(des)
+            key_ = key_list_[position_]
+            for a in lines_:
+                if str(id) in a and key_ in a:
+                    #print (a) 
+                    # Make a post request to update the tag.
+                    break
+                continue
+    except Exception as e: 
+        logger.error("Could not get tag name %s", repr(e))
+        
+     

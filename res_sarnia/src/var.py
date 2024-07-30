@@ -4,7 +4,7 @@ DAY = 5
 Token_cr_at = None  
 daysdate_ = None
 exp_time_ = None
-Token_ = "" # To be removed
+Token_ = "" # Initialize with new token if expired
 
 
 # Dictionaries
@@ -18,6 +18,8 @@ SENSORS = dict(
     FLOW =  "SmartFLOE(TM)", 
     RAIN = "Rain"
 )
+
+
 
 # Ignoring ids
 IG_ID = (39583, 39704, 40694)
