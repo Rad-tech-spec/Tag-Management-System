@@ -133,19 +133,15 @@ def mag_data_types():
 # Make new function to make the POST call to update tag
 # Returns the matching value
 def get_tag_name(id, des, date, value):
-   key_list = list(var.SENSORS.keys())
-   val_list = list(var.SENSORS.values())  
-   with open("tagnames.txt", "r") as insfile:
-    lines = insfile.readlines()
-    for a in lines: 
-        if str(id) in a:
-            position_ = val_list.index(des)
-            prefix = key_list[position_]
-            print(id)
-            print(prefix)       
+    #print(des)
+    key_list = list(var.SENSORS.keys())
+    val_list = list(var.SENSORS.values())  
+    with open("tagnames.txt", "r") as insfile:
+     lines = insfile.readlines()
+     position_ = val_list.index(des)
+     key = key_list[position_]
+     for a in lines:
+        if str(id) in a and key in a:
+            # print (a) Testing Only
             break
-
-            # tag = var.Tag(a, id, des, value, date)
-            # print(tag.name_)
-            # print(tag.des_)
-            # print(tag.value_)
+        continue
