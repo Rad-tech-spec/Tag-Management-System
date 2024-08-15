@@ -135,7 +135,9 @@ def mag_data_types():
 
 # Matches tag from tagname.txt file based on id and key.
 def get_tag_name(id, des, date, value):
-    #print(des)
+    add_st = "T"
+    add_st1 = ":00.000Z"
+    N = 10
     try:
         key_list_ = list(var.SENSORS.keys())
         val_list_ = list(var.SENSORS.values())  
@@ -145,8 +147,18 @@ def get_tag_name(id, des, date, value):
             key_ = key_list_[position_]
             for a in lines_:
                 if str(id) in a and key_ in a:
-                    #print (a) 
-                    # Make a post request to update the tag.
+                    n_date = date[ : N] + add_st + date[N : ] + add_st1
+                    print(str(n_date).replace(" ", ""))
+                    #Make a post request to update the tag.
+                    with open("tag.json", "r") as infile: 
+                        inf = json.loads(infile.read())
+                        with open("tag.json", "w") as outfile:
+                            inf["TagName"] = str(a).replace("\n", "")
+                            #inf["samples"]["TimeStamp"] = str(n_date).replace(" ", "")
+                            #inf["Samples"][1] = value
+                            outfile.write(json.dumps(inf))
+                            outfile.close()
+                    infile.close()
                     break
                 continue
     except Exception as e: 
