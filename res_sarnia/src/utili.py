@@ -20,7 +20,6 @@ def showinfo():
     print(var.daysdate_)
     print(var.exp_time_)
     
-
 # Encryption & Decryption
 def write_key():
     key_ = Fernet.generate_key()
@@ -79,7 +78,7 @@ def updateTodayDate():
             with open("info.json", "w") as outnfile:
                 data["daysdate"] = var.daysdate_
                 value = calcDate() 
-                data["exp_time"] = 365 - value
+                data["exp_time"] = 365 - value 
                 outnfile.write(json.dumps(data))
             if(data["daysdate"] == var.daysdate_):
                 outnfile.close()
@@ -102,10 +101,13 @@ def initDate():
 # Calculate date
 def calcDate():
     format = "%m/%d/%y"
-    date1 = datetime.strptime(var.Token_cr_at, format)
-    date2 = datetime.strptime(var.daysdate_, format)
+    date1 = datetime.strptime(var.Token_cr_at, format).date()
+    date2 = datetime.strptime(var.daysdate_, format).date()
     difference = relativedelta.relativedelta(date2, date1)
-    return difference.days
+    if difference.months > 0:
+        return difference.days + (difference.months * 30) # Calculate per each month
+    else:
+        return difference.days
 
 
 # Write SC response into a file
@@ -148,20 +150,26 @@ def get_tag_name(id, des, date, value):
             for a in lines_:
                 if str(id) in a and key_ in a:
                     n_date = date[ : N] + add_st + date[N : ] + add_st1
-                    print(str(n_date).replace(" ", ""))
-                    #Make a post request to update the tag.
                     with open("tag.json", "r") as infile: 
                         inf = json.loads(infile.read())
                         with open("tag.json", "w") as outfile:
                             inf["TagName"] = str(a).replace("\n", "")
-                            #inf["samples"]["TimeStamp"] = str(n_date).replace(" ", "")
-                            #inf["Samples"][1] = value
+                            #print(n_date)
+                            for i in inf["Samples"]:
+                                i["TimeStamp"] = str(n_date).replace(" ", "") 
+                                i["Value"] = value
+                                break
                             outfile.write(json.dumps(inf))
-                            outfile.close()
-                    infile.close()
                     break
                 continue
     except Exception as e: 
-        logger.error("Could not get tag name %s", repr(e))
-        
+        logger.error("Function get_tag_name %s", repr(e))
+
+#Make a post request to update the tag.
+# def posting_tag():
+#     api_url = ""
+#     response = requests.post(api_url, json = )
+#     response.json()
+
+
      

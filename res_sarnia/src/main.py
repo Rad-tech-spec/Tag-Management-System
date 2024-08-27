@@ -21,11 +21,10 @@ header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
 
 def main(): 
     
+    # House Keeping
     logger.info("Executed " + str(datetime.datetime.now()))
-    
     if utili.initDate() == 1: logger.info("Dates initialized.")
     if utili.updateTodayDate() == 1: logger.info("Todays date updated.") 
-    
     logger.info("Token age: " + str(var.exp_time_) + ".")
     utili.showinfo()
 
@@ -45,7 +44,7 @@ def main():
                 if gettoken_["response_code"] == 0:
                     utili.write_token(var.Token_.encode(), key_)
                     if utili.update_new_token_date(gettoken_["days_remaining"]) == 1:
-                        logger.info("Token value replaced in info.json.")
+                        logger.info("Token information updated in info.json.")
                     logger.info(
                         "Token updated. Expires in "
                         + str(var.exp_time_)
@@ -58,8 +57,7 @@ def main():
             logger.error("Failed to update Token: %s", repr(eout))
 
 
-### Dealing with content
-
+    # GET request collecting live data
     try:
         utili.write_sc_data( json.loads(
             requests.get(var.URL_LIST, headers=header_, verify=False).content
@@ -67,10 +65,12 @@ def main():
     except Exception as e:
         logger.error("Failed to collect Sarnia Data: %s", repr(e)) 
 
+    # Managing and reforming data captured
     try:
         utili.mag_data_types()
     except Exception as e: 
         logger.error("Failed to managing tag data: %s", repr(e))
+
 
 
     # Program Timer 
