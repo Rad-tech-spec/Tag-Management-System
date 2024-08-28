@@ -1,0 +1,4 @@
+.vscode
+__pycache__/
+res_sarnia/log/
+res_sarnia/data/

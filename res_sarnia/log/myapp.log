@@ -247,3 +247,11 @@ INFO:__main__:Execution time: 0.517350435256958 seconds.
 INFO:__main__:Executed 2024-08-27 16:15:35.495740
 INFO:__main__:Dates initialized.
 INFO:__main__:Token age: 325.
+INFO:__main__:Executed 2024-08-28 11:32:01.060912
+INFO:__main__:Dates initialized.
+INFO:__main__:Todays date updated.
+INFO:__main__:Token age: 325.
+ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
+ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
+ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
+INFO:__main__:Execution time: 1.3416047096252441 seconds.
