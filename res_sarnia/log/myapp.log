@@ -255,3 +255,10 @@ ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscripta
 ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
 ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
 INFO:__main__:Execution time: 1.3416047096252441 seconds.
+INFO:__main__:Executed 2024-08-28 16:59:46.684016
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 324.
+ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
+ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
+ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
+INFO:__main__:Execution time: 0.620823860168457 seconds.

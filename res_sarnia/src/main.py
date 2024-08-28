@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
-import requests, urllib3, json, datetime, time
-import utili, logging, var 
+import urllib3, json, datetime, time
+import requests, utili, logging, var 
 import logging
 st = time.time()
 
@@ -21,43 +21,17 @@ header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
 
 def main(): 
     
-    # House Keeping
+    # Step 1 - House Keeping
     logger.info("Executed " + str(datetime.datetime.now()))
     if utili.initDate() == 1: logger.info("Dates initialized.")
     if utili.updateTodayDate() == 1: logger.info("Todays date updated.") 
     logger.info("Token age: " + str(var.exp_time_) + ".")
     utili.showinfo()
-
-    # Check Exp date
-    if var.exp_time_ <= var.DAY:
-        logging.warning("Token will expire in " + str(var.exp_time_) + " days.")
-        try:
-            logging.info("Generating a new Token...")
-            gettoken_ = json.loads(
-                requests.get(var.URL_TOKEN, headers=header_, verify=False).content
-            )
-            logging.info(gettoken_)
-            var.Token_ = str(gettoken_["token"])
-            logger.info("New Token: " + str(var.Token_)) # REMOVE
-
-            try:
-                if gettoken_["response_code"] == 0:
-                    utili.write_token(var.Token_.encode(), key_)
-                    if utili.update_new_token_date(gettoken_["days_remaining"]) == 1:
-                        logger.info("Token information updated in info.json.")
-                    logger.info(
-                        "Token updated. Expires in "
-                        + str(var.exp_time_)
-                        + " days."
-                    )
-            except Exception as ein:
-                logger.error("Could not write token: %s", repr(ein))
-
-        except Exception as eout:
-            logger.error("Failed to update Token: %s", repr(eout))
-
-
-    # GET request collecting live data
+    
+    # Step 2 - Checking Smart Cover Token
+    utili.SC_T_M(header_, key_)
+    
+    # Step 3 - GET request collecting live data from Smart Cover
     try:
         utili.write_sc_data( json.loads(
             requests.get(var.URL_LIST, headers=header_, verify=False).content
@@ -65,12 +39,15 @@ def main():
     except Exception as e:
         logger.error("Failed to collect Sarnia Data: %s", repr(e)) 
 
-    # Managing and reforming data captured
+    # Step 4 - Checking Historian Token 
+
+    # Step 5 - Managing and reforming data 
     try:
         utili.mag_data_types()
     except Exception as e: 
         logger.error("Failed to managing tag data: %s", repr(e))
 
+    # Step 6 - PUSH requst to update tag 
 
 
     # Program Timer 
@@ -98,3 +75,31 @@ if __name__ == '__main__':
 #  yyyy-MM-dd'T'HH:mm:ss.SSS'Z', 
 #  EEE, dd MMM yyyy HH:mm:ss zzz
 #  yyyy-MM-dd
+
+
+# if var.exp_time_ <= var.DAY:
+    #     logging.warning("Token will expire in " + str(var.exp_time_) + " days.")
+    #     try:
+    #         logging.info("Generating a new Token...")
+    #         gettoken_ = json.loads(
+    #             requests.get(var.URL_TOKEN, headers=header_, verify=False).content
+    #         )
+    #         logging.info(gettoken_)
+    #         var.Token_ = str(gettoken_["token"])
+    #         logger.info("New Token: " + str(var.Token_)) # REMOVE
+
+    #         try:
+    #             if gettoken_["response_code"] == 0:
+    #                 utili.write_token(var.Token_.encode(), key_)
+    #                 if utili.update_new_token_date(gettoken_["days_remaining"]) == 1:
+    #                     logger.info("Token information updated in info.json.")
+    #                 logger.info(
+    #                     "Token updated. Expires in "
+    #                     + str(var.exp_time_)
+    #                     + " days."
+    #                 )
+    #         except Exception as ein:
+    #             logger.error("Could not write token: %s", repr(ein))
+
+    #     except Exception as eout:
+    #         logger.error("Failed to update Token: %s", repr(eout))

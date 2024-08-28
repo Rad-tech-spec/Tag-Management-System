@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 from dateutil import relativedelta
 from datetime import datetime
-import json, var, os, logging
+import requests, json, var, os, logging
 logger = logging.getLogger(__name__)
 
 # Folder switcher
@@ -67,6 +67,36 @@ def update_new_token_date(days: int): # Needs Testing
                 intfile.close()
                 return 1
     intfile.close()
+
+# Checking Smart Cover Token Validity
+def SC_T_M(header_, key_):
+    # Check Exp date
+    if var.exp_time_ <= var.DAY:
+        logging.warning("Token will expire in " + str(var.exp_time_) + " days.")
+        try:
+            logging.info("Generating a new Token...")
+            gettoken_ = json.loads(
+                requests.get(var.URL_TOKEN, headers=header_, verify=False).content
+            )
+            logging.info(gettoken_)
+            var.Token_ = str(gettoken_["token"])
+            logger.info("New Token: " + str(var.Token_)) # REMOVE
+            try:
+                if gettoken_["response_code"] == 0:
+                    write_token(var.Token_.encode(), key_)
+                    if update_new_token_date(gettoken_["days_remaining"]) == 1:
+                        logger.info("Token information updated in info.json.")
+                    logger.info(
+                        "Token updated. Expires in "
+                        + str(var.exp_time_)
+                        + " days."
+                    )
+            except Exception as ein:
+                logger.error("Could not write token: %s", repr(ein))
+
+        except Exception as eout:
+            logger.error("Failed to update Token: %s", repr(eout))
+
 
 # Checking and updating daysdate on every run.
 def updateTodayDate():
