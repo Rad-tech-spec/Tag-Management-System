@@ -1,4 +1,6 @@
 .vscode
-__pycache__/
-res_sarnia/log/
-res_sarnia/data/
+res_sarnia/data/data.json
+res_sarnia/data/info.json
+res_sarnia/data/tag.json
+res_sarnia/log/myapp.log
+res_sarnia/src/__pycache__
