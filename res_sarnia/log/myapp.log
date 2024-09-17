@@ -68,3 +68,42 @@ INFO:__main__:Executed 2024-09-17 13:40:35.603106
 INFO:__main__:Dates initialized.
 INFO:__main__:Token age: 305.
 INFO:__main__:Execution time: 0.4904170036315918 seconds.
+INFO:__main__:Executed 2024-09-17 14:37:34.274331
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.6457719802856445 seconds.
+INFO:__main__:Executed 2024-09-17 14:41:03.412388
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("type object 'datetime.datetime' has no attribute 'timezone'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("type object 'datetime.datetime' has no attribute 'timezone'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("type object 'datetime.datetime' has no attribute 'timezone'")
+INFO:__main__:Execution time: 0.5738286972045898 seconds.
+INFO:__main__:Executed 2024-09-17 14:41:22.137867
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.4283621311187744 seconds.
+INFO:__main__:Executed 2024-09-17 14:45:15.020530
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.7774858474731445 seconds.
+INFO:__main__:Executed 2024-09-17 14:50:14.882366
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+INFO:__main__:Executed 2024-09-17 15:08:53.487852
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.575467586517334 seconds.
+INFO:__main__:Executed 2024-09-17 15:25:00.452593
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.7323832511901855 seconds.
+INFO:__main__:Executed 2024-09-17 15:25:23.538574
+INFO:__main__:Dates initialized.
+INFO:__main__:Token infomation updated.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.7113485336303711 seconds.
+INFO:__main__:Executed 2024-09-17 16:23:07.344881
+INFO:__main__:Dates initialized.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.6941907405853271 seconds.

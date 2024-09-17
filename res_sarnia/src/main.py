@@ -43,18 +43,11 @@ def main():
 
 
 
-    # Step 5 - Managing and reforming data 
+    # Step 5 & 6 - Managing and reforming data and POST requst to update tag  
     try:
         utili.m_data_types()
     except Exception as e: 
         logger.error("Failed to managing tag data: %s", repr(e))
-
-    # Step 6 - PUSH requst to update tag 
-    #Make a post request to update the tag. 2024-09-17T16:00:00.000Z
-    # def posting_tag():
-    #     api_url = ""
-    #     response = requests.post(api_url, json = )
-    #     response.json()
 
 
     # Program Timer 
@@ -75,5 +68,6 @@ if __name__ == '__main__':
 #   4) Program must be able to update tag property value with a set time.
 #   5) Program must be able to execute on a real time bases.
 #   6) Program must deal with the calls once Historian server is down.
+#   7) Jason Files Should not lose content when there is an error.
 
 
