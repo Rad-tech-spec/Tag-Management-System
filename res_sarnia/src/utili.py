@@ -33,7 +33,7 @@ def load_key():
     return open("key.key", "rb").read()
 
 # Updates a newly generated token into file
-def write_token(a, key):
+def write_tk(a, key):
     pathassigner("keys")
     f = Fernet(key)
     with open("token.key", "wb") as outfile:
@@ -41,17 +41,12 @@ def write_token(a, key):
     outfile.close()
 
 # Loads the token from file
-def load_token(f: Fernet):
+def load_tk(f: Fernet):
     pathassigner("keys")
     return f.decrypt(open("token.key", "rb").read())
 
-# Updated todays date
-def datemag():
-    if datetime.today() != var.daysdate_:
-        updateTodayDate()
-
-# Updating Json value when new token is created
-def update_new_token_date(days: int): # Needs Testing
+# Updating info.json values when new token is created
+def upt_new_tk_dt(days: int): # Needs Testing
     pathassigner("data")
     var.Token_cr_at = datetime.today().strftime("%x")
     var.exp_time_ = days
@@ -69,7 +64,7 @@ def update_new_token_date(days: int): # Needs Testing
     intfile.close()
 
 # Checking Smart Cover Token Validity
-def SC_T_M(header_, key_):
+def sc_tk_m(header_, key_):
     # Check Exp date
     if var.exp_time_ <= var.DAY:
         logging.warning("Token will expire in " + str(var.exp_time_) + " days.")
@@ -83,8 +78,8 @@ def SC_T_M(header_, key_):
             logger.info("New Token: " + str(var.Token_)) # REMOVE
             try:
                 if gettoken_["response_code"] == 0:
-                    write_token(var.Token_.encode(), key_)
-                    if update_new_token_date(gettoken_["days_remaining"]) == 1:
+                    write_tk(var.Token_.encode(), key_)
+                    if upt_new_tk_dt(gettoken_["days_remaining"]) == 1:
                         logger.info("Token information updated in info.json.")
                     logger.info(
                         "Token updated. Expires in "
@@ -99,7 +94,7 @@ def SC_T_M(header_, key_):
 
 
 # Checking and updating daysdate on every run.
-def updateTodayDate():
+def upt_tk_info():
     pathassigner("data")
     var.daysdate_ = datetime.today().strftime("%x")
     with open("info.json", "r") as intfile:
@@ -107,7 +102,7 @@ def updateTodayDate():
         if(data["daysdate"] != var.daysdate_):
             with open("info.json", "w") as outnfile:
                 data["daysdate"] = var.daysdate_
-                value = calcDate() 
+                value = calc_dt() 
                 data["exp_time"] = 365 - value 
                 outnfile.write(json.dumps(data))
             if(data["daysdate"] == var.daysdate_):
@@ -117,7 +112,7 @@ def updateTodayDate():
     intfile.close()
 
 # Initializing current updated JSON values every run.
-def initDate():
+def init_tk_dt():
     pathassigner("data")
     with open("info.json", "r") as infile:
         data = json.loads(infile.read())
@@ -127,9 +122,8 @@ def initDate():
     infile.close()
     return 1
 
-
 # Calculate date
-def calcDate():
+def calc_dt():
     format = "%m/%d/%y"
     date1 = datetime.strptime(var.Token_cr_at, format).date()
     date2 = datetime.strptime(var.daysdate_, format).date()
@@ -138,7 +132,6 @@ def calcDate():
         return difference.days + (difference.months * 30) # Calculate per each month
     else:
         return difference.days
-
 
 # Write SC response into a file
 def write_sc_data(res):
@@ -150,7 +143,7 @@ def write_sc_data(res):
 
 # Collecting needed prameters from SC
 # Task: Compare sensor type
-def mag_data_types():
+def m_data_types():
   pathassigner("data")
   with open("data.json", "r") as infile: 
         data_ = json.loads(infile.read())
@@ -167,9 +160,6 @@ def mag_data_types():
 
 # Matches tag from tagname.txt file based on id and key.
 def get_tag_name(id, des, date, value):
-    add_st = "T"
-    add_st1 = ":00.000Z"
-    N = 10
     try:
         key_list_ = list(var.SENSORS.keys())
         val_list_ = list(var.SENSORS.values())  
@@ -179,14 +169,13 @@ def get_tag_name(id, des, date, value):
             key_ = key_list_[position_]
             for a in lines_:
                 if str(id) in a and key_ in a:
-                    n_date = date[ : N] + add_st + date[N : ] + add_st1
                     with open("tag.json", "r") as infile: 
                         inf = json.loads(infile.read())
                         with open("tag.json", "w") as outfile:
                             inf["TagName"] = str(a).replace("\n", "")
                             #print(n_date)
                             for i in inf["Samples"]:
-                                i["TimeStamp"] = str(n_date).replace(" ", "") 
+                                i["TimeStamp"] = str(fix_dt_format(date)).replace(" ", "") 
                                 i["Value"] = value
                                 break
                             outfile.write(json.dumps(inf))
@@ -195,11 +184,17 @@ def get_tag_name(id, des, date, value):
     except Exception as e: 
         logger.error("Function get_tag_name %s", repr(e))
 
-#Make a post request to update the tag.
-# def posting_tag():
-#     api_url = ""
-#     response = requests.post(api_url, json = )
-#     response.json()
+# Formating date base on valid format.
+# yyyy-MM-dd'T'HH:mm:ss.SSSZ
+def fix_dt_format(date):
+    x = datetime.now()
+    N = 10
+    if date != None: 
+        return date[ : N] + "T" + date[N : ] + ":00.000Z"
+    else: 
+        return x.strftime("%Y")+"-"+x.strftime("%m")+"-"+x.strftime("%d")+"T"+x.strftime("%X")+".000Z"
+
+
 
 
      

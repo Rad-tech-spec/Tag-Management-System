@@ -14,8 +14,8 @@ logging.basicConfig(filename='myapp.log', level=logging.INFO)
 key_ = utili.load_key()
 # Uncomment to get the new token if expired
 #utili.write_token(var.Token_.encode(), key_) 
-print(utili.load_token(Fernet(key_)))
-var.Token_ = utili.load_token(Fernet(key_))
+print(utili.load_tk(Fernet(key_)))
+var.Token_ = utili.load_tk(Fernet(key_))
 
 header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
 
@@ -23,13 +23,13 @@ def main():
     
     # Step 1 - House Keeping
     logger.info("Executed " + str(datetime.datetime.now()))
-    if utili.initDate() == 1: logger.info("Dates initialized.")
-    if utili.updateTodayDate() == 1: logger.info("Todays date updated.") 
+    if utili.init_tk_dt() == 1: logger.info("Dates initialized.")
+    if utili.upt_tk_info() == 1: logger.info("Token infomation updated.") 
     logger.info("Token age: " + str(var.exp_time_) + ".")
     utili.showinfo()
     
     # Step 2 - Checking Smart Cover Token
-    utili.SC_T_M(header_, key_)
+    utili.sc_tk_m(header_, key_)
     
     # Step 3 - GET request collecting live data from Smart Cover
     try:
@@ -41,13 +41,20 @@ def main():
 
     # Step 4 - Checking Historian Token 
 
+
+
     # Step 5 - Managing and reforming data 
     try:
-        utili.mag_data_types()
+        utili.m_data_types()
     except Exception as e: 
         logger.error("Failed to managing tag data: %s", repr(e))
 
     # Step 6 - PUSH requst to update tag 
+    #Make a post request to update the tag. 2024-09-17T16:00:00.000Z
+    # def posting_tag():
+    #     api_url = ""
+    #     response = requests.post(api_url, json = )
+    #     response.json()
 
 
     # Program Timer 
@@ -70,36 +77,3 @@ if __name__ == '__main__':
 #   6) Program must deal with the calls once Historian server is down.
 
 
-# Formats to use for TimeStamp field
-#  yyyy-MM-dd'T'HH:mm:ss.SSSZ, 
-#  yyyy-MM-dd'T'HH:mm:ss.SSS'Z', 
-#  EEE, dd MMM yyyy HH:mm:ss zzz
-#  yyyy-MM-dd
-
-
-# if var.exp_time_ <= var.DAY:
-    #     logging.warning("Token will expire in " + str(var.exp_time_) + " days.")
-    #     try:
-    #         logging.info("Generating a new Token...")
-    #         gettoken_ = json.loads(
-    #             requests.get(var.URL_TOKEN, headers=header_, verify=False).content
-    #         )
-    #         logging.info(gettoken_)
-    #         var.Token_ = str(gettoken_["token"])
-    #         logger.info("New Token: " + str(var.Token_)) # REMOVE
-
-    #         try:
-    #             if gettoken_["response_code"] == 0:
-    #                 utili.write_token(var.Token_.encode(), key_)
-    #                 if utili.update_new_token_date(gettoken_["days_remaining"]) == 1:
-    #                     logger.info("Token information updated in info.json.")
-    #                 logger.info(
-    #                     "Token updated. Expires in "
-    #                     + str(var.exp_time_)
-    #                     + " days."
-    #                 )
-    #         except Exception as ein:
-    #             logger.error("Could not write token: %s", repr(ein))
-
-    #     except Exception as eout:
-    #         logger.error("Failed to update Token: %s", repr(eout))

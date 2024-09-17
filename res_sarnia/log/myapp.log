@@ -1,264 +1,70 @@
-INFO:__main__:Executed 2024-08-22 17:00:45.313214
+INFO:__main__:Executed 2024-09-17 13:26:19.699594
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 330.
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 1.27303147315979 seconds.
-INFO:__main__:Executed 2024-08-22 17:10:16.095146
+INFO:__main__:Token age: 305.
+ERROR:utili:Function get_tag_name TypeError("'datetime.datetime' object is not subscriptable")
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+INFO:__main__:Execution time: 0.4745018482208252 seconds.
+INFO:__main__:Executed 2024-09-17 13:26:34.417692
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 330.
-ERROR:utili:Could not get tag name TypeError("unhashable type: 'set'")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-INFO:__main__:Execution time: 0.611260175704956 seconds.
-INFO:__main__:Executed 2024-08-22 17:10:26.374852
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.49846816062927246 seconds.
+INFO:__main__:Executed 2024-09-17 13:26:47.489376
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 330.
-ERROR:utili:Could not get tag name TypeError("unhashable type: 'set'")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-INFO:__main__:Execution time: 0.3701446056365967 seconds.
-INFO:__main__:Executed 2024-08-26 11:32:56.182281
+INFO:__main__:Token age: 305.
+ERROR:utili:Function get_tag_name TypeError("'datetime.datetime' object is not subscriptable")
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+INFO:__main__:Execution time: 0.5738773345947266 seconds.
+INFO:__main__:Executed 2024-09-17 13:27:06.210318
 INFO:__main__:Dates initialized.
-INFO:__main__:Todays date updated.
-INFO:__main__:Token age: 330.
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.9485383033752441 seconds.
-INFO:__main__:Executed 2024-08-26 12:21:19.099039
+INFO:__main__:Token age: 305.
+ERROR:utili:Function get_tag_name TypeError("'datetime.datetime' object is not subscriptable")
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+INFO:__main__:Execution time: 0.5974328517913818 seconds.
+INFO:__main__:Executed 2024-09-17 13:27:17.064925
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 326.
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Could not get tag name TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 1.1927621364593506 seconds.
-INFO:__main__:Executed 2024-08-26 12:48:16.423266
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.4202725887298584 seconds.
+INFO:__main__:Executed 2024-09-17 13:36:09.738385
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 326.
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.8966498374938965 seconds.
-INFO:__main__:Executed 2024-08-26 12:49:28.788723
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.7615334987640381 seconds.
+INFO:__main__:Executed 2024-09-17 13:37:50.222013
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 326.
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.5321619510650635 seconds.
-INFO:__main__:Executed 2024-08-26 12:50:26.005813
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.5575869083404541 seconds.
+INFO:__main__:Executed 2024-09-17 13:38:49.825982
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 326.
-INFO:__main__:Executed 2024-08-26 13:09:03.174037
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.4536867141723633 seconds.
+INFO:__main__:Executed 2024-09-17 13:38:53.414093
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 326.
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.6001589298248291 seconds.
-INFO:__main__:Executed 2024-08-26 13:09:25.996579
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.58209228515625 seconds.
+INFO:__main__:Executed 2024-09-17 13:39:05.097077
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 326.
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.4447944164276123 seconds.
-INFO:__main__:Executed 2024-08-26 13:09:31.755990
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.45718884468078613 seconds.
+INFO:__main__:Executed 2024-09-17 13:39:07.280752
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 326.
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.4416999816894531 seconds.
-INFO:__main__:Executed 2024-08-27 16:02:50.466008
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.5857148170471191 seconds.
+INFO:__main__:Executed 2024-09-17 13:39:10.977944
 INFO:__main__:Dates initialized.
-INFO:__main__:Todays date updated.
-INFO:__main__:Token age: 326.
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.7731118202209473 seconds.
-INFO:__main__:Executed 2024-08-27 16:09:48.764511
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 1.379807472229004 seconds.
+INFO:__main__:Executed 2024-09-17 13:40:35.603106
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 325.
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.515322208404541 seconds.
-INFO:__main__:Executed 2024-08-27 16:14:05.085658
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 325.
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.517350435256958 seconds.
-INFO:__main__:Executed 2024-08-27 16:15:35.495740
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 325.
-INFO:__main__:Executed 2024-08-28 11:32:01.060912
-INFO:__main__:Dates initialized.
-INFO:__main__:Todays date updated.
-INFO:__main__:Token age: 325.
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 1.3416047096252441 seconds.
-INFO:__main__:Executed 2024-08-28 16:59:46.684016
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 324.
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-ERROR:utili:Function get_tag_name TypeError("'NoneType' object is not subscriptable")
-INFO:__main__:Execution time: 0.620823860168457 seconds.
+INFO:__main__:Token age: 305.
+INFO:__main__:Execution time: 0.4904170036315918 seconds.
