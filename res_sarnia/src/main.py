@@ -1,8 +1,7 @@
 from cryptography.fernet import Fernet
 import urllib3, json, datetime, time
-import requests, utili, logging, var 
+import requests, utili, logging, var, security
 import logging
-st = time.time()
 
 urllib3.disable_warnings()
 logger = logging.getLogger(__name__)
@@ -10,54 +9,68 @@ logger = logging.getLogger(__name__)
 utili.pathassigner("log")
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
-# defs.write_key() # Writes a new key
-key_ = utili.load_key()
-# Uncomment to get the new token if expired
-#utili.write_token(var.Token_.encode(), key_) 
-print(utili.load_tk(Fernet(key_)))
-var.Token_ = utili.load_tk(Fernet(key_))
+# Write a new key (uncomment to enable)
+# defs.write_key()  # Writes a new key
 
-header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
-
-def main(): 
+try:
     
-    # Step 1 - House Keeping
-    logger.info("Executed " + str(datetime.datetime.now()))
-    if utili.init_tk_dt() == 1: logger.info("Dates initialized.")
-    if utili.upt_tk_info() == 1: logger.info("Token infomation updated.") 
-    logger.info("Token age: " + str(var.exp_time_) + ".")
+    # Load the encryption key from the key file
+    key_ = security.load_key()
+
+    # Uncomment the following line to get a new token if expired
+    # utili.write_token(var.Token_.encode(), key_) 
+
+    # Load the token using the loaded key
+    var.Token_ = security.load_tk(Fernet(key_))
+
+    header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
+except Exception as e:
+    logger.error("Error occurred during key or token operations: %s", repr(e))
+
+def main():
+    
+    # Step 1 - Housekeeping
+    logger.info("Executed on: %s", datetime.datetime.now())
+    
+    if utili.init_tk_dt() == 1:
+        logger.info("Dates initialized.")
+    
+    if utili.upt_tk_info() == 1:
+        logger.info("Token information updated.")
+    
     utili.showinfo()
-    
+
     # Step 2 - Checking Smart Cover Token
-    utili.sc_tk_m(header_, key_)
-    
+    security.sc_tk_m(header_, key_)
+
     # Step 3 - GET request collecting live data from Smart Cover
     try:
-        utili.write_sc_data( json.loads(
-            requests.get(var.URL_LIST, headers=header_, verify=False).content
-        ))
-    except Exception as e:
-        logger.error("Failed to collect Sarnia Data: %s", repr(e)) 
+        response = requests.get(var.URL_LIST, headers=header_, verify=False)
+        response.raise_for_status()  # Raise an error for bad responses
+        utili.write_sc_data(json.loads(response.content))
+        logger.info("Sarnia Data collected successfully.")
+    except requests.RequestException as e:
+        logger.error("Failed to collect Sarnia Data: %s", repr(e))
+    except json.JSONDecodeError as e:
+        logger.error("Failed to decode JSON response: %s", repr(e))
 
     # Step 4 - Checking Historian Token 
+    # (Implement your historian token check here)
 
-
-
-    # Step 5 & 6 - Managing and reforming data and POST requst to update tag  
+    # Step 5 & 6 - Managing and reforming data and POST request to update tag  
     try:
         utili.m_data_types()
+        logger.info("Tag data managed successfully.")
     except Exception as e: 
-        logger.error("Failed to managing tag data: %s", repr(e))
-
+        logger.error("Failed to manage tag data: %s", repr(e))
 
     # Program Timer 
-    et = time.time()
-    elapsed_time = et - st
-    logger.info("Execution time: " +str(elapsed_time)+" seconds.")
-   
+    st = time.time()
+    elapsed_time = time.time() - st 
+    logger.info("Execution time: %.2f seconds.\n", elapsed_time)
+
 if __name__ == '__main__':
     main()
-
 
 # Token generated in 7/17/2024  
 

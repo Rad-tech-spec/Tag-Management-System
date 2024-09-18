@@ -1,109 +1,49 @@
-INFO:__main__:Executed 2024-09-17 13:26:19.699594
+INFO:security:Encryption key loaded successfully.
+INFO:__main__:Key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Token loaded successfully.
+INFO:__main__:Executed on: 2024-09-18 12:33:19.506695
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-ERROR:utili:Function get_tag_name TypeError("'datetime.datetime' object is not subscriptable")
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-INFO:__main__:Execution time: 0.4745018482208252 seconds.
-INFO:__main__:Executed 2024-09-17 13:26:34.417692
+INFO:utili:Days Date: 09/18/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 304 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.00 seconds.
+INFO:security:Encryption key loaded successfully.
+INFO:__main__:Key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Token loaded successfully.
+INFO:__main__:Executed on: 2024-09-18 12:35:53.599801
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.49846816062927246 seconds.
-INFO:__main__:Executed 2024-09-17 13:26:47.489376
+INFO:utili:Days Date: 09/18/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 304 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.00 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:__main__:Key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Token loaded successfully.
+INFO:__main__:Executed on: 2024-09-18 12:35:55.195822
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-ERROR:utili:Function get_tag_name TypeError("'datetime.datetime' object is not subscriptable")
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-INFO:__main__:Execution time: 0.5738773345947266 seconds.
-INFO:__main__:Executed 2024-09-17 13:27:06.210318
+INFO:utili:Days Date: 09/18/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 304 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.00 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-18 12:36:42.671228
 INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-ERROR:utili:Function get_tag_name TypeError("'datetime.datetime' object is not subscriptable")
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-ERROR:utili:Function get_tag_name JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
-INFO:__main__:Execution time: 0.5974328517913818 seconds.
-INFO:__main__:Executed 2024-09-17 13:27:17.064925
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.4202725887298584 seconds.
-INFO:__main__:Executed 2024-09-17 13:36:09.738385
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.7615334987640381 seconds.
-INFO:__main__:Executed 2024-09-17 13:37:50.222013
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.5575869083404541 seconds.
-INFO:__main__:Executed 2024-09-17 13:38:49.825982
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.4536867141723633 seconds.
-INFO:__main__:Executed 2024-09-17 13:38:53.414093
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.58209228515625 seconds.
-INFO:__main__:Executed 2024-09-17 13:39:05.097077
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.45718884468078613 seconds.
-INFO:__main__:Executed 2024-09-17 13:39:07.280752
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.5857148170471191 seconds.
-INFO:__main__:Executed 2024-09-17 13:39:10.977944
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 1.379807472229004 seconds.
-INFO:__main__:Executed 2024-09-17 13:40:35.603106
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.4904170036315918 seconds.
-INFO:__main__:Executed 2024-09-17 14:37:34.274331
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.6457719802856445 seconds.
-INFO:__main__:Executed 2024-09-17 14:41:03.412388
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-ERROR:utili:Unexpected error in get_tag_name: AttributeError("type object 'datetime.datetime' has no attribute 'timezone'")
-ERROR:utili:Unexpected error in get_tag_name: AttributeError("type object 'datetime.datetime' has no attribute 'timezone'")
-ERROR:utili:Unexpected error in get_tag_name: AttributeError("type object 'datetime.datetime' has no attribute 'timezone'")
-INFO:__main__:Execution time: 0.5738286972045898 seconds.
-INFO:__main__:Executed 2024-09-17 14:41:22.137867
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.4283621311187744 seconds.
-INFO:__main__:Executed 2024-09-17 14:45:15.020530
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.7774858474731445 seconds.
-INFO:__main__:Executed 2024-09-17 14:50:14.882366
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Executed 2024-09-17 15:08:53.487852
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.575467586517334 seconds.
-INFO:__main__:Executed 2024-09-17 15:25:00.452593
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.7323832511901855 seconds.
-INFO:__main__:Executed 2024-09-17 15:25:23.538574
-INFO:__main__:Dates initialized.
-INFO:__main__:Token infomation updated.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.7113485336303711 seconds.
-INFO:__main__:Executed 2024-09-17 16:23:07.344881
-INFO:__main__:Dates initialized.
-INFO:__main__:Token age: 305.
-INFO:__main__:Execution time: 0.6941907405853271 seconds.
+INFO:utili:Days Date: 09/18/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 304 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.00 seconds.
+
