@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 import urllib3, json, datetime, time
 import requests, utili, logging, var, security
-import logging
+st = time.time()
 
 urllib3.disable_warnings()
 logger = logging.getLogger(__name__)
@@ -23,6 +23,7 @@ try:
     # Load the token using the loaded key
     var.Token_ = security.load_tk(Fernet(key_))
 
+    # Smart Cover header for making a GET request
     header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
 except Exception as e:
     logger.error("Error occurred during key or token operations: %s", repr(e))
@@ -60,22 +61,22 @@ def main():
     # Step 5 & 6 - Managing and reforming data and POST request to update tag  
     try:
         utili.m_data_types()
-        logger.info("Tag data managed successfully.")
+        logger.info("Tags managed successfully.")
     except Exception as e: 
         logger.error("Failed to manage tag data: %s", repr(e))
 
     # Program Timer 
-    st = time.time()
+
     elapsed_time = time.time() - st 
     logger.info("Execution time: %.2f seconds.\n", elapsed_time)
 
 if __name__ == '__main__':
     main()
 
-# Token generated in 7/17/2024  
+ 
 
 # Tasks:
-#   1) Program must be able to update both Token and verify or regenerate a token if neccessery.
+#   1) Program must be able to update both Token and verify or regenerate a token if necessary.
 #   2) Program must be able to create a Jason file from a tap-properties-template JSON file.
 #   3) Using the created JSON Tag need to use the TAG URL to create a new Tag (Must check current tags before creation)
 #   4) Program must be able to update tag property value with a set time.

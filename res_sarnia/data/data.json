@@ -13,6 +13,7 @@
             "sensor_to_bottom": 10.0394,
             "manhole_depth": 137.4,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -31,7 +32,7 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 03:57",
+                        "2024-09-20 12:31",
                         3.52
                     ]
                 },
@@ -40,8 +41,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:01",
-                        303
+                        "2024-09-20 15:31",
+                        305
                     ]
                 },
                 {
@@ -49,8 +50,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 03:57",
-                        18.5
+                        "2024-09-20 12:31",
+                        16.5
                     ]
                 },
                 {
@@ -58,7 +59,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 03:57",
+                        "2024-09-20 12:31",
                         5
                     ]
                 },
@@ -66,8 +67,8 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 03:57",
-                        14
+                        "2024-09-20 12:31",
+                        15
                     ]
                 },
                 {
@@ -75,7 +76,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:01",
+                        "2024-09-20 15:31",
                         0
                     ]
                 }
@@ -99,6 +100,7 @@
             "sensor_to_bottom": 39.3701,
             "manhole_depth": 0,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -117,8 +119,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 10:54",
-                        3.53
+                        "2024-09-20 05:23",
+                        3.54
                     ]
                 },
                 {
@@ -126,7 +128,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 15:58",
+                        "2024-09-20 16:24",
                         1
                     ]
                 },
@@ -135,8 +137,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 10:54",
-                        21
+                        "2024-09-20 05:23",
+                        23
                     ]
                 },
                 {
@@ -144,7 +146,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 10:54",
+                        "2024-09-20 05:23",
                         5
                     ]
                 },
@@ -152,7 +154,7 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 10:54",
+                        "2024-09-20 05:23",
                         15
                     ]
                 },
@@ -161,7 +163,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 15:58",
+                        "2024-09-20 16:24",
                         0
                     ]
                 }
@@ -185,6 +187,7 @@
             "sensor_to_bottom": 15.5512,
             "manhole_depth": 84.5,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -203,8 +206,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 15:38",
-                        3.5
+                        "2024-09-20 10:03",
+                        3.53
                     ]
                 },
                 {
@@ -212,7 +215,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 15:38",
+                        "2024-09-20 16:05",
                         398
                     ]
                 },
@@ -221,8 +224,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 15:38",
-                        21
+                        "2024-09-20 10:03",
+                        20.5
                     ]
                 },
                 {
@@ -230,16 +233,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 15:38",
-                        4
+                        "2024-09-20 10:03",
+                        5
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 15:38",
-                        13
+                        "2024-09-20 10:03",
+                        15
                     ]
                 },
                 {
@@ -247,7 +250,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 15:38",
+                        "2024-09-20 16:05",
                         0
                     ]
                 }
@@ -271,6 +274,7 @@
             "sensor_to_bottom": 10.8268,
             "manhole_depth": 97.2,
             "distance_style": 3,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -289,8 +293,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 02:18",
-                        3.5
+                        "2024-09-20 11:18",
+                        3.47
                     ]
                 },
                 {
@@ -298,7 +302,7 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 15:37",
+                        "2024-09-20 16:25",
                         10
                     ]
                 },
@@ -307,8 +311,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 02:18",
-                        25
+                        "2024-09-20 11:18",
+                        21.5
                     ]
                 },
                 {
@@ -316,16 +320,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 02:18",
-                        2
+                        "2024-09-20 11:18",
+                        3
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 02:18",
-                        13
+                        "2024-09-20 11:18",
+                        15
                     ]
                 },
                 {
@@ -333,7 +337,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 15:37",
+                        "2024-09-20 16:25",
                         0
                     ]
                 }
@@ -357,6 +361,7 @@
             "sensor_to_bottom": 0,
             "manhole_depth": 0,
             "distance_style": 0,
+            "asm_type": "H2S",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -375,8 +380,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 09:29",
-                        3.5
+                        "2024-09-20 04:52",
+                        3.51
                     ]
                 },
                 {
@@ -384,8 +389,8 @@
                     "description": "Analog Sensor",
                     "unit": "ppm",
                     "last_reading": [
-                        "2024-09-18 16:03",
-                        7
+                        "2024-09-20 16:13",
+                        12
                     ]
                 },
                 {
@@ -393,8 +398,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 09:29",
-                        19
+                        "2024-09-20 04:52",
+                        20
                     ]
                 },
                 {
@@ -402,16 +407,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 09:29",
-                        5
+                        "2024-09-20 04:52",
+                        0
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 09:29",
-                        15
+                        "2024-09-20 04:52",
+                        5
                     ]
                 }
             ],
@@ -433,6 +438,7 @@
             "sensor_to_bottom": 58.0709,
             "manhole_depth": 198.8,
             "distance_style": 3,
+            "asm_type": "SmartLevel",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -451,8 +457,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 12:53",
-                        3.59
+                        "2024-09-20 07:24",
+                        3.58
                     ]
                 },
                 {
@@ -460,8 +466,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 15:56",
-                        70
+                        "2024-09-20 15:37",
+                        86
                     ]
                 },
                 {
@@ -469,8 +475,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 12:53",
-                        14
+                        "2024-09-20 07:24",
+                        15
                     ]
                 },
                 {
@@ -478,15 +484,15 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 12:53",
-                        4
+                        "2024-09-20 07:24",
+                        0
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 12:53",
+                        "2024-09-20 07:24",
                         15
                     ]
                 }
@@ -509,6 +515,7 @@
             "sensor_to_bottom": 23.5,
             "manhole_depth": 104.4,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -527,8 +534,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 15:37",
-                        3.5
+                        "2024-09-20 10:04",
+                        3.49
                     ]
                 },
                 {
@@ -536,8 +543,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 15:37",
-                        640
+                        "2024-09-20 16:13",
+                        648
                     ]
                 },
                 {
@@ -545,8 +552,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 15:37",
-                        24
+                        "2024-09-20 10:04",
+                        20.5
                     ]
                 },
                 {
@@ -554,15 +561,15 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 15:37",
-                        3
+                        "2024-09-20 10:04",
+                        4
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 15:37",
+                        "2024-09-20 10:04",
                         15
                     ]
                 },
@@ -571,7 +578,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 15:37",
+                        "2024-09-20 16:13",
                         0
                     ]
                 }
@@ -595,6 +602,7 @@
             "sensor_to_bottom": 47.4016,
             "manhole_depth": 226.2,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -613,8 +621,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 09:25",
-                        3.54
+                        "2024-09-20 03:26",
+                        3.55
                     ]
                 },
                 {
@@ -622,7 +630,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:24",
+                        "2024-09-20 15:28",
                         1
                     ]
                 },
@@ -631,8 +639,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 09:25",
-                        21.5
+                        "2024-09-20 03:26",
+                        25
                     ]
                 },
                 {
@@ -640,15 +648,15 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 09:25",
-                        4
+                        "2024-09-20 03:26",
+                        5
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 09:25",
+                        "2024-09-20 03:26",
                         15
                     ]
                 },
@@ -657,7 +665,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:24",
+                        "2024-09-20 15:28",
                         0
                     ]
                 }
@@ -681,6 +689,7 @@
             "sensor_to_bottom": 45.75,
             "manhole_depth": 124.2,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -699,8 +708,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 07:24",
-                        3.57
+                        "2024-09-20 02:31",
+                        3.58
                     ]
                 },
                 {
@@ -708,7 +717,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 15:32",
+                        "2024-09-20 15:42",
                         1
                     ]
                 },
@@ -717,8 +726,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 07:24",
-                        24
+                        "2024-09-20 02:31",
+                        26.5
                     ]
                 },
                 {
@@ -726,7 +735,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 07:24",
+                        "2024-09-20 02:31",
                         5
                     ]
                 },
@@ -734,8 +743,8 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 07:24",
-                        11
+                        "2024-09-20 02:31",
+                        12
                     ]
                 },
                 {
@@ -743,7 +752,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 15:32",
+                        "2024-09-20 15:42",
                         0
                     ]
                 }
@@ -767,6 +776,7 @@
             "sensor_to_bottom": 15.6299,
             "manhole_depth": 0,
             "distance_style": 3,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -785,8 +795,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 11:21",
-                        3.49
+                        "2024-09-20 06:13",
+                        3.47
                     ]
                 },
                 {
@@ -794,8 +804,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:30",
-                        -60
+                        "2024-09-20 16:26",
+                        -54
                     ]
                 },
                 {
@@ -803,8 +813,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 11:21",
-                        23.5
+                        "2024-09-20 06:13",
+                        25
                     ]
                 },
                 {
@@ -812,7 +822,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 11:21",
+                        "2024-09-20 06:13",
                         5
                     ]
                 },
@@ -820,8 +830,8 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 11:21",
-                        15
+                        "2024-09-20 06:13",
+                        13
                     ]
                 },
                 {
@@ -829,7 +839,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:30",
+                        "2024-09-20 16:26",
                         0
                     ]
                 }
@@ -853,6 +863,7 @@
             "sensor_to_bottom": 59.6063,
             "manhole_depth": 148.8,
             "distance_style": 3,
+            "asm_type": "SmartLevel",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -871,7 +882,7 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 10:28",
+                        "2024-09-20 04:39",
                         3.51
                     ]
                 },
@@ -880,7 +891,7 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:33",
+                        "2024-09-20 15:40",
                         38
                     ]
                 },
@@ -889,8 +900,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 10:28",
-                        14.5
+                        "2024-09-20 04:39",
+                        16.5
                     ]
                 },
                 {
@@ -898,7 +909,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 10:28",
+                        "2024-09-20 04:39",
                         5
                     ]
                 },
@@ -906,7 +917,7 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 10:28",
+                        "2024-09-20 04:39",
                         15
                     ]
                 }
@@ -929,6 +940,7 @@
             "sensor_to_bottom": 8.4252,
             "manhole_depth": 0,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -947,8 +959,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 11:18",
-                        3.47
+                        "2024-09-20 06:00",
+                        3.52
                     ]
                 },
                 {
@@ -956,8 +968,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:28",
-                        216
+                        "2024-09-20 16:16",
+                        214
                     ]
                 },
                 {
@@ -965,8 +977,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 11:18",
-                        22.5
+                        "2024-09-20 06:00",
+                        23.5
                     ]
                 },
                 {
@@ -974,15 +986,15 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 11:18",
-                        2
+                        "2024-09-20 06:00",
+                        5
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 11:18",
+                        "2024-09-20 06:00",
                         15
                     ]
                 },
@@ -991,7 +1003,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:28",
+                        "2024-09-20 16:16",
                         0
                     ]
                 }
@@ -1015,6 +1027,7 @@
             "sensor_to_bottom": 11.811,
             "manhole_depth": 0,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -1033,7 +1046,7 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 04:31",
+                        "2024-09-20 12:50",
                         3.52
                     ]
                 },
@@ -1042,8 +1055,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:34",
-                        492
+                        "2024-09-20 15:50",
+                        494
                     ]
                 },
                 {
@@ -1051,8 +1064,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 04:31",
-                        26
+                        "2024-09-20 12:50",
+                        22
                     ]
                 },
                 {
@@ -1060,7 +1073,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 04:31",
+                        "2024-09-20 12:50",
                         5
                     ]
                 },
@@ -1068,8 +1081,8 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 04:31",
-                        14
+                        "2024-09-20 12:50",
+                        15
                     ]
                 },
                 {
@@ -1077,7 +1090,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:34",
+                        "2024-09-20 15:50",
                         0
                     ]
                 }
@@ -1101,6 +1114,7 @@
             "sensor_to_bottom": 16.4961,
             "manhole_depth": 122.4,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -1119,8 +1133,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 06:58",
-                        3.52
+                        "2024-09-20 15:26",
+                        3.49
                     ]
                 },
                 {
@@ -1128,8 +1142,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:02",
-                        467
+                        "2024-09-20 16:26",
+                        464
                     ]
                 },
                 {
@@ -1137,8 +1151,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 06:58",
-                        25.5
+                        "2024-09-20 15:26",
+                        26.5
                     ]
                 },
                 {
@@ -1146,16 +1160,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 06:58",
-                        5
+                        "2024-09-20 15:26",
+                        3
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 06:58",
-                        13
+                        "2024-09-20 15:26",
+                        14
                     ]
                 },
                 {
@@ -1163,7 +1177,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:02",
+                        "2024-09-20 16:26",
                         0
                     ]
                 }
@@ -1187,6 +1201,7 @@
             "sensor_to_bottom": 8.2677,
             "manhole_depth": 91.8,
             "distance_style": 1,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -1205,8 +1220,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 11:21",
-                        3.5
+                        "2024-09-20 05:45",
+                        3.51
                     ]
                 },
                 {
@@ -1214,7 +1229,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:25",
+                        "2024-09-20 15:51",
                         222
                     ]
                 },
@@ -1223,8 +1238,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 11:21",
-                        21.5
+                        "2024-09-20 05:45",
+                        23
                     ]
                 },
                 {
@@ -1232,16 +1247,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 11:21",
-                        3
+                        "2024-09-20 05:45",
+                        5
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 11:21",
-                        13
+                        "2024-09-20 05:45",
+                        14
                     ]
                 },
                 {
@@ -1249,7 +1264,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:25",
+                        "2024-09-20 15:51",
                         0
                     ]
                 }
@@ -1273,6 +1288,7 @@
             "sensor_to_bottom": 14.1732,
             "manhole_depth": 0,
             "distance_style": 3,
+            "asm_type": "SmartFLOE",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -1291,8 +1307,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-09-18 06:19",
-                        3.59
+                        "2024-09-20 15:05",
+                        3.57
                     ]
                 },
                 {
@@ -1300,7 +1316,7 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-09-18 16:28",
+                        "2024-09-20 16:05",
                         -2
                     ]
                 },
@@ -1309,8 +1325,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-09-18 06:19",
-                        22.5
+                        "2024-09-20 15:05",
+                        24
                     ]
                 },
                 {
@@ -1318,15 +1334,15 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-09-18 06:19",
-                        5
+                        "2024-09-20 15:05",
+                        4
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-09-18 06:19",
+                        "2024-09-20 15:05",
                         15
                     ]
                 },
@@ -1335,7 +1351,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-09-18 16:28",
+                        "2024-09-20 16:05",
                         0
                     ]
                 }
@@ -1356,6 +1372,7 @@
             "latitude": 42.975078,
             "longitude": -82.406435,
             "distance_style": 0,
+            "asm_type": "SmartRain",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -1376,7 +1393,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-09-18 15:00",
+                        "2024-09-20 15:00",
                         0
                     ]
                 },
@@ -1406,6 +1423,7 @@
             "latitude": 42.97601,
             "longitude": -82.38226,
             "distance_style": 0,
+            "asm_type": "SmartRain",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -1426,7 +1444,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-09-18 15:00",
+                        "2024-09-20 15:00",
                         0
                     ]
                 },
@@ -1456,6 +1474,7 @@
             "latitude": 42.961808,
             "longitude": -82.390294,
             "distance_style": 0,
+            "asm_type": "SmartRain",
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
@@ -1476,7 +1495,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-09-18 15:00",
+                        "2024-09-20 15:00",
                         0
                     ]
                 },

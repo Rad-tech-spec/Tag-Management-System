@@ -33,7 +33,7 @@ logging.basicConfig(filename='myapp.log', level=logging.INFO)
 def showinfo() -> None:
     logger.info("Days Date: %s", var.daysdate_)
     logger.info("Smart Cover Token Creation Date: %s", var.Token_cr_at)
-    logger.info("Smart Cover Token Expirs In: %d days", var.exp_time_)
+    logger.info("Smart Cover Token Expire In: %d days", var.exp_time_)
 
 # Initializing current updated JSON values every run.
 def init_tk_dt() -> int:
