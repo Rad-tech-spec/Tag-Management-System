@@ -1,7 +1,8 @@
 from cryptography.fernet import Fernet
 import urllib3, json, datetime, time
 import requests, utili, logging, var, security
-import logging
+
+st = time.time()
 
 urllib3.disable_warnings()
 logger = logging.getLogger(__name__)
@@ -13,7 +14,6 @@ logging.basicConfig(filename='myapp.log', level=logging.INFO)
 # defs.write_key()  # Writes a new key
 
 try:
-    
     # Load the encryption key from the key file
     key_ = security.load_key()
 
@@ -57,30 +57,24 @@ def main():
     # Step 4 - Checking Historian Token 
     # (Implement your historian token check here)
 
-    # Step 5 & 6 - Managing and reforming data and POST request to update tag  
+
+
+    # Step 5 - Managing and reforming data into tags
     try:
         utili.m_data_types()
         logger.info("Tag data managed successfully.")
     except Exception as e: 
         logger.error("Failed to manage tag data: %s", repr(e))
 
+    # 6 - Placing stored tags into queue then PUSH
+    queue = []
+    
+
+
     # Program Timer 
-    st = time.time()
     elapsed_time = time.time() - st 
     logger.info("Execution time: %.2f seconds.\n", elapsed_time)
 
 if __name__ == '__main__':
     main()
-
-# Token generated in 7/17/2024  
-
-# Tasks:
-#   1) Program must be able to update both Token and verify or regenerate a token if neccessery.
-#   2) Program must be able to create a Jason file from a tap-properties-template JSON file.
-#   3) Using the created JSON Tag need to use the TAG URL to create a new Tag (Must check current tags before creation)
-#   4) Program must be able to update tag property value with a set time.
-#   5) Program must be able to execute on a real time bases.
-#   6) Program must deal with the calls once Historian server is down.
-#   7) Jason Files Should not lose content when there is an error.
-
-
+  

@@ -1,10 +1,792 @@
-{
-    "TagName": "REST_SNCOL_SC31290_RAIN_EGU_F_CV",
-    "Samples": [
-        {
-            "TimeStamp": "2024-09-18T15:00:00.000Z",
-            "Value": 0,
-            "Quality": 3
-        }
-    ]
-}
+[
+    {
+        "TagName": "REST_SNCOL_SC31290_RAIN_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:00:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25523_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:31:00.000Z",
+                "Value": 3.52,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25523_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:31:00.000Z",
+                "Value": 16.5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25523_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:31:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25523_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:31:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25523_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:36:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25937_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:25:00.000Z",
+                "Value": 3.56,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25937_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:25:00.000Z",
+                "Value": 31,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25937_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:25:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25937_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:25:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25937_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:25:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25674_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:03:00.000Z",
+                "Value": 3.53,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25674_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:03:00.000Z",
+                "Value": 20.5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25674_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:03:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25674_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:03:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25674_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:06:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25663_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T11:18:00.000Z",
+                "Value": 3.47,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25663_LEVEL_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:29:00.000Z",
+                "Value": 11,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25663_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T11:18:00.000Z",
+                "Value": 21.5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25663_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T11:18:00.000Z",
+                "Value": 3,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25663_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T11:18:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25663_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:29:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC20380_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:15:00.000Z",
+                "Value": 3.52,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC20380_ANL_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:15:00.000Z",
+                "Value": 11,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC20380_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:15:00.000Z",
+                "Value": 29,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC20380_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:15:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC20380_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:15:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29173_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T07:24:00.000Z",
+                "Value": 3.58,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29173_LEVEL_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:41:00.000Z",
+                "Value": 72,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29173_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T07:24:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29173_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T07:24:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29173_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T07:24:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29870_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:04:00.000Z",
+                "Value": 3.49,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29870_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:04:00.000Z",
+                "Value": 20.5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29870_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:04:00.000Z",
+                "Value": 4,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29870_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T10:04:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29870_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:15:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25946_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T17:28:00.000Z",
+                "Value": 3.52,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25946_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T17:28:00.000Z",
+                "Value": 27,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25946_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T17:28:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25946_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T17:28:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25946_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:27:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25678_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:13:00.000Z",
+                "Value": 3.47,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25678_LEVEL_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:28:00.000Z",
+                "Value": -49,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25678_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:13:00.000Z",
+                "Value": 25,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25678_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:13:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25678_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:13:00.000Z",
+                "Value": 13,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25678_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:28:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29203_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:40:00.000Z",
+                "Value": 3.51,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29203_LEVEL_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:41:00.000Z",
+                "Value": 38,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29203_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:40:00.000Z",
+                "Value": 25.5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29203_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:40:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC29203_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:40:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC30145_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:00:00.000Z",
+                "Value": 3.52,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC30145_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:00:00.000Z",
+                "Value": 23.5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC30145_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:00:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC30145_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T06:00:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC30145_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:20:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25630_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:50:00.000Z",
+                "Value": 3.52,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25630_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:50:00.000Z",
+                "Value": 22,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25630_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:50:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25630_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T12:50:00.000Z",
+                "Value": 15,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25630_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:51:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25671_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T15:26:00.000Z",
+                "Value": 3.49,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25671_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T15:26:00.000Z",
+                "Value": 26.5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25671_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T15:26:00.000Z",
+                "Value": 3,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25671_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T15:26:00.000Z",
+                "Value": 14,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25671_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T19:27:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25676_BATT_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T05:45:00.000Z",
+                "Value": 3.51,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25676_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T05:45:00.000Z",
+                "Value": 23,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25676_SS_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T05:45:00.000Z",
+                "Value": 5,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25676_SQ_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T05:45:00.000Z",
+                "Value": 14,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC25676_FLOW_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:50:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC26343_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T15:51:21.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC26343_RAIN_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:00:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC31289_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T15:51:21.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC31289_RAIN_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:00:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC31290_TEMP_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T15:51:21.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    },
+    {
+        "TagName": "REST_SNCOL_SC31290_RAIN_EGU_F_CV",
+        "Samples": [
+            {
+                "TimeStamp": "2024-09-20T18:00:00.000Z",
+                "Value": 0,
+                "Quality": 3
+            }
+        ]
+    }
+]

@@ -202,21 +202,33 @@ def get_tag_name(sensor_id, description, date, value):
         if not matching_line:
             logger.error("No matching tag found for ID '%s' and key '%s'.", sensor_id, key)
             return
+          
+        new_tag = {
+            "TagName": matching_line.strip(),
+            "Samples": 
+            [
+                {
+                    "TimeStamp": fix_dt_format(date).replace(" ", ""),
+                    "Value": value,
+                    "Quality": 3
+                }
+            ]
+        }
 
         # Read the JSON file, update it, and write back
-        with open("tag.json", "r") as file:
-            tag_data = json.load(file)
+        try:
+            with open("tag.json", "r") as file:
+                tag_data = json.load(file)
+                print(type(tag_data))  # Check if it's a dict or list
+                print(tag_data)        # Print the current structure
+        except FileNotFoundError:
+            tag_data = []
 
-        tag_data["TagName"] = matching_line.strip()
-        for sample in tag_data["Samples"]:
-            sample["TimeStamp"] = fix_dt_format(date).replace(" ", "")
-            sample["Value"] = value
-            break
-
+        tag_data.append(new_tag)
+        
         with open("tag.json", "w") as file:
             json.dump(tag_data, file, indent=4)
 
-        #posting_tag() # Step 6 making a POST request.
 
     except FileNotFoundError as e:
         logger.error("File not found: %s", e)
@@ -227,7 +239,7 @@ def get_tag_name(sensor_id, description, date, value):
     except Exception as e:
         logger.error("Unexpected error in get_tag_name: %s", repr(e))
 
-# Formating date base on valid format.
+# Formatting date base on valid format.
 def fix_dt_format(date):
     if date:
         try:
@@ -242,8 +254,14 @@ def fix_dt_format(date):
         now = datetime.now()
         return now.strftime("%Y-%m-%dT%H:%M:%S.000Z")
     
+
+
+
+
+
+
 # def posting_tag():
 #     print("Making a POST request.")
-#     api_url = ""
+#     api_url = "https://snwpcc-hist1:8443/historian-rest-api/v1/datapoints/create"
 #     response = requests.post(api_url, json = )
 #     response.json()

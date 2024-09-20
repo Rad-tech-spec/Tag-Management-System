@@ -1,49 +1,311 @@
 INFO:security:Encryption key loaded successfully.
-INFO:__main__:Key loaded successfully.
 INFO:security:Token loaded and decrypted successfully.
-INFO:__main__:Token loaded successfully.
-INFO:__main__:Executed on: 2024-09-18 12:33:19.506695
+INFO:__main__:Executed on: 2024-09-20 15:36:06.943982
 INFO:__main__:Dates initialized.
-INFO:utili:Days Date: 09/18/24
+INFO:utili:Days Date: 09/20/24
 INFO:utili:Smart Cover Token Creation Date: 07/17/24
-INFO:utili:Smart Cover Token Expirs In: 304 days
+INFO:utili:Smart Cover Token Expirs In: 302 days
 INFO:__main__:Sarnia Data collected successfully.
 INFO:__main__:Tag data managed successfully.
-INFO:__main__:Execution time: 0.00 seconds.
-INFO:security:Encryption key loaded successfully.
-INFO:__main__:Key loaded successfully.
-INFO:security:Token loaded and decrypted successfully.
-INFO:__main__:Token loaded successfully.
-INFO:__main__:Executed on: 2024-09-18 12:35:53.599801
-INFO:__main__:Dates initialized.
-INFO:utili:Days Date: 09/18/24
-INFO:utili:Smart Cover Token Creation Date: 07/17/24
-INFO:utili:Smart Cover Token Expirs In: 304 days
-INFO:__main__:Sarnia Data collected successfully.
-INFO:__main__:Tag data managed successfully.
-INFO:__main__:Execution time: 0.00 seconds.
-
-INFO:security:Encryption key loaded successfully.
-INFO:__main__:Key loaded successfully.
-INFO:security:Token loaded and decrypted successfully.
-INFO:__main__:Token loaded successfully.
-INFO:__main__:Executed on: 2024-09-18 12:35:55.195822
-INFO:__main__:Dates initialized.
-INFO:utili:Days Date: 09/18/24
-INFO:utili:Smart Cover Token Creation Date: 07/17/24
-INFO:utili:Smart Cover Token Expirs In: 304 days
-INFO:__main__:Sarnia Data collected successfully.
-INFO:__main__:Tag data managed successfully.
-INFO:__main__:Execution time: 0.00 seconds.
+INFO:__main__:Execution time: 0.79 seconds.
 
 INFO:security:Encryption key loaded successfully.
 INFO:security:Token loaded and decrypted successfully.
-INFO:__main__:Executed on: 2024-09-18 12:36:42.671228
+INFO:__main__:Executed on: 2024-09-20 15:37:40.569128
 INFO:__main__:Dates initialized.
-INFO:utili:Days Date: 09/18/24
+INFO:utili:Days Date: 09/20/24
 INFO:utili:Smart Cover Token Creation Date: 07/17/24
-INFO:utili:Smart Cover Token Expirs In: 304 days
+INFO:utili:Smart Cover Token Expirs In: 302 days
 INFO:__main__:Sarnia Data collected successfully.
 INFO:__main__:Tag data managed successfully.
-INFO:__main__:Execution time: 0.00 seconds.
+INFO:__main__:Execution time: 1.05 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-20 15:40:48.973310
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/20/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 302 days
+INFO:__main__:Sarnia Data collected successfully.
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.66 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-20 15:41:57.301434
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/20/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 302 days
+INFO:__main__:Sarnia Data collected successfully.
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+ERROR:utili:JSON decoding error: Expecting value: line 1 column 1 (char 0)
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.78 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-20 15:42:33.221593
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/20/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 302 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.86 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-20 15:50:44.561167
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/20/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 302 days
+INFO:__main__:Sarnia Data collected successfully.
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+ERROR:utili:Unexpected error in get_tag_name: AttributeError("'list' object has no attribute 'update'")
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.75 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-20 15:51:19.596681
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/20/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 302 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.77 seconds.
 
