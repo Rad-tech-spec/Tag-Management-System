@@ -364,3 +364,14 @@ INFO:utili:Days Date: 09/23/24
 INFO:security:Encryption key loaded successfully.
 INFO:security:Token loaded and decrypted successfully.
 INFO:__main__:Executed on: 2024-09-23 11:37:08.270937
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:42:01.843734
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/23/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 299 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.93 seconds.
+

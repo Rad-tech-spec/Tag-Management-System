@@ -19,7 +19,10 @@ try:
     key_ = security.load_key()
 
     # Uncomment the following line to get a new token if expired
-    # utili.write_token(var.Token_.encode(), key_) 
+    # utili.write_token(var.SC_Token_.encode(), key_) 
+
+    # Uncomment the following line to get a new token if expired
+    # utili.write_token(var.HS_Token_.encode(), key_) 
 
     # Load the token using the loaded key
     var.Token_ = security.load_tk(Fernet(key_))
@@ -65,9 +68,9 @@ def main():
         utili.m_data_types()
         logger.info("Tag data managed successfully.")
     except Exception as e: 
-        logger.error("Failed to manage tag data: %s", repr(e))
+        logger.error("Failed to manage tag data: %s\n", repr(e))
 
-    # 6 - Placing stored tags into queue then PUSH
+    # 6 - Placing stored tags into queue then PUSH (TB TESTED)
     # try:
 
     #     # Openning the Tags file

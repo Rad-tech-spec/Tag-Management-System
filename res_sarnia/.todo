@@ -16,6 +16,8 @@
         - Use Queue to PUSH tags into Historian. 
         - Delete Tags and emplty JSON file for new set. 
 
+    -  2) Program must be able to update Historian token every execution interval.
+
 
 % Infomation
     - Token generated in 7/17/2024
