@@ -1,6 +1,7 @@
 from cryptography.fernet import Fernet
 import urllib3, json, datetime, time
 import requests, utili, logging, var, security
+from queue import Queue
 
 st = time.time()
 
@@ -67,8 +68,41 @@ def main():
         logger.error("Failed to manage tag data: %s", repr(e))
 
     # 6 - Placing stored tags into queue then PUSH
-    queue = []
-    
+    # try:
+
+    #     # Openning the Tags file
+    #     with open(var.TAGS_PATH, "r") as file: 
+    #         file_data = json.load(file)
+
+    #     q = Queue()
+
+    #     # Placing tags into queue one by one.
+    #     for item in file_data: 
+    #         q.put(item)
+
+    #     # Pushing tags into Historian
+    #     while not q.empty():
+    #         element = q.get()
+    #         res = requests.post(var.URL_CREATE_TAG, json=element)
+    #         if res.status_code == 200: 
+    #             print(f"Successfully pushed: {element}")
+    #         else:
+    #             print(f"Failed to push: {element},
+    #                 Status code: {res.status_code}")
+                
+    #     # Emptying file to be reused with a new set
+    #     with open(var.TAGS_PATH, "w") as file: 
+    #         json.dump([], file)
+    #         print("JSON file has been emptied")
+
+    # except FileNotFoundError as e: 
+    #     logger.error("File not found: %s", e)
+    # except json.JSONDecodeError as e:
+    #     logger.error("JSON decoding error: %s", e)
+    # except KeyError as e:
+    #     logger.error("Key error: %s", e)
+    # except Exception as e:
+    #     logger.error("Unexpected error in Queue stage: %s", repr(e))
 
 
     # Program Timer 

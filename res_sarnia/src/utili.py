@@ -41,7 +41,7 @@ def init_tk_dt() -> int:
 
     try:
         # Read the existing JSON data
-        with open("info.json", "r") as infile:
+        with open(var.TK_INFO_PATH, "r") as infile:
             data = json.load(infile)
         
         # Initialize variables with data from the JSON file
@@ -50,7 +50,6 @@ def init_tk_dt() -> int:
         var.exp_time_ = data.get("exp_time")
 
         return 1  # Indicate success
-
     except FileNotFoundError:
         logger.error("File 'info.json' not found.")
     except json.JSONDecodeError:
@@ -71,7 +70,7 @@ def upt_tk_info():
         var.daysdate_ = datetime.today().strftime("%m/%d/%y")
         
         # Read and update the JSON file
-        with open("info.json", "r") as infile:
+        with open(var.TK_INFO_PATH, "r") as infile:
             data = json.load(infile)
 
         # Check if daysdate has changed
@@ -82,7 +81,7 @@ def upt_tk_info():
             data["exp_time"] = 365 - value
             
             # Write updated data back to the file
-            with open("info.json", "w") as outfile:
+            with open(var.TK_INFO_PATH, "w") as outfile:
                 json.dump(data, outfile, indent=4)
             
             return 1
@@ -128,7 +127,7 @@ def write_sc_data(response):
         pathassigner("data")  
 
         # Write JSON response to file
-        with open("data.json", "w") as outfile:
+        with open(var.DATA_PATH, "w") as outfile:
             json.dump(response, outfile, indent=4)
 
     except IOError as e:
@@ -143,7 +142,7 @@ def m_data_types():
         pathassigner("data")  
 
         # Read and parse the JSON data
-        with open("data.json", "r") as infile:
+        with open(var.DATA_PATH, "r") as infile:
             data = json.load(infile)
         
         # Process each location in the data
@@ -194,7 +193,7 @@ def get_tag_name(sensor_id, description, date, value):
         key = sensor_keys[position]
 
         # Read the tag names from file
-        with open("tagnames.txt", "r") as file:
+        with open(var.TAG_NAMES, "r") as file:
             lines = file.readlines()
 
         # Find the relevant line containing both the ID and key
@@ -217,16 +216,16 @@ def get_tag_name(sensor_id, description, date, value):
 
         # Read the JSON file, update it, and write back
         try:
-            with open("tag.json", "r") as file:
+            with open(var.TAGS_PATH, "r") as file:
                 tag_data = json.load(file)
-                print(type(tag_data))  # Check if it's a dict or list
-                print(tag_data)        # Print the current structure
+                #print(type(tag_data))  # Check if it's a dict or list
+                #print(tag_data)        # Print the current structure
         except FileNotFoundError:
             tag_data = []
 
         tag_data.append(new_tag)
         
-        with open("tag.json", "w") as file:
+        with open(var.TAGS_PATH, "w") as file:
             json.dump(tag_data, file, indent=4)
 
 

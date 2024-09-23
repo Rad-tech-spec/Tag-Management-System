@@ -14,7 +14,7 @@ def write_key() -> None:
         utili.pathassigner("keys")
         
         # Write the key to a file
-        with open("key.key", "wb") as key_file:
+        with open(var.KEY, "wb") as key_file:
             key_file.write(key_)
         
         logger.info("New encryption key generated and saved to 'key.key'.")
@@ -28,7 +28,7 @@ def load_key() -> bytes:
         utili.pathassigner("keys")  # Ensure the correct path is set
         
         # Use a context manager to open and read the key file
-        with open("key.key", "rb") as key_file:
+        with open(var.KEY, "rb") as key_file:
             key = key_file.read()
         
         logger.info("Encryption key loaded successfully.")
@@ -49,7 +49,7 @@ def write_tk(token: bytes, key: bytes) -> None:
         f = Fernet(key)  # Create a Fernet object for encryption
         
         # Use a context manager to open and write to the file
-        with open("SC.key", "wb") as outfile:
+        with open(var.SC_KEY, "wb") as outfile:
             outfile.write(f.encrypt(token))
         
         logger.info("Token encrypted and written to 'token.key'.")
@@ -63,7 +63,7 @@ def load_tk(f: Fernet) -> bytes:
         utili.pathassigner("keys")  # Ensure the correct path is set
 
         # Use a context manager to open and read the file
-        with open("SC.key", "rb") as token_file:
+        with open(var.SC_KEY, "rb") as token_file:
             encrypted_token = token_file.read()
         
         # Decrypt the token
@@ -88,7 +88,7 @@ def upt_new_tk_dt(days: int) -> int:
 
     try:
         # Read the existing JSON data
-        with open("info.json", "r") as infile:
+        with open(var.TK_INFO_PATH, "r") as infile:
             data = json.load(infile)
         
         # Update the JSON data with new values
@@ -96,7 +96,7 @@ def upt_new_tk_dt(days: int) -> int:
         data["exp_time"] = var.exp_time_
 
         # Write the updated JSON data back to the file
-        with open("info.json", "w") as outfile:
+        with open(var.TK_INFO_PATH, "w") as outfile:
             json.dump(data, outfile, indent=4)
         
         # Verify if the update was successful

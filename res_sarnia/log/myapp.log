@@ -309,3 +309,58 @@ INFO:__main__:Sarnia Data collected successfully.
 INFO:__main__:Tag data managed successfully.
 INFO:__main__:Execution time: 1.77 seconds.
 
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 10:17:20.235409
+INFO:__main__:Dates initialized.
+INFO:__main__:Token information updated.
+INFO:utili:Days Date: 09/23/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 302 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.33 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:24:41.970948
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/23/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 299 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.22 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:25:16.479804
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/23/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 299 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.61 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:27:30.036024
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:28:21.818299
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:28:29.791978
+INFO:__main__:Dates initialized.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:29:19.415629
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:30:44.192728
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/23/24
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-23 11:37:08.270937
