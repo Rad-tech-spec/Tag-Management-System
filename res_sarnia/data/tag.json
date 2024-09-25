@@ -1,12 +1,1 @@
-[
-    {
-        "TagName": "REST_SNCOL_SC20380_BATT_EGU_F_CV",
-        "Samples": [
-            {
-                "TimeStamp": "2024-09-25T15:46:00.000Z",
-                "Value": 3.43,
-                "Quality": 3
-            }
-        ]
-    }
-]
+[]

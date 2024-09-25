@@ -486,3 +486,534 @@ INFO:__main__:Sarnia Data collected successfully.
 INFO:__main__:Tag data managed successfully.
 INFO:__main__:Execution time: 0.25 seconds.
 
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token encrypted and written to 'token.key'.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:Error occurred during key or token operations: AttributeError("'str' object has no attribute 'decode'")
+INFO:__main__:Executed on: 2024-09-25 14:37:09.997018
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+ERROR:__main__:Failed to collect Sarnia Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token encrypted and written to 'token.key'.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:Error occurred during key or token operations: AttributeError("'str' object has no attribute 'decode'")
+INFO:__main__:Executed on: 2024-09-25 14:37:29.892163
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+ERROR:__main__:Failed to collect Sarnia Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.35 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token encrypted and written to 'token.key'.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:Error occurred during key or token operations: AttributeError("'str' object has no attribute 'decode'")
+INFO:__main__:Executed on: 2024-09-25 14:52:39.457492
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.51 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 14:53:40.605013
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.32 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:08:24.293851
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+ERROR:__main__:Failed to get Historian Token Data: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='w10pro64-1', port=8443): Max retries exceeded with url: /uaa/oauth/token?grant_type=password&username=W10PRO64-1.admin&password=8$arniA (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026ACA1801A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.42 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:09:35.415944
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.12 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:09:53.680991
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.01 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:13:51.609680
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:14:04.520422
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:20:37.144020
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.13 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:21:54.151445
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.11 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:27:26.631570
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+ERROR:security:Failed to write the token: TypeError('data must be bytes')
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.15 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:28:15.160367
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+ERROR:security:Failed to write the token: TypeError('data must be bytes')
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.78 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:32:58.027638
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:38:42.783476
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.14 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:39:54.329595
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:46:34.866635
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 146.04 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:49:25.314443
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:50:10.530116
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 15:57:27.128163
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.16 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:00:30.510722
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 105.01 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:02:29.540633
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:03:34.566304
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.80 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:04:29.582463
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 1.19 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:04:59.672203
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:05:27.126779
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 1.80 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:05:43.370715
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 0.86 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:06:10.242258
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 1.39 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:18:58.849483
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:File not found: [Errno 2] No such file or directory: 'tag.json'
+INFO:__main__:Execution time: 1.16 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:20:08.502564
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:File not found: [Errno 2] No such file or directory: 'tag.json'
+INFO:__main__:Execution time: 0.94 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:20:54.324125
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:File not found: [Errno 2] No such file or directory: 'tag.json'
+INFO:__main__:Execution time: 1.46 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:22:26.974451
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:File not found: [Errno 2] No such file or directory: 'tag.json'
+INFO:__main__:Execution time: 1.78 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:22:41.014268
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:File not found: [Errno 2] No such file or directory: 'tag.json'
+INFO:__main__:Execution time: 1.74 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:23:25.300811
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:File not found: [Errno 2] No such file or directory: 'tag.json'
+INFO:__main__:Execution time: 43.73 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:24:56.733140
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:26:14.304531
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:31:01.710068
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 2.58 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:34:17.868355
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:Unexpected error in Queue stage: TypeError('can only concatenate str (not "dict") to str')
+INFO:__main__:Execution time: 1.30 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:36:00.010233
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:Unexpected error in Queue stage: TypeError('can only concatenate str (not "int") to str')
+INFO:__main__:Execution time: 1.10 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:36:25.131679
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 1.38 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:38:48.946947
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+ERROR:__main__:Unexpected error in Queue stage: TypeError('can only concatenate str (not "bytes") to str')
+INFO:__main__:Execution time: 0.91 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:39:20.942791
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:41:11.143131
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 1.53 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:44:01.907963
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 1.24 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 16:46:02.277884
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:security:Token encrypted and written to 'HS.key'.
+INFO:__main__:Tag data managed successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Execution time: 1.07 seconds.
+

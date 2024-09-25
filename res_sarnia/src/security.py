@@ -42,7 +42,7 @@ def load_key() -> bytes:
         raise  # Re-raise the exception for handling upstream
 
 # Encrypts the token using the provided key and writes it to a file.
-def write_tk(token: bytes, key: bytes) -> None:
+def write_SC_tk(token: bytes, key: bytes) -> None:
     try:
         utili.pathassigner("keys")  # Ensure the correct path is set
         
@@ -131,7 +131,7 @@ def sc_tk_m(header_, key_):
                 # Extract the new token
                 if gettoken_.get("response_code") == 0:
                     var.Token_ = str(gettoken_.get("token"))
-                    write_tk(var.Token_.encode(), key_)
+                    write_SC_tk(var.Token_.encode(), key_)
                     
                     if upt_new_tk_dt(gettoken_.get("days_remaining")) == 1:
                         logger.info("Token information updated in info.json.")
@@ -151,3 +151,42 @@ def sc_tk_m(header_, key_):
 
     except Exception as e:
         logger.error("Unexpected error in sc_tk_m: %s", repr(e))
+
+
+# Encrypts the token using the provided key and writes it to a file.
+def write_HS_tk(token: bytes, key: bytes) -> None:
+    try:
+        utili.pathassigner("keys")  # Ensure the correct path is set
+        
+        f = Fernet(key)  # Create a Fernet object for encryption
+        
+        # Use a context manager to open and write to the file
+        with open(var.HS_KEY, "wb") as outfile:
+            outfile.write(f.encrypt(token))
+        
+        logger.info("Token encrypted and written to 'HS.key'.")
+
+    except Exception as e:
+        logger.error("Failed to write the token: %s", repr(e))
+
+
+# Loads and decrypts the token from the '.key' file.
+def load_HS_tk(f: Fernet) -> bytes:
+    try:
+        utili.pathassigner("keys")  # Ensure the correct path is set
+
+        # Use a context manager to open and read the file
+        with open(var.HS_KEY, "rb") as token_file:
+            encrypted_token = token_file.read()
+        
+        # Decrypt the token
+        token = f.decrypt(encrypted_token)
+        logger.info("Token loaded and decrypted successfully.")
+        return token
+    
+    except FileNotFoundError:
+        logger.error("Token file 'HS.key' not found.")
+        raise  # Re-raise the exception for handling upstream
+    except Exception as e:
+        logger.error("Failed to load or decrypt the token: %s", repr(e))
+        raise  # Re-raise the exception for handling upstream

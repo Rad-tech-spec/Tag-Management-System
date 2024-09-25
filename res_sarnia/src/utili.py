@@ -208,7 +208,7 @@ def get_tag_name(sensor_id, description, date, value):
             [
                 {
                     "TimeStamp": fix_dt_format(date).replace(" ", ""),
-                    "Value": value,
+                    "Value": str(value),
                     "Quality": 3
                 }
             ]

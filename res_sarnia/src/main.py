@@ -22,7 +22,7 @@ def main():
         key_ = security.load_key()
 
         # Uncomment the following line to get a new token if expired
-        # utili.write_token(var.SC_Token_.encode(), key_) 
+        #security.write_SC_tk(var.SC_Token_.encode(), key_) 
 
         # Load the token using the loaded key
         var.SC_Token_= security.load_SC_tk(Fernet(key_))
@@ -30,10 +30,6 @@ def main():
         # Smart Cover Header
         header_sc = {"Authorization": "Bearer {}".format(var.SC_Token_.decode())}
 
-        # Historian Header
-        #header_hs = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
-
-        
     except Exception as e:
         logger.error("Error occurred during key or token operations: %s", repr(e))
     
@@ -64,18 +60,22 @@ def main():
 
     # Step 4 - Checking Historian Token 
     # (Implement your historian token check here)
-    # try: 
-    #     res = requests.get(var.URL_HS_TOKEN, headers=header_hs, verify=False)
-    #     response.raise_for_status()  # Raise an error for bad responses    
 
-    # except requests.RequestException as e:
-    #     logger.error("Failed to get Historian Token Data: %s", repr(e))
-    # except json.JSONDecodeError as e:
-    #     logger.error("Failed to decode JSON response: %s", repr(e))
+    try: 
+        res = requests.get(var.URL_HS_TOKEN, auth=('historian_public_rest_api','publicapisecret'), verify=False)
+        response.raise_for_status()  # Raise an error for bad responses    
+        res_data = res.json()
+        var.HS_Token_ = res_data["access_token"]
+        print(var.HS_Token_)
+        
+        # Uncomment the following line to get a new token if expired
+        security.write_HS_tk(str(var.HS_Token_).encode(), key_) 
+
+    except requests.RequestException as e:
+        logger.error("Failed to get Historian Token Data: %s", repr(e))
+    except json.JSONDecodeError as e:
+        logger.error("Failed to decode JSON response: %s", repr(e))
     
-
-
-
 
     # Step 5 - Managing and reforming data into tags
     try:
@@ -84,42 +84,49 @@ def main():
     except Exception as e: 
         logger.error("Failed to manage tag data: %s\n", repr(e))
 
-    # 6 - Placing stored tags into queue then PUSH (TB TESTED)
-    # try:
+    # Step 6 - Placing stored tags into queue then PUSH (TB TESTED)
+    try:
+        #Load the token using the loaded key
+        var.HS_Token_= security.load_SC_tk(Fernet(key_))
+        print("\n")
+        print(var.HS_Token_)   
+        
+        utili.pathassigner("data")  # Ensure the correct path is set
 
-    #     # Openning the Tags file
-    #     with open(var.TAGS_PATH, "r") as file: 
-    #         file_data = json.load(file)
+        # Openning the Tags file
+        with open(var.TAGS_PATH, "r") as file: 
+            file_data = json.load(file)
 
-    #     q = Queue()
+        q = Queue()
 
-    #     # Placing tags into queue one by one.
-    #     for item in file_data: 
-    #         q.put(item)
+        # Placing tags into queue one by one.
+        for item in file_data: 
+            q.put(item)
 
-    #     # Pushing tags into Historian
-    #     while not q.empty():
-    #         element = q.get()
-    #         res = requests.post(var.URL_CREATE_TAG, json=element)
-    #         if res.status_code == 200: 
-    #             print(f"Successfully pushed: {element}")
-    #         else:
-    #             print(f"Failed to push: {element},
-    #                 Status code: {res.status_code}")
+        header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
+
+        # Pushing tags into Historian
+        while not q.empty():
+            element = q.get()
+            res = requests.post(var.URL_CREATE_TAG, json=element, headers=header_, verify=False)
+            if res.status_code == 200: 
+                print("Successfully pushed Tag")
+            else:
+                print("Failed to push Tag , Status code: " + str(res.status_code))
                 
-    #     # Emptying file to be reused with a new set
-    #     with open(var.TAGS_PATH, "w") as file: 
-    #         json.dump([], file)
-    #         print("JSON file has been emptied")
+        # Emptying file to be reused with a new set
+        with open(var.TAGS_PATH, "w") as file: 
+            json.dump([], file)
+            print("JSON file has been emptied")
 
-    # except FileNotFoundError as e: 
-    #     logger.error("File not found: %s", e)
-    # except json.JSONDecodeError as e:
-    #     logger.error("JSON decoding error: %s", e)
-    # except KeyError as e:
-    #     logger.error("Key error: %s", e)
-    # except Exception as e:
-    #     logger.error("Unexpected error in Queue stage: %s", repr(e))
+    except FileNotFoundError as e: 
+        logger.error("File not found: %s", e)
+    except json.JSONDecodeError as e:
+        logger.error("JSON decoding error: %s", e)
+    except KeyError as e:
+        logger.error("Key error: %s", e)
+    except Exception as e:
+        logger.error("Unexpected error in Queue stage: %s", repr(e))
 
 
     # Program Timer 
