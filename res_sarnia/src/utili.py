@@ -199,7 +199,7 @@ def get_tag_name(sensor_id, description, date, value):
         # Find the relevant line containing both the ID and key
         matching_line = next((line for line in lines if str(sensor_id) in line and key in line), None)
         if not matching_line:
-            logger.error("No matching tag found for ID '%s' and key '%s'.", sensor_id, key)
+            #logger.error("No matching tag found for ID '%s' and key '%s'.", sensor_id, key)
             return
           
         new_tag = {

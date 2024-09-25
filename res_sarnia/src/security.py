@@ -35,7 +35,7 @@ def load_key() -> bytes:
         return key
 
     except FileNotFoundError:
-        logger.error("Key file 'key.key' not found.")
+        logger.error("Key file 'SC.key' not found.")
         raise  # Re-raise the exception for handling upstream
     except Exception as e:
         logger.error("Failed to load the key: %s", repr(e))
@@ -57,8 +57,8 @@ def write_tk(token: bytes, key: bytes) -> None:
     except Exception as e:
         logger.error("Failed to write the token: %s", repr(e))
 
-# Loads and decrypts the token from the 'token.key' file.
-def load_tk(f: Fernet) -> bytes:
+# Loads and decrypts the token from the '.key' file.
+def load_SC_tk(f: Fernet) -> bytes:
     try:
         utili.pathassigner("keys")  # Ensure the correct path is set
 
@@ -70,7 +70,7 @@ def load_tk(f: Fernet) -> bytes:
         token = f.decrypt(encrypted_token)
         logger.info("Token loaded and decrypted successfully.")
         return token
-
+    
     except FileNotFoundError:
         logger.error("Token file 'token.key' not found.")
         raise  # Re-raise the exception for handling upstream

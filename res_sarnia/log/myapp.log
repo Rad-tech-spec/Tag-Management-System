@@ -375,3 +375,114 @@ INFO:__main__:Sarnia Data collected successfully.
 INFO:__main__:Tag data managed successfully.
 INFO:__main__:Execution time: 0.93 seconds.
 
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 12:39:56.127664
+INFO:__main__:Dates initialized.
+INFO:__main__:Token information updated.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 299 days
+INFO:__main__:Sarnia Data collected successfully.
+ERROR:utili:No matching tag found for ID '25523' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25523' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25523' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25523' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25523' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25937' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25937' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25937' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25937' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25937' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25674' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25674' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25674' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25674' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25674' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25663' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25663' and key 'LEVEL'.
+ERROR:utili:No matching tag found for ID '25663' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25663' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25663' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25663' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '20380' and key 'ANL'.
+ERROR:utili:No matching tag found for ID '20380' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '20380' and key 'SS'.
+ERROR:utili:No matching tag found for ID '20380' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '29173' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '29173' and key 'LEVEL'.
+ERROR:utili:No matching tag found for ID '29173' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '29173' and key 'SS'.
+ERROR:utili:No matching tag found for ID '29173' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '29870' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '29870' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '29870' and key 'SS'.
+ERROR:utili:No matching tag found for ID '29870' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '29870' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25946' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25946' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25946' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25946' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25946' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25678' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25678' and key 'LEVEL'.
+ERROR:utili:No matching tag found for ID '25678' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25678' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25678' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25678' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '29203' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '29203' and key 'LEVEL'.
+ERROR:utili:No matching tag found for ID '29203' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '29203' and key 'SS'.
+ERROR:utili:No matching tag found for ID '29203' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '30145' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '30145' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '30145' and key 'SS'.
+ERROR:utili:No matching tag found for ID '30145' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '30145' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25630' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25630' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25630' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25630' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25630' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25671' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25671' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25671' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25671' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25671' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '25676' and key 'BATT'.
+ERROR:utili:No matching tag found for ID '25676' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '25676' and key 'SS'.
+ERROR:utili:No matching tag found for ID '25676' and key 'SQ'.
+ERROR:utili:No matching tag found for ID '25676' and key 'FLOW'.
+ERROR:utili:No matching tag found for ID '26343' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '26343' and key 'RAIN'.
+ERROR:utili:No matching tag found for ID '31289' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '31289' and key 'RAIN'.
+ERROR:utili:No matching tag found for ID '31290' and key 'TEMP'.
+ERROR:utili:No matching tag found for ID '31290' and key 'RAIN'.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.55 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 13:34:38.412243
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.32 seconds.
+
+INFO:security:Encryption key loaded successfully.
+INFO:security:Token loaded and decrypted successfully.
+INFO:__main__:Executed on: 2024-09-25 13:34:57.359683
+INFO:__main__:Dates initialized.
+INFO:utili:Days Date: 09/25/24
+INFO:utili:Smart Cover Token Creation Date: 07/17/24
+INFO:utili:Smart Cover Token Expirs In: 297 days
+INFO:__main__:Sarnia Data collected successfully.
+INFO:__main__:Tag data managed successfully.
+INFO:__main__:Execution time: 0.25 seconds.
+

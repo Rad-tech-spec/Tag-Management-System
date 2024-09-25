@@ -11,27 +11,31 @@ logger = logging.getLogger(__name__)
 utili.pathassigner("log")
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
-# Write a new key (uncomment to enable)
-# defs.write_key()  # Writes a new key
-
-try:
-    # Load the encryption key from the key file
-    key_ = security.load_key()
-
-    # Uncomment the following line to get a new token if expired
-    # utili.write_token(var.SC_Token_.encode(), key_) 
-
-    # Uncomment the following line to get a new token if expired
-    # utili.write_token(var.HS_Token_.encode(), key_) 
-
-    # Load the token using the loaded key
-    var.Token_ = security.load_tk(Fernet(key_))
-
-    header_ = {"Authorization": "Bearer {}".format(var.Token_.decode())}
-except Exception as e:
-    logger.error("Error occurred during key or token operations: %s", repr(e))
 
 def main():
+
+    try:
+        # Write a new key (uncomment to enable)
+        # defs.write_key()  # Writes a new key
+
+        # Load the encryption key from the key file
+        key_ = security.load_key()
+
+        # Uncomment the following line to get a new token if expired
+        # utili.write_token(var.SC_Token_.encode(), key_) 
+
+        # Load the token using the loaded key
+        var.SC_Token_= security.load_SC_tk(Fernet(key_))
+
+        # Smart Cover Header
+        header_sc = {"Authorization": "Bearer {}".format(var.SC_Token_.decode())}
+
+        # Historian Header
+        #header_hs = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
+
+        
+    except Exception as e:
+        logger.error("Error occurred during key or token operations: %s", repr(e))
     
     # Step 1 - Housekeeping
     logger.info("Executed on: %s", datetime.datetime.now())
@@ -45,11 +49,11 @@ def main():
     utili.showinfo()
 
     # Step 2 - Checking Smart Cover Token
-    security.sc_tk_m(header_, key_)
+    security.sc_tk_m(header_sc, key_)
 
     # Step 3 - GET request collecting live data from Smart Cover
     try:
-        response = requests.get(var.URL_LIST, headers=header_, verify=False)
+        response = requests.get(var.URL_LIST, headers=header_sc, verify=False)
         response.raise_for_status()  # Raise an error for bad responses
         utili.write_sc_data(json.loads(response.content))
         logger.info("Sarnia Data collected successfully.")
@@ -60,6 +64,16 @@ def main():
 
     # Step 4 - Checking Historian Token 
     # (Implement your historian token check here)
+    # try: 
+    #     res = requests.get(var.URL_HS_TOKEN, headers=header_hs, verify=False)
+    #     response.raise_for_status()  # Raise an error for bad responses    
+
+    # except requests.RequestException as e:
+    #     logger.error("Failed to get Historian Token Data: %s", repr(e))
+    # except json.JSONDecodeError as e:
+    #     logger.error("Failed to decode JSON response: %s", repr(e))
+    
+
 
 
 

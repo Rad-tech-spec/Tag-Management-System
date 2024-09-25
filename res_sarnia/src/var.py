@@ -8,7 +8,7 @@ TAG_NAMES = "tagnames.txt"
 SC_Token_ = "" # Initialize with new token if expired
 
 # Historian
-URL_TOKEN = "https://snwpcc-hist1:8443/uaa/oauth/token?grant_type=password&username=SNWPCC-HIST1.admin&password=8$arniA"
+URL_HS_TOKEN = "https://w10pro64-1:8443/uaa/oauth/token?grant_type=password&username=W10PRO64-1.admin&password=8$arniA" # Need to be adjusted based on computer name
 URL_CREATE_TAG = "https://snwpcc-hist1:8443/historian-rest-api/v1/datapoints/create"
 TAGS_PATH = "tag.json"
 HS_KEY = "HS.key"
