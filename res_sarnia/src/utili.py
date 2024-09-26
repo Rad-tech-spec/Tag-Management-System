@@ -163,8 +163,7 @@ def m_data_types():
                     # Call the function to get the tag name
                     get_tag_name(
                         location_id, 
-                        description, 
-                        last_reading[0], 
+                        description,  
                         last_reading[1]
                     )
 
@@ -178,7 +177,7 @@ def m_data_types():
         logger.error("Unexpected error in m_data_types: %s", repr(e))   
     
 
-def get_tag_name(sensor_id, description, date, value):
+def get_tag_name(sensor_id, description, value):
     try:
         # Retrieve sensor keys and values
         sensor_keys = list(var.SENSORS.keys())
@@ -204,10 +203,10 @@ def get_tag_name(sensor_id, description, date, value):
           
         new_tag = {
             "TagName": matching_line.strip(),
-            "Samples": 
+            "samples": 
             [
                 {
-                    "TimeStamp": fix_dt_format(date).replace(" ", ""),
+                    "TimeStamp": fix_dt_format().replace(" ", ""),
                     "Value": str(value),
                     "Quality": 3
                 }
@@ -228,7 +227,6 @@ def get_tag_name(sensor_id, description, date, value):
         with open(var.TAGS_PATH, "w") as file:
             json.dump(tag_data, file, indent=4)
 
-
     except FileNotFoundError as e:
         logger.error("File not found: %s", e)
     except json.JSONDecodeError as e:
@@ -239,20 +237,15 @@ def get_tag_name(sensor_id, description, date, value):
         logger.error("Unexpected error in get_tag_name: %s", repr(e))
 
 # Formatting date base on valid format.
-def fix_dt_format(date):
-    if date:
-        try:
-            # Parameter date format 'YYYY-MM-DD HH:MM:SS'
-            # Adjust slicing if 'date' format is different
-            return date[:10] + "T" + date[11:] + ":00.000Z"
-        except IndexError:
-            # Handle cases where 'date' might not be in the expected format
-            return None
-    else:
-        # Generate current datetime in ISO format and adjust to include milliseconds and timezone
+def fix_dt_format():
+    try:
+        # Parameter date format 'YYYY-MM-DD HH:MM:SS'
+        # Adjust slicing if 'date' format is different
         now = datetime.now()
         return now.strftime("%Y-%m-%dT%H:%M:%S.000Z")
-    
+    except IndexError:
+        # Handle cases where 'date' might not be in the expected format
+        return None
 
 
 

@@ -66,9 +66,8 @@ def main():
         response.raise_for_status()  # Raise an error for bad responses    
         res_data = res.json()
         var.HS_Token_ = res_data["access_token"]
-        print(var.HS_Token_)
-        
-        # Uncomment the following line to get a new token if expired
+
+        # Writes and encrypts the new token 
         security.write_HS_tk(str(var.HS_Token_).encode(), key_) 
 
     except requests.RequestException as e:
@@ -86,23 +85,20 @@ def main():
 
     # Step 6 - Placing stored tags into queue then PUSH (TB TESTED)
     try:
+        q = Queue()
         #Load the token using the loaded key
-        var.HS_Token_= security.load_SC_tk(Fernet(key_))
-        print("\n")
-        print(var.HS_Token_)   
+        var.HS_Token_= security.load_HS_tk(Fernet(key_))
         
         utili.pathassigner("data")  # Ensure the correct path is set
-
         # Openning the Tags file
         with open(var.TAGS_PATH, "r") as file: 
             file_data = json.load(file)
-
-        q = Queue()
 
         # Placing tags into queue one by one.
         for item in file_data: 
             q.put(item)
 
+        # Header 
         header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
 
         # Pushing tags into Historian
