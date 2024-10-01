@@ -45,9 +45,9 @@ def init_tk_dt() -> int:
             data = json.load(infile)
         
         # Initialize variables with data from the JSON file
-        var.Token_cr_at = data.get("Token_cr_at")
-        var.daysdate_ = data.get("daysdate")
-        var.exp_time_ = data.get("exp_time")
+        var.Token_cr_at = data["Token_cr_at"]
+        var.daysdate_ = data["daysdate"]
+        var.exp_time_ = data["exp_time"]
 
         return 1  # Indicate success
     except FileNotFoundError:
@@ -74,7 +74,7 @@ def upt_tk_info():
             data = json.load(infile)
 
         # Check if daysdate has changed
-        if data.get("daysdate") != var.daysdate_:
+        if data["daysdate"] != var.daysdate_:
             # Calculate expiration time
             value = calc_dt()
             data["daysdate"] = var.daysdate_
@@ -146,20 +146,23 @@ def m_data_types():
             data = json.load(infile)
         
         # Process each location in the data
-        for location in data.get("locations", []):
-            location_id = location.get("id")
+        for location in data["locations"]:
+            location_id = location["id"]
             
-            # Skip locations with IDs in var.IG_ID
+            # Skip locations with IDs in var.IG_ID 
             if location_id in var.IG_ID:
                 continue
             
             # Process each data type in the location
-            for data_type in location.get("data_types", []):
-                description = data_type.get("description")
-                last_reading = data_type.get("last_reading")
+            for data_type in location["data_types"]:
+                if "last_reading" in data_type:
+                    description = data_type["description"]
+                    last_reading = data_type["last_reading"]
+                else: 
+                    continue
                 
                 # Ensure required fields are present
-                if last_reading and description and description != var.IG_PARA:
+                if last_reading and description:
                     # Call the function to get the tag name
                     get_tag_name(
                         location_id, 
@@ -172,7 +175,7 @@ def m_data_types():
     except json.JSONDecodeError:
         logger.error("Error decoding JSON from 'data.json'.")
     except KeyError as e:
-        logger.error("Missing expected key in JSON data: %s", e)
+        logger.error("Missing expected key in JSON data: %s %s", e, location_id)
     except Exception as e:
         logger.error("Unexpected error in m_data_types: %s", repr(e))   
     
@@ -190,6 +193,9 @@ def get_tag_name(sensor_id, description, value):
         
         position = sensor_values.index(description)
         key = sensor_keys[position]
+
+        if key == "LEVEL_2":
+            key = "LEVEL"
 
         # Read the tag names from file
         with open(var.TAG_NAMES, "r") as file:
@@ -217,8 +223,6 @@ def get_tag_name(sensor_id, description, value):
         try:
             with open(var.TAGS_PATH, "r") as file:
                 tag_data = json.load(file)
-                #print(type(tag_data))  # Check if it's a dict or list
-                #print(tag_data)        # Print the current structure
         except FileNotFoundError:
             tag_data = []
 
@@ -246,14 +250,3 @@ def fix_dt_format():
     except IndexError:
         # Handle cases where 'date' might not be in the expected format
         return None
-
-
-
-
-
-
-# def posting_tag():
-#     print("Making a POST request.")
-#     api_url = "https://snwpcc-hist1:8443/historian-rest-api/v1/datapoints/create"
-#     response = requests.post(api_url, json = )
-#     response.json()

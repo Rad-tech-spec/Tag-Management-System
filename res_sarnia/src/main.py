@@ -40,7 +40,7 @@ def main():
         logger.info("Dates initialized.")
     
     if utili.upt_tk_info() == 1:
-        logger.info("Token information updated.")
+        logger.info("Token infomation updated.")
     
     utili.showinfo()
 
@@ -58,11 +58,9 @@ def main():
     except json.JSONDecodeError as e:
         logger.error("Failed to decode JSON response: %s", repr(e))
 
-    # Step 4 - Checking Historian Token 
-    # (Implement your historian token check here)
-
+    # Step 4 - Managing Historian Token 
     try: 
-        res = requests.get(var.URL_HS_TOKEN, auth=('historian_public_rest_api','publicapisecret'), verify=False)
+        res = requests.get(var.URL_HS_TOKEN, auth=(var.User_,var.Pass_), verify=False)
         response.raise_for_status()  # Raise an error for bad responses    
         res_data = res.json()
         var.HS_Token_ = res_data["access_token"]
@@ -79,16 +77,16 @@ def main():
     # Step 5 - Managing and reforming data into tags
     try:
         utili.m_data_types()
-        logger.info("Tag data managed successfully.")
+        logger.info("Tags generated successfully.")
     except Exception as e: 
         logger.error("Failed to manage tag data: %s\n", repr(e))
 
-    # Step 6 - Placing stored tags into queue then PUSH (TB TESTED)
+    # Step 6 - Pushing tag from Queue 
     try:
         q = Queue()
         #Load the token using the loaded key
         var.HS_Token_= security.load_HS_tk(Fernet(key_))
-        
+
         utili.pathassigner("data")  # Ensure the correct path is set
         # Openning the Tags file
         with open(var.TAGS_PATH, "r") as file: 

@@ -127,18 +127,19 @@ def sc_tk_m(header_, key_):
                 
                 gettoken_ = response.json()
                 logger.info("New token response: %s", gettoken_)
+            
                 
                 # Extract the new token
-                if gettoken_.get("response_code") == 0:
-                    var.Token_ = str(gettoken_.get("token"))
-                    write_SC_tk(var.Token_.encode(), key_)
+                if gettoken_["response_code"] == 0:
+                    var.SC_Token_ = str(gettoken_["token"])
+                    write_SC_tk(var.SC_Token_.encode(), key_)
                     
-                    if upt_new_tk_dt(gettoken_.get("days_remaining")) == 1:
+                    if upt_new_tk_dt(gettoken_["days_remaining"]) == 1:
                         logger.info("Token information updated in info.json.")
                     
                     logger.info("Token updated. Expires in %d days.", var.exp_time_)
                 else:
-                    logger.error("Failed to obtain a valid token. Response code: %d", gettoken_.get("response_code"))
+                    logger.error("Failed to obtain a valid token. Response code: %d", gettoken_["response_code"])
 
             except requests.RequestException as req_err:
                 logger.error("Failed to update token due to request error: %s", repr(req_err))

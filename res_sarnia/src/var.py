@@ -12,10 +12,13 @@ URL_HS_TOKEN = "https://snwpcc-hist1:8443/uaa/oauth/token?grant_type=password&us
 URL_CREATE_TAG = "https://snwpcc-hist1:8443/historian-rest-api/v1/datapoints/create"
 TAGS_PATH = "tag.json"
 HS_KEY = "HS.key"
+User_ = 'historian_public_rest_api'
+Pass_ = 'publicapisecret'
 HS_Token_ = ""
 
+
 # TK Parameters
-Token_cr_at = None  
+Token_cr_at = ""
 daysdate_ = None
 exp_time_ = None
 TK_INFO_PATH = "info.json"
@@ -25,17 +28,18 @@ KEY = "key.key"
 # Dictionaries
 SENSORS = dict(
     BATT = "PowerPack Voltage", 
-    LEVEL = "Water Level above Bottom", 
+    LEVEL = "Water Level above Bottom",
     ANL = "Analog Sensor",
     SQ =  "Signal Quality", 
     SS =  "Signal Strength", 
     TEMP =  "Temperature", 
     FLOW =  "SmartFLOE(TM)", 
-    RAIN = "Rain"
+    RAIN = "Rain",
+    LEVEL_2 = "Distance below Sensor"
 )
 
 # Ignoring ids
 IG_ID = (39583, 39704, 40694)
-IG_PARA = "Distance below Sensor"
+
 
 
