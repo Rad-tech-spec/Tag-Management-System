@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 import urllib3, json, datetime, time
-import requests, utili, logging, var, security
+import requests, utili, logging, var, security, os
 from queue import Queue
 
 st = time.time()
@@ -13,7 +13,7 @@ logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
 
 def main():
-
+    logger.info("Executed on: %s", datetime.datetime.now())
     try:
         # Write a new key (uncomment to enable)
         # defs.write_key()  # Writes a new key
@@ -34,8 +34,6 @@ def main():
         logger.error("Error occurred during key or token operations: %s", repr(e))
     
     # Step 1 - Housekeeping
-    logger.info("Executed on: %s", datetime.datetime.now())
-    
     if utili.init_tk_dt() == 1:
         logger.info("Dates initialized.")
     
@@ -87,31 +85,47 @@ def main():
         #Load the token using the loaded key
         var.HS_Token_= security.load_HS_tk(Fernet(key_))
 
-        utili.pathassigner("data")  # Ensure the correct path is set
-        # Openning the Tags file
-        with open(var.TAGS_PATH, "r") as file: 
-            file_data = json.load(file)
+        # Ensure the correct path is set
+        utili.pathassigner("tags")  
+        
+        # Collecting file names 
+        utili.collect_files()
+        
+        for path_ in var.file_names:
+            
+            # Openning the Tags file
+            with open(path_, "r") as file: 
+                file_data = json.load(file)
 
-        # Placing tags into queue one by one.
-        for item in file_data: 
-            q.put(item)
+            # Placing tags into queue one by one
+            for item in file_data: 
+                q.put(item)
 
-        # Header 
-        header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
+            logger.info("Total Tags in Queue: " + str(q.qsize()))
 
-        # Pushing tags into Historian
-        while not q.empty():
-            element = q.get()
-            res = requests.post(var.URL_CREATE_TAG, json=element, headers=header_, verify=False)
-            if res.status_code == 200: 
-                print("Successfully pushed Tag")
-            else:
-                print("Failed to push Tag , Status code: " + str(res.status_code))
-                
-        # Emptying file to be reused with a new set
-        with open(var.TAGS_PATH, "w") as file: 
-            json.dump([], file)
-            print("JSON file has been emptied")
+            # Header 
+            header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
+
+            # Pushing tags into Historian
+            while not q.empty():
+                element = q.get()
+                res = requests.post(var.URL_CREATE_TAG, json=element, headers=header_ ,verify=False)
+                if res.status_code == 200: 
+                    print("Successfully pushed Tag")
+                    var.Ct += 1
+                else:
+                    print("Failed to push Tag , Status code: " + str(res.status_code))
+                    var.switch = False
+            
+            logger.info("Total tags Pushed: " + str(var.Ct))
+            # Emptying file to be reused with a new set
+            if var.switch == True: 
+                with open(path_, "w") as file:
+                    file.close() 
+                    os.remove(path_)
+                    print(str(path_) + " Deleted")
+                    
+               
 
     except FileNotFoundError as e: 
         logger.error("File not found: %s", e)

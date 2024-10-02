@@ -31,7 +31,6 @@ logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
 # Logs the current token creation date, days date, and expiration time.
 def showinfo() -> None:
-    logger.info("Days Date: %s", var.daysdate_)
     logger.info("Smart Cover Token Creation Date: %s", var.Token_cr_at)
     logger.info("Smart Cover Token Expirs In: %d days", var.exp_time_)
 
@@ -48,7 +47,7 @@ def init_tk_dt() -> int:
         var.Token_cr_at = data["Token_cr_at"]
         var.daysdate_ = data["daysdate"]
         var.exp_time_ = data["exp_time"]
-
+        crt_tag_file()
         return 1  # Indicate success
     except FileNotFoundError:
         logger.error("File 'info.json' not found.")
@@ -197,6 +196,7 @@ def get_tag_name(sensor_id, description, value):
         if key == "LEVEL_2":
             key = "LEVEL"
 
+        pathassigner("data") 
         # Read the tag names from file
         with open(var.TAG_NAMES, "r") as file:
             lines = file.readlines()
@@ -204,7 +204,7 @@ def get_tag_name(sensor_id, description, value):
         # Find the relevant line containing both the ID and key
         matching_line = next((line for line in lines if str(sensor_id) in line and key in line), None)
         if not matching_line:
-            #logger.error("No matching tag found for ID '%s' and key '%s'.", sensor_id, key)
+            logger.error("No matching tag found for ID '%s' and key '%s'.", sensor_id, key)
             return
           
         new_tag = {
@@ -221,13 +221,14 @@ def get_tag_name(sensor_id, description, value):
 
         # Read the JSON file, update it, and write back
         try:
+            pathassigner("tags") 
             with open(var.TAGS_PATH, "r") as file:
                 tag_data = json.load(file)
         except FileNotFoundError:
             tag_data = []
 
         tag_data.append(new_tag)
-        
+        pathassigner("tags") 
         with open(var.TAGS_PATH, "w") as file:
             json.dump(tag_data, file, indent=4)
 
@@ -250,3 +251,26 @@ def fix_dt_format():
     except IndexError:
         # Handle cases where 'date' might not be in the expected format
         return None
+
+def crt_tag_file():
+    pathassigner("tags")
+    now = datetime.now()
+    now = now.strftime("%Y-%m-%d-%H-%M")
+    var.TAGS_PATH = str(now)+".json"
+    with open(var.TAGS_PATH, "w") as file:
+        file.write("[]")
+
+def collect_files():
+    try: 
+        for file_name in os.listdir(var.folder_path):
+            file_path = os.path.join(var.folder_path, file_name)
+
+            if os.path.isfile(file_path):
+                var.file_names.append(file_name)
+
+        var.Ct_file = len(var.file_names)
+        
+    except FileNotFoundError as e:
+        logger.error("The folder path does not exist: %s", e)
+    except PermissionError: 
+        logger.error("You do not have premission to access folder path: %s", e)

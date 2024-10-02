@@ -68,7 +68,7 @@ def load_SC_tk(f: Fernet) -> bytes:
         
         # Decrypt the token
         token = f.decrypt(encrypted_token)
-        logger.info("Token loaded and decrypted successfully.")
+        logger.info("Smart Cover Token decrypted successfully.")
         return token
     
     except FileNotFoundError:
@@ -165,7 +165,7 @@ def write_HS_tk(token: bytes, key: bytes) -> None:
         with open(var.HS_KEY, "wb") as outfile:
             outfile.write(f.encrypt(token))
         
-        logger.info("Token encrypted and written to 'HS.key'.")
+        logger.info("Historian token encrypted.")
 
     except Exception as e:
         logger.error("Failed to write the token: %s", repr(e))
@@ -182,7 +182,7 @@ def load_HS_tk(f: Fernet) -> bytes:
         
         # Decrypt the token
         token = f.decrypt(encrypted_token)
-        logger.info("Token loaded and decrypted successfully.")
+        logger.info("Historian token loaded successfully.")
         return token
     
     except FileNotFoundError:

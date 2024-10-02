@@ -1,4 +1,0 @@
-curl --compressed --header 
-"Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3BrIjoiMTAxNTgiLCJpYXQiOjE3MTkyNTM4NzgsImV4cCI6MTc1MDc4OTg3OH0.sP3LU3pHJbkRkrRiF2voerWx8meACJRyfubcFT9FomE" 
-"https://www.mysmartcover.com/api/locations/list.php" 
--k

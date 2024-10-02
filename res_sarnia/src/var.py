@@ -10,11 +10,16 @@ SC_Token_ = "" # Initialize with new token if expired
 # Historian
 URL_HS_TOKEN = "https://snwpcc-hist1:8443/uaa/oauth/token?grant_type=password&username=SNWPCC-HIST1.admin&password=8$arniA" # Need to be adjusted based on computer name
 URL_CREATE_TAG = "https://snwpcc-hist1:8443/historian-rest-api/v1/datapoints/create"
-TAGS_PATH = "tag.json"
+TAGS_PATH = ""
 HS_KEY = "HS.key"
 User_ = 'historian_public_rest_api'
 Pass_ = 'publicapisecret'
 HS_Token_ = ""
+Ct = 0
+Ct_file = 0
+switch = True
+folder_path = "../tags"
+file_names = []
 
 
 # TK Parameters
