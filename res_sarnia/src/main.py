@@ -1,19 +1,14 @@
+import urllib3, json, datetime, time, requests, utili, var, security, os
 from cryptography.fernet import Fernet
-import urllib3, json, datetime, time
-import requests, utili, logging, var, security, os
+from logconfig import logging
 from queue import Queue
 
+
 st = time.time()
-
 urllib3.disable_warnings()
-logger = logging.getLogger(__name__)
-
-utili.pathassigner("log")
-logging.basicConfig(filename='myapp.log', level=logging.INFO)
-
 
 def main():
-    logger.info("Executed on: %s", datetime.datetime.now())
+    logging.info("Exceution Started.")
     try:
         # Write a new key (uncomment to enable)
         # defs.write_key()  # Writes a new key
@@ -31,14 +26,14 @@ def main():
         header_sc = {"Authorization": "Bearer {}".format(var.SC_Token_.decode())}
 
     except Exception as e:
-        logger.error("Error occurred during key or token operations: %s", repr(e))
+        logging.error("Error occurred during key or token operations: %s", repr(e))
     
     # Step 1 - Housekeeping
     if utili.init_tk_dt() == 1:
-        logger.info("Dates initialized.")
+        logging.info("Dates initialized successully.")
     
     if utili.upt_tk_info() == 1:
-        logger.info("Token infomation updated.")
+        logging.info("Token infomation updated successfully.")
     
     utili.showinfo()
 
@@ -50,11 +45,11 @@ def main():
         response = requests.get(var.URL_LIST, headers=header_sc, verify=False)
         response.raise_for_status()  # Raise an error for bad responses
         utili.write_sc_data(json.loads(response.content))
-        logger.info("Sarnia Data collected successfully.")
+        logging.info("Sarnia Data collected successfully.")
     except requests.RequestException as e:
-        logger.error("Failed to collect Sarnia Data: %s", repr(e))
+        logging.error("Failed to collect Sarnia Data: %s", repr(e))
     except json.JSONDecodeError as e:
-        logger.error("Failed to decode JSON response: %s", repr(e))
+        logging.error("Failed to decode JSON response: %s", repr(e))
 
     # Step 4 - Managing Historian Token 
     try: 
@@ -67,17 +62,17 @@ def main():
         security.write_HS_tk(str(var.HS_Token_).encode(), key_) 
 
     except requests.RequestException as e:
-        logger.error("Failed to get Historian Token Data: %s", repr(e))
+        logging.error("Failed to get Historian Token Data: %s", repr(e))
     except json.JSONDecodeError as e:
-        logger.error("Failed to decode JSON response: %s", repr(e))
+        logging.error("Failed to decode JSON response: %s", repr(e))
     
 
     # Step 5 - Managing and reforming data into tags
     try:
         utili.m_data_types()
-        logger.info("Tags generated successfully.")
+        logging.info("Tags generated successfully.")
     except Exception as e: 
-        logger.error("Failed to manage tag data: %s\n", repr(e))
+        logging.error("Failed to manage tag data: %s\n", repr(e))
 
     # Step 6 - Pushing tag from Queue 
     try:
@@ -101,7 +96,8 @@ def main():
             for item in file_data: 
                 q.put(item)
 
-            logger.info("Total Tags in Queue: " + str(q.qsize()))
+            logging.info("------ Files to be pushed: "+str(var.Ct_file)+" ------")
+            logging.info("Total Tags in Queue: " + str(q.qsize()))
 
             # Header 
             header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
@@ -117,7 +113,7 @@ def main():
                     print("Failed to push Tag , Status code: " + str(res.status_code))
                     var.switch = False
             
-            logger.info("Total tags Pushed: " + str(var.Ct))
+            logging.info("Total tags Pushed: " + str(var.Ct))
             # Emptying file to be reused with a new set
             if var.switch == True: 
                 with open(path_, "w") as file:
@@ -128,18 +124,18 @@ def main():
                
 
     except FileNotFoundError as e: 
-        logger.error("File not found: %s", e)
+        logging.error("File not found: %s", e)
     except json.JSONDecodeError as e:
-        logger.error("JSON decoding error: %s", e)
+        logging.error("JSON decoding error: %s", e)
     except KeyError as e:
-        logger.error("Key error: %s", e)
+        logging.error("Key error: %s", e)
     except Exception as e:
-        logger.error("Unexpected error in Queue stage: %s", repr(e))
+        logging.error("Unexpected error in Queue stage: %s", repr(e))
 
 
     # Program Timer 
     elapsed_time = time.time() - st 
-    logger.info("Execution time: %.2f seconds.\n", elapsed_time)
+    logging.info("Execution time: %.2f seconds.\n", elapsed_time)
 
 if __name__ == '__main__':
     main()

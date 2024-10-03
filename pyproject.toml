@@ -1,0 +1,17 @@
+[project]
+name = "Tag_management"
+version = "1.0.0"
+authors = [
+  { name="Rad Eshghi", email="Rad.Eshghi@actemium.com" },
+]
+description = "Tag management system for Sarnia x Smart Cover"
+readme = "README.md"
+requires-python = ">=3.12.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Windows Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Rad-tech-spec/Historian-Sarnia"

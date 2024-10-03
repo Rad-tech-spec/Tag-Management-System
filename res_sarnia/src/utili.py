@@ -2,8 +2,6 @@ from dateutil import relativedelta
 from datetime import datetime
 import json, var, os, logging
 
-logger = logging.getLogger(__name__)
-
 # Folder switcher
 def pathassigner(new_dir: str) -> None:
     """Changes the current working directory to a specified folder.
@@ -19,20 +17,18 @@ def pathassigner(new_dir: str) -> None:
         # Change to the target directory
         os.chdir(target_dir)
         
-        #logger.info("Changed directory to: %s", target_dir)
+        #logging.info("Changed directory to: %s", target_dir)
 
     except FileNotFoundError:
-        logger.error("Target directory '%s' not found.", target_dir)
+        logging.error("Target directory '%s' not found.", target_dir)
     except Exception as e:
-        logger.error("Failed to change directory: %s", repr(e))
+        logging.error("Failed to change directory: %s", repr(e))
 
-pathassigner("log")
-logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
 # Logs the current token creation date, days date, and expiration time.
 def showinfo() -> None:
-    logger.info("Smart Cover Token Creation Date: %s", var.Token_cr_at)
-    logger.info("Smart Cover Token Expirs In: %d days", var.exp_time_)
+    logging.info("Smart Cover Token Creation Date: %s", var.Token_cr_at)
+    logging.info("Smart Cover Token Expirs In: %d days", var.exp_time_)
 
 # Initializing current updated JSON values every run.
 def init_tk_dt() -> int:
@@ -50,13 +46,13 @@ def init_tk_dt() -> int:
         crt_tag_file()
         return 1  # Indicate success
     except FileNotFoundError:
-        logger.error("File 'info.json' not found.")
+        logging.error("File 'info.json' not found.")
     except json.JSONDecodeError:
-        logger.error("Error decoding JSON from 'info.json'.")
+        logging.error("Error decoding JSON from 'info.json'.")
     except KeyError as e:
-        logger.error("Missing expected key in JSON data: %s", repr(e))
+        logging.error("Missing expected key in JSON data: %s", repr(e))
     except Exception as e:
-        logger.error("Unexpected error in init_tk_dt: %s", repr(e))
+        logging.error("Unexpected error in init_tk_dt: %s", repr(e))
     
     return 0  # Indicate failure
 
@@ -88,11 +84,11 @@ def upt_tk_info():
         return 0  # Return 0 if no update was needed
 
     except FileNotFoundError:
-        logger.error("File 'info.json' not found.")
+        logging.error("File 'info.json' not found.")
     except json.JSONDecodeError:
-        logger.error("Error decoding JSON from 'info.json'.")
+        logging.error("Error decoding JSON from 'info.json'.")
     except Exception as e:
-        logger.error("Unexpected error in upt_tk_info: %s", repr(e))
+        logging.error("Unexpected error in upt_tk_info: %s", repr(e))
 
     return 0
 
@@ -114,10 +110,10 @@ def calc_dt():
         return total_days
 
     except ValueError as e:
-        logger.error("Date parsing error: %s", e)
+        logging.error("Date parsing error: %s", e)
         return None
     except Exception as e:
-        logger.error("Unexpected error in calc_dt: %s", repr(e))
+        logging.error("Unexpected error in calc_dt: %s", repr(e))
         return None
 
 # Write SC response into a file
@@ -130,9 +126,9 @@ def write_sc_data(response):
             json.dump(response, outfile, indent=4)
 
     except IOError as e:
-        logger.error("Error writing to file 'data.json': %s", e)
+        logging.error("Error writing to file 'data.json': %s", e)
     except Exception as e:
-        logger.error("Unexpected error in write_sc_data: %s", repr(e))
+        logging.error("Unexpected error in write_sc_data: %s", repr(e))
 
 # Collecting needed prameters from SC
 # Task: Compare sensor type
@@ -170,13 +166,13 @@ def m_data_types():
                     )
 
     except FileNotFoundError:
-        logger.error("File 'data.json' not found.")
+        logging.error("File 'data.json' not found.")
     except json.JSONDecodeError:
-        logger.error("Error decoding JSON from 'data.json'.")
+        logging.error("Error decoding JSON from 'data.json'.")
     except KeyError as e:
-        logger.error("Missing expected key in JSON data: %s %s", e, location_id)
+        logging.error("Missing expected key in JSON data: %s %s", e, location_id)
     except Exception as e:
-        logger.error("Unexpected error in m_data_types: %s", repr(e))   
+        logging.error("Unexpected error in m_data_types: %s", repr(e))   
     
 
 def get_tag_name(sensor_id, description, value):
@@ -187,7 +183,7 @@ def get_tag_name(sensor_id, description, value):
         
         # Find the corresponding key for the description
         if description not in sensor_values:
-            logger.error("Description '%s' not found in sensor values.", description)
+            logging.error("Description '%s' not found in sensor values.", description)
             return
         
         position = sensor_values.index(description)
@@ -204,7 +200,7 @@ def get_tag_name(sensor_id, description, value):
         # Find the relevant line containing both the ID and key
         matching_line = next((line for line in lines if str(sensor_id) in line and key in line), None)
         if not matching_line:
-            logger.error("No matching tag found for ID '%s' and key '%s'.", sensor_id, key)
+            logging.error("No matching tag found for ID '%s' and key '%s'.", sensor_id, key)
             return
           
         new_tag = {
@@ -233,13 +229,13 @@ def get_tag_name(sensor_id, description, value):
             json.dump(tag_data, file, indent=4)
 
     except FileNotFoundError as e:
-        logger.error("File not found: %s", e)
+        logging.error("File not found: %s", e)
     except json.JSONDecodeError as e:
-        logger.error("JSON decoding error: %s", e)
+        logging.error("JSON decoding error: %s", e)
     except KeyError as e:
-        logger.error("Key error: %s", e)
+        logging.error("Key error: %s", e)
     except Exception as e:
-        logger.error("Unexpected error in get_tag_name: %s", repr(e))
+        logging.error("Unexpected error in get_tag_name: %s", repr(e))
 
 # Formatting date base on valid format.
 def fix_dt_format():
@@ -271,6 +267,6 @@ def collect_files():
         var.Ct_file = len(var.file_names)
         
     except FileNotFoundError as e:
-        logger.error("The folder path does not exist: %s", e)
+        logging.error("The folder path does not exist: %s", e)
     except PermissionError: 
-        logger.error("You do not have premission to access folder path: %s", e)
+        logging.error("You do not have premission to access folder path: %s", e)
