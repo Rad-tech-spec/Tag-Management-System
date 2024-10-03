@@ -1,14 +1,13 @@
-import urllib3, json, datetime, time, requests, utili, var, security, os
+import urllib3, json, time, requests, utili, var, security, os
 from cryptography.fernet import Fernet
 from logconfig import logging
 from queue import Queue
-
 
 st = time.time()
 urllib3.disable_warnings()
 
 def main():
-    logging.info("Exceution Started.")
+    logging.info("------ Exceution Started. ------")
     try:
         # Write a new key (uncomment to enable)
         # defs.write_key()  # Writes a new key
@@ -85,7 +84,7 @@ def main():
         
         # Collecting file names 
         utili.collect_files()
-        
+        logging.info("------ Files to be pushed: "+str(var.Ct_file)+" ------")
         for path_ in var.file_names:
             
             # Openning the Tags file
@@ -96,7 +95,6 @@ def main():
             for item in file_data: 
                 q.put(item)
 
-            logging.info("------ Files to be pushed: "+str(var.Ct_file)+" ------")
             logging.info("Total Tags in Queue: " + str(q.qsize()))
 
             # Header 
@@ -114,6 +112,7 @@ def main():
                     var.switch = False
             
             logging.info("Total tags Pushed: " + str(var.Ct))
+            var.Ct = 0 # Resetting count
             # Emptying file to be reused with a new set
             if var.switch == True: 
                 with open(path_, "w") as file:
