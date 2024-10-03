@@ -121,8 +121,6 @@ def main():
                     os.remove(path_)
                     print(str(path_) + " Deleted")
                     
-               
-
     except FileNotFoundError as e: 
         logging.error("File not found: %s", e)
     except json.JSONDecodeError as e:
