@@ -41,7 +41,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-03 16:28",
+                        "2024-10-03 17:28",
                         303
                     ]
                 },
@@ -76,7 +76,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-03 16:28",
+                        "2024-10-03 17:28",
                         0
                     ]
                 }
@@ -630,7 +630,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-03 16:15",
+                        "2024-10-03 17:15",
                         1
                     ]
                 },
@@ -665,7 +665,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-03 16:15",
+                        "2024-10-03 17:15",
                         0
                     ]
                 }
@@ -804,8 +804,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-03 16:18",
-                        -55
+                        "2024-10-03 17:18",
+                        -59
                     ]
                 },
                 {
@@ -839,7 +839,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-03 16:18",
+                        "2024-10-03 17:18",
                         0
                     ]
                 }
@@ -891,7 +891,7 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-03 16:29",
+                        "2024-10-03 17:29",
                         38
                     ]
                 },

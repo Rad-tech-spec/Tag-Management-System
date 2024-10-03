@@ -1,6 +1,12 @@
 {
+<<<<<<< HEAD
     "Token_cr_at": "09/30/24",
     "daysdate": "10/03/24",
     "exp_time": 362,
+=======
+    "Token_cr_at": "07/17/24",
+    "daysdate": "09/20/24",
+    "exp_time": 302,
+>>>>>>> main
     "token": ""
 }
