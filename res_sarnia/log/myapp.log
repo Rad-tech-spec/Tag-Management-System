@@ -645,3 +645,101 @@ Exceution Started.
 [INFO] 2024-10-03 14:43:07 [main]: Total tags Pushed: 87
 [INFO] 2024-10-03 14:43:07 [main]: Execution time: 17.43 seconds.
 
+[INFO] 2024-10-03 14:46:29 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-03 14:46:29 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-03 14:46:29 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-03 14:46:29 [main]: Dates initialized successully.
+[INFO] 2024-10-03 14:46:29 [utili]: Smart Cover Token Creation Date: 09/30/24
+[INFO] 2024-10-03 14:46:29 [utili]: Smart Cover Token Expirs In: 362 days
+[INFO] 2024-10-03 14:46:30 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-03 14:46:30 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-03 14:46:33 [main]: Tags generated successfully.
+[INFO] 2024-10-03 14:46:33 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-03 14:46:33 [main]: Total Tags in Queue: 87
+[INFO] 2024-10-03 14:46:48 [main]: Total tags Pushed: 87
+[INFO] 2024-10-03 14:46:48 [main]: Execution time: 18.18 seconds.
+
+[INFO] 2024-10-03 14:59:55 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-03 14:59:55 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-03 14:59:55 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-03 14:59:55 [main]: Dates initialized successully.
+[INFO] 2024-10-03 14:59:55 [utili]: Smart Cover Token Creation Date: 09/30/24
+[INFO] 2024-10-03 14:59:55 [utili]: Smart Cover Token Expirs In: 14 days
+[WARNING] 2024-10-03 14:59:55 [security]: Token will expire in 14 days.
+[INFO] 2024-10-03 14:59:55 [security]: Generating a new token...
+[INFO] 2024-10-03 14:59:56 [security]: New token response: {'response_code': 0, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3BrIjoiMTAxNTgiLCJpYXQiOjE3Mjc5ODI1NTYsImV4cCI6MTc1OTUxODU1Nn0.LjDrbruqCHRO84h3z43f2NWjUwYUYUnR-20dDSQ_-NA', 'days_remaining': 365, 'user_type': 'F', 'user_id': 10158, 'user_full_name': 'Summa API', 'chat_enable': 1, 'user_hash_android': '2e176fcd251c778ec11d4161db5920e0bbf425d6dc3ecdfb40eec73730fa03c3', 'user_hash_ios': 'c282a917dc4eb4bda3f6a9c2caf6471fb0b41faf68c925b6ced666abba86c21b', 'organization_id': 1083, 'alarm_holdoff_access_enable': 0}
+[ERROR] 2024-10-03 14:59:56 [security]: Failed to obtain a valid token. Response code: 0
+[ERROR] 2024-10-03 14:59:56 [main]: Failed to collect Sarnia Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+[ERROR] 2024-10-03 14:59:57 [main]: Failed to get Historian Token Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+[INFO] 2024-10-03 14:59:59 [main]: Tags generated successfully.
+[INFO] 2024-10-03 14:59:59 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-03 14:59:59 [main]: Total Tags in Queue: 87
+[INFO] 2024-10-03 15:00:14 [main]: Total tags Pushed: 87
+[INFO] 2024-10-03 15:00:14 [main]: Execution time: 19.12 seconds.
+
+[INFO] 2024-10-03 15:13:02 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-03 15:13:02 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-03 15:13:02 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-03 15:13:02 [main]: Dates initialized successully.
+[INFO] 2024-10-03 15:13:02 [utili]: Smart Cover Token Creation Date: 09/30/24
+[INFO] 2024-10-03 15:13:02 [utili]: Smart Cover Token Expirs In: 14 days
+[WARNING] 2024-10-03 15:13:02 [security]: Token will expire in 14 days.
+[INFO] 2024-10-03 15:13:02 [security]: Generating a new token...
+[ERROR] 2024-10-03 15:13:03 [security]: Failed to update token due to request error: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/auth/refresh.php')
+[ERROR] 2024-10-03 15:13:03 [main]: Failed to collect Sarnia Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+[ERROR] 2024-10-03 15:13:04 [main]: Failed to get Historian Token Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+[INFO] 2024-10-03 15:13:06 [main]: Tags generated successfully.
+[INFO] 2024-10-03 15:13:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-03 15:13:06 [main]: Total Tags in Queue: 87
+[INFO] 2024-10-03 15:13:24 [main]: Total tags Pushed: 87
+[INFO] 2024-10-03 15:13:24 [main]: Execution time: 21.62 seconds.
+
+[INFO] 2024-10-03 15:16:58 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-03 15:16:58 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-03 15:16:58 [security]: Token encrypted and written to 'token.key'.
+[INFO] 2024-10-03 15:16:58 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-03 15:16:58 [main]: Dates initialized successully.
+[INFO] 2024-10-03 15:16:58 [utili]: Smart Cover Token Creation Date: 09/30/24
+[INFO] 2024-10-03 15:16:58 [utili]: Smart Cover Token Expirs In: 365 days
+[INFO] 2024-10-03 15:16:58 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-03 15:16:59 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-03 15:17:01 [main]: Tags generated successfully.
+[INFO] 2024-10-03 15:17:01 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-03 15:17:01 [main]: Total Tags in Queue: 87
+[INFO] 2024-10-03 15:17:18 [main]: Total tags Pushed: 87
+[INFO] 2024-10-03 15:17:18 [main]: Execution time: 19.84 seconds.
+
+[INFO] 2024-10-03 15:18:39 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-03 15:18:39 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-03 15:18:39 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-03 15:18:39 [main]: Dates initialized successully.
+[INFO] 2024-10-03 15:18:39 [utili]: Smart Cover Token Creation Date: 09/30/24
+[INFO] 2024-10-03 15:18:39 [utili]: Smart Cover Token Expirs In: 14 days
+[WARNING] 2024-10-03 15:18:46 [security]: Token will expire in 14 days.
+[INFO] 2024-10-03 15:18:53 [security]: Generating a new token...
+[INFO] 2024-10-03 15:20:10 [security]: New token response: {'response_code': 0, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3BrIjoiMTAxNTgiLCJpYXQiOjE3Mjc5ODM2OTcsImV4cCI6MTc1OTUxOTY5N30.JBJApfcCLglDjUthnOO5WUNlVgGLcYnkYH2xnly3fHI', 'days_remaining': 365, 'user_type': 'F', 'user_id': 10158, 'user_full_name': 'Summa API', 'chat_enable': 1, 'user_hash_android': '2e176fcd251c778ec11d4161db5920e0bbf425d6dc3ecdfb40eec73730fa03c3', 'user_hash_ios': 'c282a917dc4eb4bda3f6a9c2caf6471fb0b41faf68c925b6ced666abba86c21b', 'organization_id': 1083, 'alarm_holdoff_access_enable': 0}
+[INFO] 2024-10-03 15:21:21 [security]: Token encrypted and written to 'token.key'.
+[INFO] 2024-10-03 15:22:36 [security]: Token information updated in info.json.
+[INFO] 2024-10-03 15:22:40 [security]: Token updated. Expires in 365 days.
+[ERROR] 2024-10-03 15:22:49 [main]: Failed to collect Sarnia Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+[ERROR] 2024-10-03 15:22:50 [main]: Failed to get Historian Token Data: HTTPError('401 Client Error: Unauthorized for url: https://www.mysmartcover.com/api/locations/list.php')
+[INFO] 2024-10-03 15:23:10 [main]: Tags generated successfully.
+[INFO] 2024-10-03 15:23:10 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-03 15:23:10 [main]: Total Tags in Queue: 87
+[INFO] 2024-10-03 15:23:28 [main]: Total tags Pushed: 87
+[INFO] 2024-10-03 15:23:28 [main]: Execution time: 288.60 seconds.
+
+[INFO] 2024-10-03 15:23:49 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-03 15:23:49 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-03 15:23:49 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-03 15:23:49 [main]: Dates initialized successully.
+[INFO] 2024-10-03 15:23:49 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-03 15:23:49 [utili]: Smart Cover Token Expirs In: 365 days
+[INFO] 2024-10-03 15:23:49 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-03 15:23:49 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-03 15:23:52 [main]: Tags generated successfully.
+[INFO] 2024-10-03 15:23:52 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-03 15:23:52 [main]: Total Tags in Queue: 87
+[INFO] 2024-10-03 15:24:07 [main]: Total tags Pushed: 87
+[INFO] 2024-10-03 15:24:07 [main]: Execution time: 18.79 seconds.
+

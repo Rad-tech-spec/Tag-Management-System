@@ -127,7 +127,7 @@ def sc_tk_m(header_, key_):
                 gettoken_ = response.json()
                 logging.info("New token response: %s", gettoken_)
             
-                
+                print(gettoken_)
                 # Extract the new token
                 if gettoken_["response_code"] == 0:
                     var.SC_Token_ = str(gettoken_["token"])
