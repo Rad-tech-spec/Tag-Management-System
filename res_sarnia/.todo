@@ -1,0 +1,16 @@
+% Project to do list Phase 1
+    x   1) Program must be able to validate and update Smart Cover Token every year
+    x   2) Program must be able to update Historian token every execution interval.
+    x   3) Program must be able to use extracted data from Smart Cover to create a Tag using the Json template. 
+    x   4) Program must use the created JSON Tags with Queue or Stack method to PUSH tags. 
+    -   5) Program must regenerate json files if deleted. 
+    x   6) Program must deal with the calls once Historian server is down.
+    x   7) Jason Files Should not lose content when there is an error.
+    x   8) Program must deal with errors. 
+
+% Infomation
+    - Token generated in 7/17/2024
+
+
+% On site setup
+
