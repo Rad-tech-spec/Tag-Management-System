@@ -1142,8 +1142,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-03 16:44",
-                        471
+                        "2024-10-03 17:43",
+                        470
                     ]
                 },
                 {
@@ -1177,7 +1177,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-03 16:44",
+                        "2024-10-03 17:43",
                         0
                     ]
                 }
