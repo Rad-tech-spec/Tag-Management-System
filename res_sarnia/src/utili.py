@@ -243,7 +243,9 @@ def fix_dt_format():
         # Parameter date format 'YYYY-MM-DD HH:MM:SS'
         # Adjust slicing if 'date' format is different
         now = datetime.now()
+        #print(now)
         return now.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        
     except IndexError:
         # Handle cases where 'date' might not be in the expected format
         return None
