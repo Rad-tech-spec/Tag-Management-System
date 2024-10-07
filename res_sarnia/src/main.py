@@ -3,7 +3,6 @@ from cryptography.fernet import Fernet
 from logconfig import logging
 from queue import Queue
 
-
 st = time.time()
 urllib3.disable_warnings()
 
@@ -17,13 +16,13 @@ def main():
         key_ = security.load_key()
 
         # Uncomment the following line to get a new token if expired
-        #security.write_SC_tk(var.SC_Token_.encode(), key_) 
+        #security.write_SC_tk(var.SC_TOKEN.encode(), key_) 
 
         # Load the token using the loaded key
-        var.SC_Token_= security.load_SC_tk(Fernet(key_))
+        var.SC_TOKEN = security.load_SC_tk(Fernet(key_))
 
         # Smart Cover Header
-        header_sc = {"Authorization": "Bearer {}".format(var.SC_Token_.decode())}
+        header_sc = {"Authorization": "Bearer {}".format(var.SC_TOKEN.decode())}
 
     except Exception as e:
         logging.error("Error occurred during key or token operations: %s", repr(e))
@@ -53,13 +52,13 @@ def main():
 
     # Step 4 - Managing Historian Token 
     try: 
-        res = requests.get(var.URL_HS_TOKEN, auth=(var.User_,var.Pass_), verify=False)
+        res = requests.get(var.URL_HS_TOKEN, auth=(var.USER,var.PASSWORD), verify=False)
         response.raise_for_status()  # Raise an error for bad responses    
         res_data = res.json()
-        var.HS_Token_ = res_data["access_token"]
+        var.HS_TOKEN = res_data["access_token"]
 
         # Writes and encrypts the new token 
-        security.write_HS_tk(str(var.HS_Token_).encode(), key_) 
+        security.write_HS_tk(str(var.HS_TOKEN).encode(), key_) 
 
     except requests.RequestException as e:
         logging.error("Failed to get Historian Token Data: %s", repr(e))
@@ -78,7 +77,7 @@ def main():
     try:
         q = Queue(87)
         #Load the token using the loaded key
-        var.HS_Token_= security.load_HS_tk(Fernet(key_))
+        var.HS_TOKEN = security.load_HS_tk(Fernet(key_))
 
         # Ensure the correct path is set
         utili.pathassigner("tags")  
@@ -99,7 +98,7 @@ def main():
             #logging.info("Total Tags in Queue: " + str(q.qsize()))
 
             # Header 
-            header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
+            header_ = {"Authorization": "Bearer {}".format(var.HS_TOKEN.decode())}
 
             # Pushing tags into Historian
             session = requests.Session()

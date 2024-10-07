@@ -130,8 +130,8 @@ def sc_tk_m(header_, key_):
                 print(gettoken_)
                 # Extract the new token
                 if gettoken_["response_code"] == 0:
-                    var.SC_Token_ = str(gettoken_["token"])
-                    write_SC_tk(var.SC_Token_.encode(), key_)
+                    var.SC_TOKEN = str(gettoken_["token"])
+                    write_SC_tk(var.SC_TOKEN.encode(), key_)
                     
                     if upt_new_tk_dt(gettoken_["days_remaining"]) == 1:
                         logging.info("Token information updated in info.json.")

@@ -264,7 +264,7 @@ def collect_files():
             file_path = os.path.join(var.folder_path, file_name)
 
             if os.path.isfile(file_path):
-                var.file_names.append(file_name)
+                var.file_names.append(file_path)
 
         var.Ct_file = len(var.file_names)
         
