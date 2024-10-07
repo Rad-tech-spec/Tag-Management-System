@@ -3,6 +3,7 @@ from cryptography.fernet import Fernet
 from logconfig import logging
 from queue import Queue
 
+
 st = time.time()
 urllib3.disable_warnings()
 
@@ -75,7 +76,7 @@ def main():
 
     # Step 6 - Pushing tag from Queue 
     try:
-        q = Queue()
+        q = Queue(87)
         #Load the token using the loaded key
         var.HS_Token_= security.load_HS_tk(Fernet(key_))
 
@@ -101,9 +102,10 @@ def main():
             header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
 
             # Pushing tags into Historian
+            session = requests.Session()
             while not q.empty():
                 element = q.get()
-                res = requests.post(var.URL_CREATE_TAG, json=element, headers=header_ ,verify=False)
+                res = session.post(var.URL_CREATE_TAG, json=element, headers=header_ ,verify=False)
                 if res.status_code == 200: 
                     print("Successfully pushed Tag")
                     var.Ct += 1
