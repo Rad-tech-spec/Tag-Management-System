@@ -94,8 +94,8 @@ def main():
             # Placing tags into queue one by one
             for item in file_data: 
                 q.put(item)
-
-            logging.info("Total Tags in Queue: " + str(q.qsize()))
+            size_ = q.qsize() 
+            #logging.info("Total Tags in Queue: " + str(q.qsize()))
 
             # Header 
             header_ = {"Authorization": "Bearer {}".format(var.HS_Token_.decode())}
@@ -111,7 +111,7 @@ def main():
                     print("Failed to push Tag , Status code: " + str(res.status_code))
                     var.switch = False
             
-            logging.info("Total tags Pushed: " + str(var.Ct))
+            logging.info("Total Tags in Queue: " + str(size_) + " ~ Total tags Pushed: " + str(var.Ct))
             var.Ct = 0 # Resetting count
             # Emptying file to be reused with a new set
             if var.switch == True: 
