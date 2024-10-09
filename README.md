@@ -1,10 +1,19 @@
-# Project Title
-
-A brief description of what this project does.
-
+# Tag Management  
 ## Description
 
-This project is designed to handle token management and encryption using the `cryptography` library. It includes functionalities for initializing dates, updating token information, and displaying information.
+This system collects raw data in `.json` format from Smart Cover API's then reforms and generates tags based on GE Historian standard and stores it in Historian.<br>
+
+### Functionalities:<br>
+- Handles infomation using `REST-API` methods such as `GET` and `PUSH`. 
+- Validate and updating tokens when approppriate.
+- Time and timestamp handling.
+- File management using Queue and Arrays and clean up after execution. 
+- Manage downtimes from servers.
+- Provide clean and readable logs for trouble shooting and infomation.
+- Encrypts and decrypts tokens using the `cryptography` library. 
+- Senstive infomation is handled inside a `.env` file. 
+- Regenerates .json files when deleted. 
+
 
 ## Installation
 

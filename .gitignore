@@ -1,3 +1,4 @@
 .vscode
 res_sarnia/src/__pycache__
 ./res_sarnia/data/data.json
+.env
