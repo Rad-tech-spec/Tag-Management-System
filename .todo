@@ -1,0 +1,21 @@
+% Project to do list Phase 1
+    x   1) Program must be able to validate and update Smart Cover Token every year
+    x   2) Program must be able to update Historian token every execution interval.
+    x   3) Program must be able to use extracted data from Smart Cover to create a Tag using the Json template. 
+    x   4) Program must use the created JSON Tags with Queue or Stack method to PUSH tags. 
+    x   5) Program must regenerate json files if deleted. 
+    x   6) Program must deal with the calls once Historian server is down.
+    x   7) Jason Files Should not lose content when there is an error.
+    x   8) Program must deal with errors.
+    x   9) File names must be sorted to execute from latest to newest.
+    x   10) Passwords need to be moved into .env file and refered into var.py for security. 
+
+% Project to do list Phase 2 
+    -   1) Check time on NOV 3rd, 2024 for daylight saving 1H difference. 
+    -   2) Advance alarming:
+        - Disscuss avalible parameters and definitions in raw data.
+        - Should report or manages downtime from Sarnia. 
+            - Sensor Disconnection.
+            - Cloud Disconnection.
+    -   3) Disscuss Error that request exceeds retires. 
+        - Error Failed to collect Sarnia Data: ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'www.mysmartcover.com\', port=443): Max retries exceeded with url: /api/locations/list.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9267895ee0>: Failed to resolve \'www.mysmartcover.com\' ([Errno -3] Temporary failure in name resolution)"))'))

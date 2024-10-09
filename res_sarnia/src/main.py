@@ -2,6 +2,8 @@ import urllib3, json, time, requests, utili, var, security, os
 from cryptography.fernet import Fernet
 from logconfig import logging
 from queue import Queue
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 st = time.time()
 urllib3.disable_warnings()
@@ -41,7 +43,12 @@ def main():
 
     # Step 3 - GET request collecting live data from Smart Cover
     try:
-        response = requests.get(var.URL_LIST, headers=header_sc, verify=False)
+        session = requests.Session()
+        retry = Retry(connect=3, backoff_factor=0.5)
+        adapter = HTTPAdapter(max_retries=retry)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
+        response = session.get(var.URL_LIST, headers=header_sc, verify=False)
         response.raise_for_status()  # Raise an error for bad responses
         utili.write_sc_data(json.loads(response.content))
         logging.info("Sarnia Data collected successfully.")

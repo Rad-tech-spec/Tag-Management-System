@@ -1,5 +1,5 @@
 from dateutil import relativedelta
-from datetime import datetime
+from datetime import datetime, timedelta
 import json, var, os, logging
 
 # Folder switcher
@@ -242,7 +242,7 @@ def fix_dt_format():
     try:
         # Parameter date format 'YYYY-MM-DD HH:MM:SS'
         # Adjust slicing if 'date' format is different
-        now = datetime.now()
+        now = datetime.now() + timedelta(hours=4)
         #print(now)
         return now.strftime("%Y-%m-%dT%H:%M:%S.000Z")
         
@@ -266,8 +266,9 @@ def collect_files():
             if os.path.isfile(file_path):
                 var.file_names.append(file_path)
 
+        var.file_names.sort()
         var.Ct_file = len(var.file_names)
-        
+  
     except FileNotFoundError as e:
         logging.error("The folder path does not exist: %s", e)
     except PermissionError: 

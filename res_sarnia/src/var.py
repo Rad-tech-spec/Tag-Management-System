@@ -1,6 +1,12 @@
+import os
+from dotenv import load_dotenv, find_dotenv
+
+dotenv_path=find_dotenv()
+load_dotenv(dotenv_path)
+
 # Smart Cover Configuration
 SMART_COVER = {
-    "URL_TOKEN": "https://www.mysmartcover.com/api/auth/refresh.php",
+    "URL_TOKEN": os.getenv("URL_SC_TOKEN"),
     "URL_LIST": "https://www.mysmartcover.com/api/locations/list.php",
     "DAY": 15,
     "DATA_PATH": "data.json",
@@ -11,12 +17,12 @@ SMART_COVER = {
 
 # Historian Configuration
 HISTORIAN = {
-    "URL_HS_TOKEN": "https://snwpcc-hist1:8443/uaa/oauth/token?grant_type=password&username=SNWPCC-HIST1.admin&password=8$arniA",  # Adjust based on computer name
+    "URL_HS_TOKEN": os.getenv("URL_HS_TOKEN"),
     "URL_CREATE_TAG": "https://snwpcc-hist1:8443/historian-rest-api/v1/datapoints/create",
     "TAGS_PATH": "",
     "HS_KEY": "HS.key",
-    "USER": 'historian_public_rest_api',
-    "PASSWORD": 'publicapisecret',
+    "USER": os.getenv("SC_USER"),
+    "PASSWORD": os.getenv("PASSWORD"),
     "HS_TOKEN": "",
     "file_names": []
 }
