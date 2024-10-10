@@ -4539,3 +4539,35 @@
 [INFO] 2024-10-10 13:22:07 [main]: ../tags/2024-10-10-13-22.json Deleted.
 [INFO] 2024-10-10 13:22:07 [main]: Execution time: 6.75 seconds.
 
+[INFO] 2024-10-10 14:48:35 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 14:48:35 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 14:48:35 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 14:48:35 [main]: Dates initialized successully.
+[INFO] 2024-10-10 14:48:35 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 14:48:35 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 14:48:36 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 14:48:36 [main]: historian_public_rest_api
+[INFO] 2024-10-10 14:48:36 [main]: publicapisecret
+[INFO] 2024-10-10 14:48:36 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 14:48:36 [main]: Tags generated successfully.
+[INFO] 2024-10-10 14:48:36 [main]: ------ Files to be pushed: 2 ------
+[INFO] 2024-10-10 14:48:36 [main]: Total Tags in Queue: 0 ~ Total tags Pushed: 0
+[INFO] 2024-10-10 14:48:36 [main]: ../tags/2024-10-10-12-33.json Deleted.
+[INFO] 2024-10-10 14:48:44 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 14:48:44 [main]: ../tags/2024-10-10-14-48.json Deleted.
+[INFO] 2024-10-10 14:48:44 [main]: Execution time: 8.56 seconds.
+
+[INFO] 2024-10-10 15:01:53 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:01:53 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:01:53 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:01:53 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:01:53 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:01:53 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:01:54 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:01:54 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:01:54 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:01:54 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 15:02:01 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:02:01 [main]: ../tags/2024-10-10-15-01.json Deleted.
+[INFO] 2024-10-10 15:02:01 [main]: Execution time: 7.51 seconds.
+
