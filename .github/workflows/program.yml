@@ -31,7 +31,7 @@ jobs:
           python res_sarnia/src/main.py  # Replace with the path to your script
 
       - name: Upload Log File
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
             name: log-file
             path: res_sarnia/log/myapp.log
