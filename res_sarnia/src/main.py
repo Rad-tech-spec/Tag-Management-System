@@ -4,6 +4,7 @@ from logconfig import logging
 from queue import Queue
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+#from apscheduler.schedulers.blocking import BlockingScheduler
 
 st = time.time()
 urllib3.disable_warnings()
@@ -110,15 +111,19 @@ def main():
             # Pushing tags into Historian
             session = requests.Session()
             while not q.empty():
-                element = q.get()
-                res = session.post(var.URL_CREATE_TAG, json=element, headers=header_ ,verify=False)
-                if res.status_code == 200: 
-                    print("Successfully pushed Tag")
-                    var.Ct += 1
-                else:
-                    print("Failed to push Tag , Status code: " + str(res.status_code))
-                    var.switch = False
-            
+                try:
+                    element = q.get()
+                    res = session.post(var.URL_CREATE_TAG, json=element, headers=header_, verify=False)
+                    if res.status_code == 200:
+                        var.Ct += 1
+                    else:
+                        var.switch = False
+
+                except res.status_code != 200: 
+                    logging.error("Failed to push Tag, Status code: " + str(res.status_code))
+                except Exception as e:
+                    logging.error("An error occurred: " + str(e))
+               
             logging.info("Total Tags in Queue: " + str(size_) + " ~ Total tags Pushed: " + str(var.Ct))
             var.Ct = 0 # Resetting count
             # Emptying file to be reused with a new set
@@ -126,7 +131,7 @@ def main():
                 with open(path_, "w") as file:
                     file.close() 
                     os.remove(path_)
-                    print(str(path_) + " Deleted")
+                    logging.info(str(path_) + " Deleted.")
                     
     except FileNotFoundError as e: 
         logging.error("File not found: %s", e)
@@ -141,10 +146,13 @@ def main():
     # Program Timer 
     elapsed_time = time.time() - st 
     logging.info("Execution time: %.2f seconds.\n", elapsed_time)
+    #elapsed_time = 0
 
 if __name__ == '__main__':
     main()
 
 
-
+# scheduler = BlockingScheduler()
+# scheduler.add_job(main, 'interval', seconds=300)
+# scheduler.start()
   

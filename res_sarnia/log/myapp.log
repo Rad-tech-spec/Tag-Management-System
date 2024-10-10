@@ -2925,3 +2925,1559 @@
 [INFO] 2024-10-09 16:45:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
 [INFO] 2024-10-09 16:45:13 [main]: Execution time: 7.10 seconds.
 
+[INFO] 2024-10-09 16:50:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 16:50:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 16:50:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 16:50:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 16:50:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 16:50:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 16:50:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 16:50:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 16:50:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 16:50:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 16:50:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 16:50:12 [main]: Execution time: 6.40 seconds.
+
+[INFO] 2024-10-09 16:55:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 16:55:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 16:55:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 16:55:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 16:55:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 16:55:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 16:55:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 16:55:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 16:55:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 16:55:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 16:55:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 16:55:12 [main]: Execution time: 9.03 seconds.
+
+[INFO] 2024-10-09 17:00:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:00:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:00:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:00:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:00:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:00:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:00:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:00:13 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:00:13 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:00:13 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:00:21 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:00:21 [main]: Execution time: 16.16 seconds.
+
+[INFO] 2024-10-09 17:05:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:05:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:05:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:05:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:05:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:05:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:05:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:05:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:05:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:05:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:05:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:05:12 [main]: Execution time: 6.56 seconds.
+
+[INFO] 2024-10-09 17:10:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:10:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:10:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:10:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:10:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:10:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:10:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:10:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:10:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:10:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:10:10 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:10:10 [main]: Execution time: 7.17 seconds.
+
+[INFO] 2024-10-09 17:15:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:15:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:15:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:15:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:15:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:15:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:15:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:15:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:15:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:15:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:15:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:15:13 [main]: Execution time: 6.93 seconds.
+
+[INFO] 2024-10-09 17:20:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:20:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:20:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:20:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:20:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:20:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:20:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:20:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:20:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:20:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:20:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:20:13 [main]: Execution time: 7.48 seconds.
+
+[INFO] 2024-10-09 17:25:02 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:25:02 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:25:02 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:25:02 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:25:02 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:25:02 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:25:02 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:25:03 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:25:03 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:25:03 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:25:09 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:25:09 [main]: Execution time: 7.62 seconds.
+
+[INFO] 2024-10-09 17:30:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:30:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:30:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:30:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:30:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:30:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:30:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:30:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:30:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:30:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:30:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:30:11 [main]: Execution time: 7.29 seconds.
+
+[INFO] 2024-10-09 17:35:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:35:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:35:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:35:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:35:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:35:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:35:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:35:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:35:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:35:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:35:10 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:35:10 [main]: Execution time: 6.22 seconds.
+
+[INFO] 2024-10-09 17:40:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:40:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:40:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:40:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:40:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:40:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:40:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:40:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:40:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:40:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:40:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:40:11 [main]: Execution time: 6.61 seconds.
+
+[INFO] 2024-10-09 17:45:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:45:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:45:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:45:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:45:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:45:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:45:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:45:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:45:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:45:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:45:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:45:12 [main]: Execution time: 7.11 seconds.
+
+[INFO] 2024-10-09 17:50:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:50:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:50:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:50:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:50:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:50:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:50:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:50:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:50:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:50:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:50:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:50:12 [main]: Execution time: 6.70 seconds.
+
+[INFO] 2024-10-09 17:55:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 17:55:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 17:55:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 17:55:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 17:55:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 17:55:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 17:55:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 17:55:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 17:55:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 17:55:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 17:55:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 17:55:13 [main]: Execution time: 8.87 seconds.
+
+[INFO] 2024-10-09 18:00:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:00:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:00:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:00:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:00:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:00:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:00:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:00:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:00:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:00:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:00:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:00:13 [main]: Execution time: 7.60 seconds.
+
+[INFO] 2024-10-09 18:05:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:05:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:05:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:05:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:05:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:05:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:05:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:05:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:05:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:05:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:05:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:05:12 [main]: Execution time: 6.53 seconds.
+
+[INFO] 2024-10-09 18:10:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:10:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:10:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:10:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:10:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:10:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:10:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:10:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:10:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:10:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:10:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:10:12 [main]: Execution time: 6.86 seconds.
+
+[INFO] 2024-10-09 18:15:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:15:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:15:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:15:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:15:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:15:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:15:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:15:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:15:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:15:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:15:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:15:13 [main]: Execution time: 9.75 seconds.
+
+[INFO] 2024-10-09 18:20:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:20:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:20:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:20:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:20:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:20:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:20:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:20:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:20:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:20:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:20:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:20:11 [main]: Execution time: 7.17 seconds.
+
+[INFO] 2024-10-09 18:25:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:25:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:25:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:25:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:25:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:25:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:25:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:25:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:25:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:25:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:25:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:25:11 [main]: Execution time: 8.61 seconds.
+
+[INFO] 2024-10-09 18:30:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:30:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:30:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:30:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:30:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:30:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:30:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:30:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:30:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:30:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:30:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:30:12 [main]: Execution time: 8.98 seconds.
+
+[INFO] 2024-10-09 18:35:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:35:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:35:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:35:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:35:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:35:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:35:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:35:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:35:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:35:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:35:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:35:13 [main]: Execution time: 9.20 seconds.
+
+[INFO] 2024-10-09 18:40:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:40:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:40:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:40:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:40:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:40:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:40:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:40:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:40:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:40:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:40:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:40:11 [main]: Execution time: 7.00 seconds.
+
+[INFO] 2024-10-09 18:45:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:45:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:45:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:45:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:45:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:45:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:45:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:45:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:45:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:45:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:45:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:45:12 [main]: Execution time: 6.25 seconds.
+
+[INFO] 2024-10-09 18:50:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:50:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:50:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:50:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:50:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:50:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:50:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:50:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:50:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:50:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:50:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:50:12 [main]: Execution time: 7.08 seconds.
+
+[INFO] 2024-10-09 18:55:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 18:55:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 18:55:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 18:55:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 18:55:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 18:55:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 18:55:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 18:55:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 18:55:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 18:55:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 18:55:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 18:55:12 [main]: Execution time: 9.14 seconds.
+
+[INFO] 2024-10-09 19:00:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:00:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:00:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:00:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:00:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:00:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:00:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:00:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:00:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:00:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:00:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:00:12 [main]: Execution time: 6.56 seconds.
+
+[INFO] 2024-10-09 19:05:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:05:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:05:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:05:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:05:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:05:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:05:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:05:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:05:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:05:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:05:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:05:13 [main]: Execution time: 7.04 seconds.
+
+[INFO] 2024-10-09 19:10:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:10:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:10:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:10:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:10:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:10:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:10:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:10:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:10:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:10:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:10:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:10:12 [main]: Execution time: 8.42 seconds.
+
+[INFO] 2024-10-09 19:15:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:15:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:15:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:15:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:15:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:15:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:15:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:15:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:15:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:15:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:15:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:15:12 [main]: Execution time: 6.44 seconds.
+
+[INFO] 2024-10-09 19:20:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:20:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:20:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:20:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:20:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:20:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:20:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:20:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:20:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:20:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:20:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:20:12 [main]: Execution time: 6.39 seconds.
+
+[INFO] 2024-10-09 19:25:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:25:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:25:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:25:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:25:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:25:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:25:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:25:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:25:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:25:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:25:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:25:13 [main]: Execution time: 7.17 seconds.
+
+[INFO] 2024-10-09 19:30:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:30:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:30:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:30:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:30:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:30:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:30:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:30:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:30:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:30:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:30:14 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:30:14 [main]: Execution time: 7.17 seconds.
+
+[INFO] 2024-10-09 19:35:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:35:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:35:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:35:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:35:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:35:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:35:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:35:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:35:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:35:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:35:16 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:35:16 [main]: Execution time: 9.89 seconds.
+
+[INFO] 2024-10-09 19:40:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:40:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:40:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:40:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:40:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:40:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:40:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:40:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:40:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:40:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:40:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:40:12 [main]: Execution time: 7.11 seconds.
+
+[INFO] 2024-10-09 19:45:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:45:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:45:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:45:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:45:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:45:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:45:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:45:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:45:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:45:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:45:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:45:11 [main]: Execution time: 7.38 seconds.
+
+[INFO] 2024-10-09 19:50:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:50:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:50:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:50:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:50:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:50:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:50:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:50:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:50:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:50:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:50:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:50:11 [main]: Execution time: 8.36 seconds.
+
+[INFO] 2024-10-09 19:55:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 19:55:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 19:55:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 19:55:05 [main]: Dates initialized successully.
+[INFO] 2024-10-09 19:55:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 19:55:05 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 19:55:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 19:55:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 19:55:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 19:55:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 19:55:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 19:55:12 [main]: Execution time: 6.98 seconds.
+
+[INFO] 2024-10-09 20:00:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:00:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:00:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:00:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:00:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:00:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:00:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:00:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:00:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:00:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:00:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:00:13 [main]: Execution time: 7.43 seconds.
+
+[INFO] 2024-10-09 20:05:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:05:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:05:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:05:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:05:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:05:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:05:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:05:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:05:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:05:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:05:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:05:13 [main]: Execution time: 7.48 seconds.
+
+[INFO] 2024-10-09 20:10:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:10:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:10:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:10:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:10:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:10:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:10:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:10:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:10:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:10:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:10:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:10:13 [main]: Execution time: 6.64 seconds.
+
+[INFO] 2024-10-09 20:15:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:15:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:15:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:15:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:15:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:15:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:15:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:15:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:15:06 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:15:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:15:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:15:11 [main]: Execution time: 7.89 seconds.
+
+[INFO] 2024-10-09 20:20:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:20:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:20:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:20:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:20:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:20:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:20:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:20:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:20:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:20:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:20:10 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:20:10 [main]: Execution time: 6.58 seconds.
+
+[INFO] 2024-10-09 20:25:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:25:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:25:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:25:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:25:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:25:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:25:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:25:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:25:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:25:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:25:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:25:13 [main]: Execution time: 7.18 seconds.
+
+[INFO] 2024-10-09 20:30:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:30:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:30:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:30:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:30:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:30:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:30:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:30:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:30:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:30:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:30:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:30:13 [main]: Execution time: 6.26 seconds.
+
+[INFO] 2024-10-09 20:35:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:35:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:35:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:35:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:35:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:35:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:35:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:35:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:35:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:35:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:35:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:35:13 [main]: Execution time: 9.64 seconds.
+
+[INFO] 2024-10-09 20:40:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:40:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:40:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:40:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:40:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:40:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:40:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:40:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:40:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:40:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:40:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:40:12 [main]: Execution time: 6.50 seconds.
+
+[INFO] 2024-10-09 20:45:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:45:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:45:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:45:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:45:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:45:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:45:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:45:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:45:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:45:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:45:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:45:13 [main]: Execution time: 7.17 seconds.
+
+[INFO] 2024-10-09 20:50:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:50:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:50:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:50:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:50:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:50:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:50:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:50:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:50:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:50:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:50:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:50:13 [main]: Execution time: 9.38 seconds.
+
+[INFO] 2024-10-09 20:55:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 20:55:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 20:55:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 20:55:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 20:55:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 20:55:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 20:55:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 20:55:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 20:55:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 20:55:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 20:55:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 20:55:13 [main]: Execution time: 6.95 seconds.
+
+[INFO] 2024-10-09 21:00:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:00:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:00:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:00:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:00:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:00:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:00:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:00:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:00:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:00:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:00:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:00:13 [main]: Execution time: 6.30 seconds.
+
+[INFO] 2024-10-09 21:05:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:05:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:05:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:05:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:05:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:05:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:05:12 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:05:13 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:05:13 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:05:13 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:05:19 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:05:19 [main]: Execution time: 15.99 seconds.
+
+[INFO] 2024-10-09 21:10:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:10:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:10:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:10:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:10:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:10:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:10:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:10:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:10:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:10:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:10:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:10:13 [main]: Execution time: 6.82 seconds.
+
+[INFO] 2024-10-09 21:15:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:15:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:15:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:15:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:15:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:15:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:15:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:15:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:15:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:15:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:15:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:15:13 [main]: Execution time: 6.75 seconds.
+
+[INFO] 2024-10-09 21:20:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:20:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:20:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:20:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:20:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:20:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:20:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:20:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:20:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:20:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:20:10 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:20:10 [main]: Execution time: 6.64 seconds.
+
+[INFO] 2024-10-09 21:25:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:25:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:25:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:25:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:25:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:25:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:25:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:25:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:25:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:25:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:25:14 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:25:14 [main]: Execution time: 7.29 seconds.
+
+[INFO] 2024-10-09 21:30:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:30:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:30:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:30:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:30:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:30:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:30:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:30:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:30:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:30:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:30:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:30:13 [main]: Execution time: 9.42 seconds.
+
+[INFO] 2024-10-09 21:35:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:35:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:35:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:35:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:35:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:35:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:35:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:35:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:35:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:35:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:35:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:35:13 [main]: Execution time: 6.46 seconds.
+
+[INFO] 2024-10-09 21:40:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:40:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:40:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:40:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:40:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:40:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:40:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:40:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:40:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:40:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:40:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:40:13 [main]: Execution time: 6.53 seconds.
+
+[INFO] 2024-10-09 21:45:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:45:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:45:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:45:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:45:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:45:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:45:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:45:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:45:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:45:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:45:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:45:13 [main]: Execution time: 6.59 seconds.
+
+[INFO] 2024-10-09 21:50:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:50:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:50:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:50:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:50:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:50:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:50:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:50:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:50:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:50:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:50:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:50:13 [main]: Execution time: 6.84 seconds.
+
+[INFO] 2024-10-09 21:55:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 21:55:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 21:55:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 21:55:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 21:55:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 21:55:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 21:55:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 21:55:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 21:55:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 21:55:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 21:55:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 21:55:11 [main]: Execution time: 6.62 seconds.
+
+[INFO] 2024-10-09 22:00:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:00:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:00:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:00:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:00:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:00:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:00:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:00:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:00:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:00:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:00:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:00:13 [main]: Execution time: 6.90 seconds.
+
+[INFO] 2024-10-09 22:05:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:05:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:05:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:05:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:05:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:05:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:05:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:05:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:05:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:05:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:05:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:05:13 [main]: Execution time: 9.67 seconds.
+
+[INFO] 2024-10-09 22:10:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:10:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:10:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:10:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:10:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:10:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:10:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:10:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:10:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:10:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:10:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:10:13 [main]: Execution time: 6.67 seconds.
+
+[INFO] 2024-10-09 22:15:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:15:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:15:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:15:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:15:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:15:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:15:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:15:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:15:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:15:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:15:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:15:13 [main]: Execution time: 6.32 seconds.
+
+[INFO] 2024-10-09 22:20:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:20:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:20:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:20:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:20:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:20:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:20:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:20:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:20:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:20:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:20:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:20:13 [main]: Execution time: 6.54 seconds.
+
+[INFO] 2024-10-09 22:25:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:25:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:25:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:25:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:25:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:25:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:25:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:25:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:25:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:25:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:25:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:25:13 [main]: Execution time: 5.83 seconds.
+
+[INFO] 2024-10-09 22:30:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:30:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:30:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:30:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:30:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:30:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:30:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:30:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:30:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:30:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:30:14 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:30:14 [main]: Execution time: 9.17 seconds.
+
+[INFO] 2024-10-09 22:35:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:35:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:35:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:35:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:35:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:35:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:35:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:35:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:35:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:35:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:35:14 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:35:14 [main]: Execution time: 7.21 seconds.
+
+[INFO] 2024-10-09 22:40:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:40:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:40:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:40:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:40:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:40:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:40:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:40:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:40:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:40:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:40:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:40:13 [main]: Execution time: 9.15 seconds.
+
+[INFO] 2024-10-09 22:45:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:45:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:45:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:45:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:45:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:45:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:45:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:45:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:45:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:45:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:45:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:45:13 [main]: Execution time: 6.11 seconds.
+
+[INFO] 2024-10-09 22:50:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:50:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:50:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:50:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:50:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:50:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:50:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:50:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:50:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:50:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:50:14 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:50:14 [main]: Execution time: 9.83 seconds.
+
+[INFO] 2024-10-09 22:55:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 22:55:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 22:55:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 22:55:01 [main]: Dates initialized successully.
+[INFO] 2024-10-09 22:55:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 22:55:01 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 22:55:01 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 22:55:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 22:55:02 [main]: Tags generated successfully.
+[INFO] 2024-10-09 22:55:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 22:55:08 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 22:55:08 [main]: Execution time: 7.06 seconds.
+
+[INFO] 2024-10-09 23:00:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:00:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:00:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:00:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:00:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:00:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:00:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:00:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:00:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:00:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:00:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:00:11 [main]: Execution time: 7.04 seconds.
+
+[INFO] 2024-10-09 23:05:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:05:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:05:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:05:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:05:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:05:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:05:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:05:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:05:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:05:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:05:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:05:12 [main]: Execution time: 6.63 seconds.
+
+[INFO] 2024-10-09 23:10:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:10:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:10:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:10:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:10:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:10:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:10:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:10:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:10:04 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:10:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:10:09 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:10:09 [main]: Execution time: 6.23 seconds.
+
+[INFO] 2024-10-09 23:15:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:15:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:15:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:15:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:15:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:15:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:15:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:15:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:15:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:15:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:15:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:15:13 [main]: Execution time: 9.49 seconds.
+
+[INFO] 2024-10-09 23:20:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:20:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:20:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:20:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:20:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:20:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:20:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:20:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:20:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:20:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:20:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:20:12 [main]: Execution time: 6.14 seconds.
+
+[INFO] 2024-10-09 23:25:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:25:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:25:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:25:06 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:25:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:25:06 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:25:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:25:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:25:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:25:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:25:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:25:13 [main]: Execution time: 6.99 seconds.
+
+[INFO] 2024-10-09 23:30:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:30:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:30:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:30:03 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:30:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:30:03 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:30:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:30:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:30:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:30:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:30:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:30:13 [main]: Execution time: 9.41 seconds.
+
+[INFO] 2024-10-09 23:35:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:35:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:35:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:35:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:35:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:35:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:35:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:35:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:35:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:35:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:35:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:35:13 [main]: Execution time: 6.27 seconds.
+
+[INFO] 2024-10-09 23:40:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:40:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:40:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:40:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:40:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:40:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:40:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:40:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:40:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:40:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:40:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:40:12 [main]: Execution time: 5.53 seconds.
+
+[INFO] 2024-10-09 23:45:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:45:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:45:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:45:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:45:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:45:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:45:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:45:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:45:08 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:45:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:45:14 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:45:14 [main]: Execution time: 7.49 seconds.
+
+[INFO] 2024-10-09 23:50:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:50:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:50:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:50:07 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:50:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:50:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:50:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:50:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:50:07 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:50:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:50:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:50:13 [main]: Execution time: 6.28 seconds.
+
+[INFO] 2024-10-09 23:55:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-09 23:55:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-09 23:55:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-09 23:55:04 [main]: Dates initialized successully.
+[INFO] 2024-10-09 23:55:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-09 23:55:04 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-09 23:55:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-09 23:55:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-09 23:55:05 [main]: Tags generated successfully.
+[INFO] 2024-10-09 23:55:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-09 23:55:10 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-09 23:55:10 [main]: Execution time: 6.25 seconds.
+
+[INFO] 2024-10-10 00:00:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:00:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:00:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:00:07 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:00:07 [main]: Token infomation updated successfully.
+[INFO] 2024-10-10 00:00:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:00:07 [utili]: Smart Cover Token Expirs In: 359 days
+[INFO] 2024-10-10 00:00:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:00:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:00:08 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:00:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:00:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:00:13 [main]: Execution time: 6.39 seconds.
+
+[INFO] 2024-10-10 00:05:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:05:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:05:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:05:04 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:05:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:05:04 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:05:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:05:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:05:05 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:05:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:05:10 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:05:10 [main]: Execution time: 6.36 seconds.
+
+[INFO] 2024-10-10 00:10:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:10:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:10:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:10:06 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:10:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:10:06 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:10:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:10:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:10:07 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:10:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:10:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:10:12 [main]: Execution time: 6.10 seconds.
+
+[INFO] 2024-10-10 00:15:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:15:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:15:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:15:06 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:15:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:15:06 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:15:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:15:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:15:07 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:15:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:15:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:15:12 [main]: Execution time: 6.66 seconds.
+
+[INFO] 2024-10-10 00:20:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:20:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:20:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:20:03 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:20:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:20:03 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:20:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:20:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:20:04 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:20:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:20:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:20:12 [main]: Execution time: 8.39 seconds.
+
+[INFO] 2024-10-10 00:25:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:25:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:25:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:25:05 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:25:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:25:05 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:25:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:25:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:25:06 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:25:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:25:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:25:11 [main]: Execution time: 5.99 seconds.
+
+[INFO] 2024-10-10 00:30:03 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:30:03 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:30:03 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:30:03 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:30:03 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:30:03 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:30:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:30:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:30:04 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:30:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:30:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:30:12 [main]: Execution time: 8.82 seconds.
+
+[INFO] 2024-10-10 00:35:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:35:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:35:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:35:04 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:35:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:35:04 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:35:05 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:35:05 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:35:05 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:35:05 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:35:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:35:11 [main]: Execution time: 6.67 seconds.
+
+[INFO] 2024-10-10 00:40:05 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:40:05 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:40:05 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:40:05 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:40:05 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:40:05 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:40:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:40:06 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:40:06 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:40:06 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:40:11 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:40:11 [main]: Execution time: 6.27 seconds.
+
+[INFO] 2024-10-10 00:45:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:45:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:45:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:45:06 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:45:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:45:06 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:45:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:45:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:45:07 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:45:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:45:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:45:13 [main]: Execution time: 7.11 seconds.
+
+[INFO] 2024-10-10 00:50:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:50:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:50:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:50:06 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:50:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:50:06 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:50:06 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:50:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:50:07 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:50:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:50:12 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:50:12 [main]: Execution time: 6.33 seconds.
+
+[INFO] 2024-10-10 00:55:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 00:55:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 00:55:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 00:55:06 [main]: Dates initialized successully.
+[INFO] 2024-10-10 00:55:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 00:55:06 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 00:55:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 00:55:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 00:55:07 [main]: Tags generated successfully.
+[INFO] 2024-10-10 00:55:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 00:55:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 00:55:13 [main]: Execution time: 6.75 seconds.
+
+[INFO] 2024-10-10 01:00:04 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 01:00:04 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 01:00:04 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 01:00:04 [main]: Dates initialized successully.
+[INFO] 2024-10-10 01:00:04 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 01:00:04 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 01:00:04 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 01:00:07 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 01:00:07 [main]: Tags generated successfully.
+[INFO] 2024-10-10 01:00:07 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 01:00:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 01:00:13 [main]: Execution time: 9.23 seconds.
+
+[INFO] 2024-10-10 01:05:06 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 01:05:06 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 01:05:06 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 01:05:06 [main]: Dates initialized successully.
+[INFO] 2024-10-10 01:05:06 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 01:05:06 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 01:05:07 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 01:05:08 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 01:05:08 [main]: Tags generated successfully.
+[INFO] 2024-10-10 01:05:08 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 01:05:13 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 01:05:13 [main]: Execution time: 6.31 seconds.
+
+[INFO] 2024-10-10 09:30:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 09:30:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 09:30:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 09:30:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 09:30:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 09:30:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 09:30:01 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 09:30:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 09:30:02 [main]: Tags generated successfully.
+[INFO] 2024-10-10 09:30:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 09:30:08 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 09:30:08 [main]: Execution time: 7.49 seconds.
+
+[INFO] 2024-10-10 09:35:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 09:35:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 09:35:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 09:35:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 09:35:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 09:35:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 09:35:02 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 09:35:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 09:35:02 [main]: Tags generated successfully.
+[INFO] 2024-10-10 09:35:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 09:35:09 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 09:35:09 [main]: Execution time: 7.54 seconds.
+
+[INFO] 2024-10-10 09:40:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 09:40:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 09:40:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 09:40:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 09:40:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 09:40:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 09:40:02 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 09:40:03 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 09:40:03 [main]: Tags generated successfully.
+[INFO] 2024-10-10 09:40:03 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 09:40:08 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 09:40:08 [main]: Execution time: 6.82 seconds.
+
+[INFO] 2024-10-10 09:45:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 09:45:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 09:45:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 09:45:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 09:45:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 09:45:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 09:45:01 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 09:45:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 09:45:02 [main]: Tags generated successfully.
+[INFO] 2024-10-10 09:45:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 09:45:08 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 09:45:08 [main]: Execution time: 7.16 seconds.
+
+[INFO] 2024-10-10 09:50:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 09:50:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 09:50:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 09:50:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 09:50:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 09:50:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 09:50:02 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 09:50:03 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 09:50:03 [main]: Tags generated successfully.
+[INFO] 2024-10-10 09:50:03 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 09:50:09 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 09:50:09 [main]: Execution time: 7.36 seconds.
+
+[INFO] 2024-10-10 09:55:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 09:55:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 09:55:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 09:55:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 09:55:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 09:55:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 09:55:01 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 09:55:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 09:55:02 [main]: Tags generated successfully.
+[INFO] 2024-10-10 09:55:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 09:55:08 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 09:55:08 [main]: Execution time: 7.05 seconds.
+
+[INFO] 2024-10-10 10:00:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:00:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:00:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:00:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:00:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:00:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:00:01 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:00:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:00:02 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:00:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:00:09 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:00:09 [main]: Execution time: 7.69 seconds.
+
+[INFO] 2024-10-10 10:05:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:05:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:05:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:05:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:05:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:05:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:05:01 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:05:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:05:02 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:05:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:05:08 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:05:08 [main]: Execution time: 7.59 seconds.
+
+[INFO] 2024-10-10 10:10:02 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:10:02 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:10:02 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:10:02 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:10:02 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:10:02 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:10:02 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:10:03 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:10:03 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:10:03 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:10:09 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:10:09 [main]: ../tags/2024-10-10-10-10.json Deleted
+[INFO] 2024-10-10 10:10:09 [main]: Execution time: 7.27 seconds.
+
+[INFO] 2024-10-10 10:15:01 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:15:01 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:15:01 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:15:01 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:15:01 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:15:01 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:15:01 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:15:02 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:15:02 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:15:02 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:15:08 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:15:08 [main]: ../tags/2024-10-10-10-15.json Deleted.
+[INFO] 2024-10-10 10:15:08 [main]: Execution time: 7.31 seconds.
+
+[INFO] 2024-10-10 10:20:02 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:20:02 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:20:02 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:20:02 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:20:02 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:20:02 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:20:03 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:20:04 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:20:04 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:20:04 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:20:10 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:20:10 [main]: ../tags/2024-10-10-10-20.json Deleted.
+[INFO] 2024-10-10 10:20:10 [main]: Execution time: 8.18 seconds.
+
+[INFO] 2024-10-10 10:23:51 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:23:51 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:23:51 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:23:51 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:23:51 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:23:51 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:23:51 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:23:52 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:23:52 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:23:52 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:23:57 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:23:57 [main]: ../tags/2024-10-10-10-23.json Deleted.
+[INFO] 2024-10-10 10:23:57 [main]: Execution time: 6.44 seconds.
+
+[INFO] 2024-10-10 10:23:57 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 10:23:57 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 10:23:57 [base]: Scheduler started
+[INFO] 2024-10-10 10:24:07 [base]: Running job "main (trigger: interval[0:00:10], next run at: 2024-10-10 10:24:07 EDT)" (scheduled at 2024-10-10 10:24:07.905820-04:00)
+[INFO] 2024-10-10 10:24:07 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:24:07 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:24:07 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:24:07 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:24:07 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:24:07 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:24:09 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:24:09 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:24:09 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:24:09 [main]: ------ Files to be pushed: 2 ------
+[ERROR] 2024-10-10 10:24:09 [main]: File not found: [Errno 2] No such file or directory: '../tags/2024-10-10-10-23.json'
+[INFO] 2024-10-10 10:24:09 [main]: Execution time: 18.53 seconds.
+
+[INFO] 2024-10-10 10:24:09 [base]: Job "main (trigger: interval[0:00:10], next run at: 2024-10-10 10:24:17 EDT)" executed successfully
+[INFO] 2024-10-10 10:24:17 [base]: Running job "main (trigger: interval[0:00:10], next run at: 2024-10-10 10:24:27 EDT)" (scheduled at 2024-10-10 10:24:17.905820-04:00)
+[INFO] 2024-10-10 10:24:17 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:24:17 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:24:17 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:24:17 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:24:17 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:24:17 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:24:20 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:24:20 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:24:20 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:24:20 [main]: ------ Files to be pushed: 3 ------
+[ERROR] 2024-10-10 10:24:20 [main]: File not found: [Errno 2] No such file or directory: '../tags/2024-10-10-10-23.json'
+[INFO] 2024-10-10 10:24:20 [main]: Execution time: 29.07 seconds.
+
+[INFO] 2024-10-10 10:24:20 [base]: Job "main (trigger: interval[0:00:10], next run at: 2024-10-10 10:24:27 EDT)" executed successfully
+[INFO] 2024-10-10 10:24:45 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:24:45 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:24:45 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:24:45 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:24:45 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:24:45 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:24:45 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:24:46 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:24:46 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:24:46 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:24:52 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:24:52 [main]: ../tags/2024-10-10-10-24.json Deleted.
+[INFO] 2024-10-10 10:24:52 [main]: Execution time: 6.76 seconds.
+
+[INFO] 2024-10-10 10:25:43 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:25:43 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:25:43 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:25:43 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:25:43 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:25:43 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:25:45 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:25:45 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:25:46 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:25:46 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 10:25:51 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 10:25:51 [main]: ../tags/2024-10-10-10-25.json Deleted.
+[INFO] 2024-10-10 10:25:51 [main]: Execution time: 7.88 seconds.
+
+[INFO] 2024-10-10 10:25:51 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 10:25:51 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 10:25:51 [base]: Scheduler started
+[INFO] 2024-10-10 10:30:51 [base]: Running job "main (trigger: interval[0:05:00], next run at: 2024-10-10 10:30:51 EDT)" (scheduled at 2024-10-10 10:30:51.820349-04:00)
+[INFO] 2024-10-10 10:30:51 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 10:30:51 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 10:30:51 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 10:30:51 [main]: Dates initialized successully.
+[INFO] 2024-10-10 10:30:51 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 10:30:51 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 10:30:52 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 10:30:52 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 10:30:52 [main]: Tags generated successfully.
+[INFO] 2024-10-10 10:30:52 [main]: ------ Files to be pushed: 2 ------
+[ERROR] 2024-10-10 10:30:52 [main]: File not found: [Errno 2] No such file or directory: '../tags/2024-10-10-10-25.json'
+[INFO] 2024-10-10 10:30:52 [main]: Execution time: 309.02 seconds.
+
+[INFO] 2024-10-10 10:30:52 [base]: Job "main (trigger: interval[0:05:00], next run at: 2024-10-10 10:35:51 EDT)" executed successfully
+[INFO] 2024-10-10 11:15:34 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 11:15:34 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 11:15:34 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 11:15:34 [main]: Dates initialized successully.
+[INFO] 2024-10-10 11:15:34 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 11:15:34 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 11:15:34 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 11:15:35 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 11:15:35 [main]: Tags generated successfully.
+[INFO] 2024-10-10 11:15:35 [main]: ------ Files to be pushed: 2 ------
+[INFO] 2024-10-10 11:15:35 [main]: Total Tags in Queue: 0 ~ Total tags Pushed: 0
+[INFO] 2024-10-10 11:15:35 [main]: ../tags/2024-10-10-10-30.json Deleted.
+[INFO] 2024-10-10 11:15:41 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 11:15:41 [main]: ../tags/2024-10-10-11-15.json Deleted.
+[INFO] 2024-10-10 11:15:41 [main]: Execution time: 7.23 seconds.
+
