@@ -54,4 +54,4 @@ This system collects raw data in `.json` format from Smart Cover API's then refo
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed - see the [LICENSE](LICENSE) file for details.

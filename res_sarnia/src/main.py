@@ -4,7 +4,7 @@ from logconfig import logging
 from queue import Queue
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-#from apscheduler.schedulers.blocking import BlockingScheduler
+from apscheduler.schedulers.blocking import BlockingScheduler
 
 st = time.time()
 urllib3.disable_warnings()
@@ -60,16 +60,10 @@ def main():
 
     # Step 4 - Managing Historian Token 
     try: 
-        session2 = requests.Session()
-        retry = Retry(connect=3, backoff_factor=0.5)
-        adapter = HTTPAdapter(max_retries=retry)
-        session2.mount('http://', adapter)
-        session2.mount('https://', adapter)
-        res = session2.get(var.URL_HS_TOKEN, auth=(var.USER,var.PASSWORD), verify=False)
+        res = requests.get(var.URL_HS_TOKEN, auth=(var.USER,var.PASSWORD), verify=False)
         response.raise_for_status()  # Raise an error for bad responses    
         res_data = res.json()
         var.HS_TOKEN = res_data["access_token"]
-        session2.close()
         # Writes and encrypts the new token 
         security.write_HS_tk(str(var.HS_TOKEN).encode(), key_) 
 
@@ -136,6 +130,7 @@ def main():
                 with open(path_, "w") as file:
                     file.close() 
                     os.remove(path_)
+                    var.file_names = []
                     logging.info(str(path_) + " Deleted.")
                     
     except FileNotFoundError as e: 
@@ -151,13 +146,13 @@ def main():
     # Program Timer 
     elapsed_time = time.time() - st 
     logging.info("Execution time: %.2f seconds.\n", elapsed_time)
-    #elapsed_time = 0
+    elapsed_time = 0
 
 if __name__ == '__main__':
     main()
 
 
-# scheduler = BlockingScheduler()
-# scheduler.add_job(main, 'interval', seconds=300)
-# scheduler.start()
+scheduler = BlockingScheduler()
+scheduler.add_job(main, 'interval', seconds=300)
+scheduler.start()
   

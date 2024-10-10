@@ -4571,3 +4571,207 @@
 [INFO] 2024-10-10 15:02:01 [main]: ../tags/2024-10-10-15-01.json Deleted.
 [INFO] 2024-10-10 15:02:01 [main]: Execution time: 7.51 seconds.
 
+[INFO] 2024-10-10 15:10:02 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:10:02 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:10:02 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:10:02 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:10:02 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:10:02 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:10:03 [main]: Sarnia Data collected successfully.
+[ERROR] 2024-10-10 15:10:03 [main]: Failed to get Historian Token Data: MissingSchema("Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?")
+[INFO] 2024-10-10 15:10:03 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:10:03 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 15:10:09 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:10:09 [main]: ../tags/2024-10-10-15-10.json Deleted.
+[INFO] 2024-10-10 15:10:09 [main]: Execution time: 6.83 seconds.
+
+[INFO] 2024-10-10 15:10:09 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 15:10:09 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 15:10:09 [base]: Scheduler started
+[INFO] 2024-10-10 15:15:09 [base]: Running job "main (trigger: interval[0:05:00], next run at: 2024-10-10 15:15:09 EDT)" (scheduled at 2024-10-10 15:15:09.420236-04:00)
+[INFO] 2024-10-10 15:15:09 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:15:09 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:15:09 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:15:09 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:15:09 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:15:09 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:15:09 [main]: Sarnia Data collected successfully.
+[ERROR] 2024-10-10 15:15:09 [main]: Failed to get Historian Token Data: MissingSchema("Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?")
+[INFO] 2024-10-10 15:15:09 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:15:09 [main]: ------ Files to be pushed: 2 ------
+[ERROR] 2024-10-10 15:15:09 [main]: File not found: [Errno 2] No such file or directory: '../tags/2024-10-10-15-10.json'
+[INFO] 2024-10-10 15:15:09 [main]: Execution time: 307.22 seconds.
+
+[INFO] 2024-10-10 15:15:09 [base]: Job "main (trigger: interval[0:05:00], next run at: 2024-10-10 15:20:09 EDT)" executed successfully
+[INFO] 2024-10-10 15:16:14 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:16:14 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:16:14 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:16:14 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:16:14 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:16:14 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:16:15 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:16:15 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:16:15 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:16:15 [main]: ------ Files to be pushed: 2 ------
+[INFO] 2024-10-10 15:16:23 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:16:23 [main]: ../tags/2024-10-10-15-15.json Deleted.
+[INFO] 2024-10-10 15:16:29 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:16:29 [main]: ../tags/2024-10-10-15-16.json Deleted.
+[INFO] 2024-10-10 15:16:29 [main]: Execution time: 14.71 seconds.
+
+[INFO] 2024-10-10 15:16:29 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 15:16:29 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 15:16:29 [base]: Scheduler started
+[INFO] 2024-10-10 15:17:14 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:17:14 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:17:14 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:17:14 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:17:14 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:17:14 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:17:14 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:17:14 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:17:14 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:17:14 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 15:17:20 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:17:20 [main]: ../tags/2024-10-10-15-17.json Deleted.
+[INFO] 2024-10-10 15:17:20 [main]: Execution time: 6.13 seconds.
+
+[INFO] 2024-10-10 15:17:20 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 15:17:20 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 15:17:20 [base]: Scheduler started
+[INFO] 2024-10-10 15:17:35 [base]: Running job "main (trigger: interval[0:00:15], next run at: 2024-10-10 15:17:35 EDT)" (scheduled at 2024-10-10 15:17:35.335268-04:00)
+[INFO] 2024-10-10 15:17:35 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:17:35 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:17:35 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:17:35 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:17:35 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:17:35 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:17:35 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:17:36 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:17:36 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:17:36 [main]: ------ Files to be pushed: 2 ------
+[INFO] 2024-10-10 15:17:41 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:17:41 [main]: ../tags/2024-10-10-15-17.json Deleted.
+[ERROR] 2024-10-10 15:17:41 [main]: File not found: [Errno 2] No such file or directory: '../tags/2024-10-10-15-17.json'
+[INFO] 2024-10-10 15:17:41 [main]: Execution time: 27.61 seconds.
+
+[INFO] 2024-10-10 15:17:41 [base]: Job "main (trigger: interval[0:00:15], next run at: 2024-10-10 15:17:50 EDT)" executed successfully
+[INFO] 2024-10-10 15:17:50 [base]: Running job "main (trigger: interval[0:00:15], next run at: 2024-10-10 15:18:05 EDT)" (scheduled at 2024-10-10 15:17:50.335268-04:00)
+[INFO] 2024-10-10 15:17:50 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:17:50 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:17:50 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:17:50 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:17:50 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:17:50 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:17:50 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:17:51 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:17:51 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:17:51 [main]: ------ Files to be pushed: 3 ------
+[INFO] 2024-10-10 15:17:56 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:17:56 [main]: ../tags/2024-10-10-15-17.json Deleted.
+[ERROR] 2024-10-10 15:17:56 [main]: File not found: [Errno 2] No such file or directory: '../tags/2024-10-10-15-17.json'
+[INFO] 2024-10-10 15:17:56 [main]: Execution time: 42.84 seconds.
+
+[INFO] 2024-10-10 15:17:56 [base]: Job "main (trigger: interval[0:00:15], next run at: 2024-10-10 15:18:05 EDT)" executed successfully
+[INFO] 2024-10-10 15:18:32 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:18:32 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:18:32 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:18:32 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:18:32 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:18:32 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:18:32 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:18:32 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:18:32 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:18:32 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 15:18:39 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:18:39 [main]: ../tags/2024-10-10-15-18.json Deleted.
+[INFO] 2024-10-10 15:18:39 [main]: Execution time: 7.81 seconds.
+
+[INFO] 2024-10-10 15:18:39 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 15:18:39 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 15:18:39 [base]: Scheduler started
+[INFO] 2024-10-10 15:23:39 [base]: Running job "main (trigger: interval[0:05:00], next run at: 2024-10-10 15:23:39 EDT)" (scheduled at 2024-10-10 15:23:39.860850-04:00)
+[INFO] 2024-10-10 15:23:39 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:23:39 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:23:39 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:23:39 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:23:39 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:23:39 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:23:40 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:23:40 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:23:40 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:23:40 [main]: ------ Files to be pushed: 2 ------
+[ERROR] 2024-10-10 15:23:40 [main]: File not found: [Errno 2] No such file or directory: '../tags/2024-10-10-15-18.json'
+[INFO] 2024-10-10 15:23:40 [main]: Execution time: 308.93 seconds.
+
+[INFO] 2024-10-10 15:23:40 [base]: Job "main (trigger: interval[0:05:00], next run at: 2024-10-10 15:28:39 EDT)" executed successfully
+[INFO] 2024-10-10 15:27:10 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:27:10 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:27:10 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:27:10 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:27:10 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:27:10 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:27:11 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:27:12 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:27:12 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:27:12 [main]: ------ Files to be pushed: 2 ------
+[INFO] 2024-10-10 15:27:18 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:27:18 [main]: ../tags/2024-10-10-15-23.json Deleted.
+[INFO] 2024-10-10 15:27:24 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:27:24 [main]: ../tags/2024-10-10-15-27.json Deleted.
+[INFO] 2024-10-10 15:27:24 [main]: Execution time: 13.77 seconds.
+
+[INFO] 2024-10-10 15:27:24 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 15:27:24 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 15:27:24 [base]: Scheduler started
+[INFO] 2024-10-10 15:32:24 [base]: Running job "main (trigger: interval[0:05:00], next run at: 2024-10-10 15:32:24 EDT)" (scheduled at 2024-10-10 15:32:24.399474-04:00)
+[INFO] 2024-10-10 15:32:24 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:32:24 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:32:24 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:32:24 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:32:24 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:32:24 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:32:24 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:32:25 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:32:25 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:32:25 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 15:32:31 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:32:31 [main]: ../tags/2024-10-10-15-32.json Deleted.
+[INFO] 2024-10-10 15:32:31 [main]: Execution time: 321.00 seconds.
+
+[INFO] 2024-10-10 15:32:31 [base]: Job "main (trigger: interval[0:05:00], next run at: 2024-10-10 15:37:24 EDT)" executed successfully
+[INFO] 2024-10-10 15:36:50 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:36:50 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:36:50 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:36:50 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:36:50 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:36:50 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:36:50 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:36:50 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:36:50 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:36:50 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 15:36:57 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:36:57 [main]: ../tags/2024-10-10-15-36.json Deleted.
+[INFO] 2024-10-10 15:36:57 [main]: Execution time: 6.96 seconds.
+
+[INFO] 2024-10-10 15:36:57 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 15:36:57 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 15:36:57 [base]: Scheduler started
+[INFO] 2024-10-10 15:39:16 [main]: ------ Exceution Started. ------
+[INFO] 2024-10-10 15:39:16 [security]: Encryption key loaded successfully.
+[INFO] 2024-10-10 15:39:16 [security]: Smart Cover Token decrypted successfully.
+[INFO] 2024-10-10 15:39:16 [main]: Dates initialized successully.
+[INFO] 2024-10-10 15:39:16 [utili]: Smart Cover Token Creation Date: 10/03/24
+[INFO] 2024-10-10 15:39:16 [utili]: Smart Cover Token Expirs In: 358 days
+[INFO] 2024-10-10 15:39:16 [main]: Sarnia Data collected successfully.
+[INFO] 2024-10-10 15:39:17 [security]: Historian token encrypted successfully.
+[INFO] 2024-10-10 15:39:17 [main]: Tags generated successfully.
+[INFO] 2024-10-10 15:39:17 [main]: ------ Files to be pushed: 1 ------
+[INFO] 2024-10-10 15:39:23 [main]: Total Tags in Queue: 87 ~ Total tags Pushed: 87
+[INFO] 2024-10-10 15:39:23 [main]: ../tags/2024-10-10-15-39.json Deleted.
+[INFO] 2024-10-10 15:39:23 [main]: Execution time: 7.20 seconds.
+
+[INFO] 2024-10-10 15:39:23 [base]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[INFO] 2024-10-10 15:39:23 [base]: Added job "main" to job store "default"
+[INFO] 2024-10-10 15:39:23 [base]: Scheduler started
+[WARNING] 2024-10-10 15:44:28 [base]: Run time of job "main (trigger: interval[0:05:00], next run at: 2024-10-10 15:44:23 EDT)" was missed by 0:00:04.451341
