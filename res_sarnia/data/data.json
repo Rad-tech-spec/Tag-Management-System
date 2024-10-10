@@ -41,8 +41,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:04",
-                        303
+                        "2024-10-10 17:03",
+                        302
                     ]
                 },
                 {
@@ -76,7 +76,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:04",
+                        "2024-10-10 17:03",
                         0
                     ]
                 }
@@ -128,7 +128,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:28",
+                        "2024-10-10 16:28",
                         1
                     ]
                 },
@@ -163,7 +163,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:28",
+                        "2024-10-10 16:28",
                         0
                     ]
                 }
@@ -215,7 +215,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:35",
+                        "2024-10-10 16:35",
                         398
                     ]
                 },
@@ -250,7 +250,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:35",
+                        "2024-10-10 16:35",
                         0
                     ]
                 }
@@ -293,8 +293,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-10 02:28",
-                        3.48
+                        "2024-10-10 16:36",
+                        3.5
                     ]
                 },
                 {
@@ -302,8 +302,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:36",
-                        11
+                        "2024-10-10 16:36",
+                        -119
                     ]
                 },
                 {
@@ -311,7 +311,7 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-10 02:28",
+                        "2024-10-10 16:36",
                         18.5
                     ]
                 },
@@ -320,7 +320,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-10 02:28",
+                        "2024-10-10 16:36",
                         5
                     ]
                 },
@@ -328,8 +328,8 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-10 02:28",
-                        14
+                        "2024-10-10 16:36",
+                        15
                     ]
                 },
                 {
@@ -337,7 +337,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:36",
+                        "2024-10-10 16:36",
                         0
                     ]
                 }
@@ -389,8 +389,8 @@
                     "description": "Analog Sensor",
                     "unit": "ppm",
                     "last_reading": [
-                        "2024-10-10 14:49",
-                        55
+                        "2024-10-10 16:26",
+                        29
                     ]
                 },
                 {
@@ -466,8 +466,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:33",
-                        68
+                        "2024-10-10 16:35",
+                        70
                     ]
                 },
                 {
@@ -543,8 +543,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 14:56",
-                        643
+                        "2024-10-10 16:58",
+                        657
                     ]
                 },
                 {
@@ -578,7 +578,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 14:56",
+                        "2024-10-10 16:58",
                         0
                     ]
                 }
@@ -630,7 +630,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:00",
+                        "2024-10-10 17:01",
                         1
                     ]
                 },
@@ -665,7 +665,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:00",
+                        "2024-10-10 17:01",
                         0
                     ]
                 }
@@ -717,7 +717,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:35",
+                        "2024-10-10 16:35",
                         1
                     ]
                 },
@@ -752,7 +752,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:35",
+                        "2024-10-10 16:35",
                         0
                     ]
                 }
@@ -804,8 +804,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:45",
-                        -60
+                        "2024-10-10 16:45",
+                        -57
                     ]
                 },
                 {
@@ -839,7 +839,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:45",
+                        "2024-10-10 16:45",
                         0
                     ]
                 }
@@ -882,8 +882,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-10 02:01",
-                        3.52
+                        "2024-10-10 16:01",
+                        3.47
                     ]
                 },
                 {
@@ -891,7 +891,7 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:00",
+                        "2024-10-10 17:01",
                         38
                     ]
                 },
@@ -900,8 +900,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-10 02:01",
-                        11.5
+                        "2024-10-10 16:01",
+                        15
                     ]
                 },
                 {
@@ -909,7 +909,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-10 02:01",
+                        "2024-10-10 16:01",
                         5
                     ]
                 },
@@ -917,7 +917,7 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-10 02:01",
+                        "2024-10-10 16:01",
                         15
                     ]
                 }
@@ -968,7 +968,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:40",
+                        "2024-10-10 16:42",
                         214
                     ]
                 },
@@ -1003,7 +1003,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:40",
+                        "2024-10-10 16:42",
                         0
                     ]
                 }
@@ -1055,8 +1055,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:10",
-                        491
+                        "2024-10-10 17:10",
+                        494
                     ]
                 },
                 {
@@ -1090,7 +1090,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:10",
+                        "2024-10-10 17:10",
                         0
                     ]
                 }
@@ -1142,8 +1142,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:12",
-                        464
+                        "2024-10-10 17:12",
+                        467
                     ]
                 },
                 {
@@ -1177,7 +1177,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:12",
+                        "2024-10-10 17:12",
                         0
                     ]
                 }
@@ -1229,7 +1229,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:05",
+                        "2024-10-10 17:04",
                         221
                     ]
                 },
@@ -1264,7 +1264,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:05",
+                        "2024-10-10 17:04",
                         0
                     ]
                 }
@@ -1307,8 +1307,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-10 02:09",
-                        3.54
+                        "2024-10-10 16:17",
+                        3.52
                     ]
                 },
                 {
@@ -1316,7 +1316,7 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-10 15:16",
+                        "2024-10-10 17:17",
                         -2
                     ]
                 },
@@ -1325,8 +1325,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-10 02:09",
-                        15
+                        "2024-10-10 16:17",
+                        18
                     ]
                 },
                 {
@@ -1334,16 +1334,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-10 02:09",
-                        3
+                        "2024-10-10 16:17",
+                        5
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-10 02:09",
-                        14
+                        "2024-10-10 16:17",
+                        15
                     ]
                 },
                 {
@@ -1351,7 +1351,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-10 15:16",
+                        "2024-10-10 17:17",
                         0
                     ]
                 }
@@ -1384,7 +1384,7 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-10 14:00",
+                        "2024-10-10 16:00",
                         0
                     ]
                 },
@@ -1393,7 +1393,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-10-10 14:00",
+                        "2024-10-10 16:00",
                         0
                     ]
                 },
@@ -1427,7 +1427,7 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-10 14:00",
+                        "2024-10-10 16:00",
                         0
                     ]
                 },
@@ -1436,7 +1436,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-10-10 14:00",
+                        "2024-10-10 16:00",
                         0
                     ]
                 },
@@ -1470,7 +1470,7 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-10 14:00",
+                        "2024-10-10 16:00",
                         0
                     ]
                 },
@@ -1479,7 +1479,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-10-10 14:00",
+                        "2024-10-10 16:00",
                         0
                     ]
                 },

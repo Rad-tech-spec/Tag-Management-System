@@ -60,6 +60,8 @@ def main():
 
     # Step 4 - Managing Historian Token 
     try: 
+        logging.info(var.USER)
+        logging.info(var.PASSWORD)
         res = requests.get(var.URL_HS_TOKEN, auth=(var.USER,var.PASSWORD), verify=False)
         response.raise_for_status()  # Raise an error for bad responses    
         res_data = res.json()
