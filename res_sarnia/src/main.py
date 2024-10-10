@@ -4,12 +4,14 @@ from logconfig import logging
 from queue import Queue
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from apscheduler.schedulers.blocking import BlockingScheduler
+#from apscheduler.schedulers.blocking import BlockingScheduler
+
 
 def main():
     st = time.time()
     urllib3.disable_warnings()
     logging.info("------ Exceution Started. ------")
+
     try:
         # Write a new key (uncomment to enable)
         # defs.write_key()  # Writes a new key
@@ -145,17 +147,16 @@ def main():
     # Program Timer 
     elapsed_time = time.time() - st 
     logging.info("Execution time: %.2f seconds.\n", elapsed_time)
+    #elapsed_time = 0
 
 if __name__ == '__main__':
     main()
 
-scheduler = BlockingScheduler()
-scheduler.add_job(main, 'interval', seconds=300)
-
-# Start the scheduler
-try:
-    print("Scheduler started. Press Ctrl+C to exit.")
-    scheduler.start()
-except (KeyboardInterrupt, SystemExit):
-    pass
+# scheduler = BlockingScheduler()
+# scheduler.add_job(main, 'interval', seconds=60, max_instances=1)
+# try:
+#     print("Scheduler started. Press Ctrl+C to exit.")
+#     scheduler.start()
+# except (KeyboardInterrupt, SystemExit):
+#     pass
   
