@@ -1,6 +1,6 @@
 # Tag Management 
 [![Run Python Script Every 5 Minutes](https://github.com/Rad-tech-spec/Historian-Sarnia/actions/workflows/program.yml/badge.svg?branch=main)](https://github.com/Rad-tech-spec/Historian-Sarnia/actions/workflows/program.yml) 
-[![License: Private](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Description
 
 This system collects raw data in `.json` format from Smart Cover API's then reforms and generates tags based on GE Historian standard and stores it in Historian.<br>
