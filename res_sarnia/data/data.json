@@ -32,8 +32,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 20:12",
-                        3.49
+                        "2025-01-06 18:05",
+                        3.38
                     ]
                 },
                 {
@@ -41,8 +41,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:12",
-                        302
+                        "2025-01-06 20:06",
+                        265
                     ]
                 },
                 {
@@ -50,8 +50,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 20:12",
-                        11
+                        "2025-01-06 18:05",
+                        1
                     ]
                 },
                 {
@@ -59,16 +59,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 20:12",
-                        3
+                        "2025-01-06 18:05",
+                        1
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 20:12",
-                        15
+                        "2025-01-06 18:05",
+                        12
                     ]
                 },
                 {
@@ -76,7 +76,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:12",
+                        "2025-01-06 20:06",
                         0
                     ]
                 }
@@ -119,8 +119,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 12:15",
-                        3.48
+                        "2025-01-06 20:07",
+                        3.44
                     ]
                 },
                 {
@@ -128,8 +128,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:18",
-                        989
+                        "2025-01-06 20:07",
+                        1
                     ]
                 },
                 {
@@ -137,8 +137,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 12:15",
-                        12.5
+                        "2025-01-06 20:07",
+                        5
                     ]
                 },
                 {
@@ -146,7 +146,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 12:15",
+                        "2025-01-06 20:07",
                         5
                     ]
                 },
@@ -154,7 +154,7 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 12:15",
+                        "2025-01-06 20:07",
                         15
                     ]
                 },
@@ -163,7 +163,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:18",
+                        "2025-01-06 20:07",
                         0
                     ]
                 }
@@ -206,8 +206,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 17:36",
-                        3.5
+                        "2025-01-06 16:42",
+                        3.4
                     ]
                 },
                 {
@@ -215,8 +215,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:36",
-                        398
+                        "2025-01-06 16:42",
+                        400
                     ]
                 },
                 {
@@ -224,8 +224,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 17:36",
-                        14
+                        "2025-01-06 16:42",
+                        7
                     ]
                 },
                 {
@@ -233,7 +233,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 17:36",
+                        "2025-01-06 16:42",
                         5
                     ]
                 },
@@ -241,7 +241,7 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 17:36",
+                        "2025-01-06 16:42",
                         15
                     ]
                 },
@@ -250,7 +250,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:36",
+                        "2025-01-06 16:42",
                         0
                     ]
                 }
@@ -293,8 +293,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 08:12",
-                        3.45
+                        "2025-01-06 13:18",
+                        3.41
                     ]
                 },
                 {
@@ -302,8 +302,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:01",
-                        13
+                        "2025-01-06 20:34",
+                        15
                     ]
                 },
                 {
@@ -311,8 +311,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 08:12",
-                        13
+                        "2025-01-06 13:18",
+                        8.5
                     ]
                 },
                 {
@@ -320,16 +320,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 08:12",
-                        5
+                        "2025-01-06 13:18",
+                        2
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 08:12",
-                        0
+                        "2025-01-06 13:18",
+                        15
                     ]
                 },
                 {
@@ -337,7 +337,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:01",
+                        "2025-01-06 20:34",
                         0
                     ]
                 }
@@ -348,6 +348,96 @@
             "tilt_recheck_enabled": 0,
             "system_timing": 5,
             "is_valid_flow": true
+        },
+        {
+            "id": 44158,
+            "description": "Christina & Nelson \u2013 MH3888",
+            "application": 20,
+            "application_description": "SmartFLOE(tm)",
+            "install_date": "2024-11-14",
+            "latitude": 42.983384,
+            "longitude": -82.401283,
+            "elevation": 602.2284,
+            "sensor_to_bottom": 24.5276,
+            "manhole_depth": 93.6,
+            "distance_style": 3,
+            "asm_type": "SmartFLOE",
+            "archived": 0,
+            "hh_alarm_state": 0,
+            "alarm_state": 0,
+            "alert_state": 0,
+            "advisory_state": 1,
+            "advisories": [
+                "Level Trend Fall"
+            ],
+            "high_alarm_enabled": 0,
+            "high_alarm_threshold": 496,
+            "high_advisory_enabled": 1,
+            "high_advisory_threshold": 445,
+            "low_alarm_enabled": 0,
+            "low_alarm_threshold": -1460,
+            "flow_width": 11.811,
+            "data_types": [
+                {
+                    "id": 1,
+                    "description": "PowerPack Voltage",
+                    "unit": "V",
+                    "last_reading": [
+                        "2025-01-06 15:04",
+                        3.46
+                    ]
+                },
+                {
+                    "id": 2,
+                    "description": "Water Level above Bottom",
+                    "unit": "mm",
+                    "last_reading": [
+                        "2025-01-06 20:23",
+                        -75
+                    ]
+                },
+                {
+                    "id": 3,
+                    "description": "Temperature",
+                    "unit": "C",
+                    "last_reading": [
+                        "2025-01-06 15:04",
+                        -2
+                    ]
+                },
+                {
+                    "id": 4,
+                    "description": "Signal Strength",
+                    "unit": "B",
+                    "last_reading": [
+                        "2025-01-06 15:04",
+                        2
+                    ]
+                },
+                {
+                    "id": 5,
+                    "description": "Signal Quality",
+                    "last_reading": [
+                        "2025-01-06 15:04",
+                        9
+                    ]
+                },
+                {
+                    "id": 6,
+                    "description": "SmartFLOE(TM)",
+                    "unit": "L/s",
+                    "last_reading": [
+                        "2025-01-06 20:23",
+                        0
+                    ]
+                }
+            ],
+            "alarm_holdoff": null,
+            "tilt_alarm_1_enabled": 0,
+            "tilt_alarm_2_enabled": 0,
+            "tilt_recheck_enabled": 0,
+            "system_timing": 5,
+            "is_valid_flow": false
         },
         {
             "id": 20380,
@@ -365,8 +455,18 @@
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
-            "alert_state": 0,
+            "alert_state": 1,
             "advisory_state": 0,
+            "alerts": [
+                {
+                    "type": 2,
+                    "description": "Delayed Comm"
+                },
+                {
+                    "type": 3,
+                    "description": "Suspect Sensor"
+                }
+            ],
             "high_alarm_enabled": 0,
             "high_alarm_threshold": 1000.15,
             "high_advisory_enabled": 0,
@@ -380,8 +480,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 15:24",
-                        3.47
+                        "2024-12-26 23:58",
+                        3.4
                     ]
                 },
                 {
@@ -389,8 +489,8 @@
                     "description": "Analog Sensor",
                     "unit": "ppm",
                     "last_reading": [
-                        "2024-10-15 19:55",
-                        25
+                        "2024-12-26 23:58",
+                        0
                     ]
                 },
                 {
@@ -398,8 +498,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 15:24",
-                        11
+                        "2024-12-26 23:58",
+                        6.5
                     ]
                 },
                 {
@@ -407,16 +507,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 15:24",
-                        5
+                        "2024-12-26 23:58",
+                        4
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 15:24",
-                        15
+                        "2024-12-26 23:58",
+                        12
                     ]
                 }
             ],
@@ -442,14 +542,8 @@
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
-            "alert_state": 1,
+            "alert_state": 0,
             "advisory_state": 0,
-            "alerts": [
-                {
-                    "type": 2,
-                    "description": "Delayed Comm"
-                }
-            ],
             "high_alarm_enabled": 1,
             "high_alarm_threshold": 1348,
             "high_advisory_enabled": 1,
@@ -463,8 +557,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-12 21:13",
-                        3.59
+                        "2025-01-06 08:02",
+                        3.52
                     ]
                 },
                 {
@@ -472,8 +566,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-13 01:19",
-                        67
+                        "2025-01-06 20:07",
+                        62
                     ]
                 },
                 {
@@ -481,8 +575,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-12 21:13",
-                        21
+                        "2025-01-06 08:02",
+                        -1.5
                     ]
                 },
                 {
@@ -490,20 +584,20 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-12 21:13",
-                        2
+                        "2025-01-06 08:02",
+                        5
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-12 21:13",
+                        "2025-01-06 08:02",
                         15
                     ]
                 }
             ],
-            "alarm_holdoff": "2024-07-24 23:02",
+            "alarm_holdoff": "2024-11-14 22:31",
             "tilt_alarm_1_enabled": 0,
             "tilt_alarm_2_enabled": 0,
             "tilt_recheck_enabled": 0,
@@ -540,8 +634,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 17:01",
-                        3.45
+                        "2025-01-06 15:12",
+                        3.42
                     ]
                 },
                 {
@@ -549,8 +643,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:01",
-                        645
+                        "2025-01-06 20:38",
+                        652
                     ]
                 },
                 {
@@ -558,8 +652,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 17:01",
-                        11.5
+                        "2025-01-06 15:12",
+                        3.5
                     ]
                 },
                 {
@@ -567,16 +661,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 17:01",
-                        5
+                        "2025-01-06 15:12",
+                        3
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 17:01",
-                        14
+                        "2025-01-06 15:12",
+                        15
                     ]
                 },
                 {
@@ -584,7 +678,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:01",
+                        "2025-01-06 20:38",
                         0
                     ]
                 }
@@ -627,8 +721,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 19:04",
-                        3.49
+                        "2025-01-06 20:43",
+                        3.4
                     ]
                 },
                 {
@@ -636,7 +730,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:03",
+                        "2025-01-06 20:43",
                         1
                     ]
                 },
@@ -645,8 +739,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 19:04",
-                        15.5
+                        "2025-01-06 20:43",
+                        6
                     ]
                 },
                 {
@@ -654,15 +748,15 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 19:04",
-                        5
+                        "2025-01-06 20:43",
+                        3
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 19:04",
+                        "2025-01-06 20:43",
                         15
                     ]
                 },
@@ -671,7 +765,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:03",
+                        "2025-01-06 20:43",
                         0
                     ]
                 }
@@ -682,6 +776,93 @@
             "tilt_recheck_enabled": 0,
             "system_timing": 5,
             "is_valid_flow": true
+        },
+        {
+            "id": 37414,
+            "description": "Front & George \u2013 MH2719",
+            "application": 20,
+            "application_description": "SmartFLOE(tm)",
+            "install_date": "2024-11-15",
+            "latitude": 42.974649,
+            "longitude": -82.407515,
+            "elevation": 596.7463,
+            "sensor_to_bottom": 37.2,
+            "manhole_depth": 194.4,
+            "distance_style": 3,
+            "asm_type": "SmartFLOE",
+            "archived": 0,
+            "hh_alarm_state": 0,
+            "alarm_state": 0,
+            "alert_state": 0,
+            "advisory_state": 0,
+            "high_alarm_enabled": 1,
+            "high_alarm_threshold": 818,
+            "high_advisory_enabled": 1,
+            "high_advisory_threshold": 767,
+            "low_alarm_enabled": 0,
+            "low_alarm_threshold": -1138,
+            "flow_width": 12,
+            "data_types": [
+                {
+                    "id": 1,
+                    "description": "PowerPack Voltage",
+                    "unit": "V",
+                    "last_reading": [
+                        "2025-01-06 09:31",
+                        3.46
+                    ]
+                },
+                {
+                    "id": 2,
+                    "description": "Water Level above Bottom",
+                    "unit": "mm",
+                    "last_reading": [
+                        "2025-01-06 20:40",
+                        35
+                    ]
+                },
+                {
+                    "id": 3,
+                    "description": "Temperature",
+                    "unit": "C",
+                    "last_reading": [
+                        "2025-01-06 09:31",
+                        3
+                    ]
+                },
+                {
+                    "id": 4,
+                    "description": "Signal Strength",
+                    "unit": "B",
+                    "last_reading": [
+                        "2025-01-06 09:31",
+                        5
+                    ]
+                },
+                {
+                    "id": 5,
+                    "description": "Signal Quality",
+                    "last_reading": [
+                        "2025-01-06 09:31",
+                        12
+                    ]
+                },
+                {
+                    "id": 6,
+                    "description": "SmartFLOE(TM)",
+                    "unit": "L/s",
+                    "last_reading": [
+                        "2025-01-06 20:40",
+                        0
+                    ]
+                }
+            ],
+            "alarm_holdoff": null,
+            "tilt_alarm_1_enabled": 0,
+            "tilt_alarm_2_enabled": 0,
+            "tilt_recheck_enabled": 0,
+            "system_timing": 5,
+            "is_valid_flow": false
         },
         {
             "id": 39583,
@@ -714,8 +895,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 19:50",
-                        3.56
+                        "2025-01-06 11:03",
+                        3.54
                     ]
                 },
                 {
@@ -723,7 +904,7 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:51",
+                        "2025-01-06 20:21",
                         1
                     ]
                 },
@@ -732,8 +913,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 19:50",
-                        15.5
+                        "2025-01-06 11:03",
+                        4.5
                     ]
                 },
                 {
@@ -741,7 +922,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 19:50",
+                        "2025-01-06 11:03",
                         5
                     ]
                 },
@@ -749,8 +930,8 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 19:50",
-                        14
+                        "2025-01-06 11:03",
+                        15
                     ]
                 },
                 {
@@ -758,12 +939,12 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:51",
+                        "2025-01-06 20:21",
                         0
                     ]
                 }
             ],
-            "alarm_holdoff": null,
+            "alarm_holdoff": "2024-10-22 15:34",
             "tilt_alarm_1_enabled": 1,
             "tilt_alarm_2_enabled": 0,
             "tilt_recheck_enabled": 0,
@@ -801,8 +982,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 15:53",
-                        3.37
+                        "2025-01-06 10:49",
+                        3.34
                     ]
                 },
                 {
@@ -810,8 +991,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:01",
-                        -32
+                        "2025-01-06 20:57",
+                        -48
                     ]
                 },
                 {
@@ -819,8 +1000,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 15:53",
-                        13
+                        "2025-01-06 10:49",
+                        5.5
                     ]
                 },
                 {
@@ -828,16 +1009,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 15:53",
-                        3
+                        "2025-01-06 10:49",
+                        5
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 15:53",
-                        14
+                        "2025-01-06 10:49",
+                        15
                     ]
                 },
                 {
@@ -845,7 +1026,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:01",
+                        "2025-01-06 20:57",
                         0
                     ]
                 }
@@ -888,8 +1069,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 08:13",
-                        3.51
+                        "2025-01-06 07:36",
+                        3.42
                     ]
                 },
                 {
@@ -897,8 +1078,8 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:15",
-                        114
+                        "2025-01-06 20:36",
+                        41
                     ]
                 },
                 {
@@ -906,8 +1087,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 08:13",
-                        8
+                        "2025-01-06 07:36",
+                        0
                     ]
                 },
                 {
@@ -915,7 +1096,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 08:13",
+                        "2025-01-06 07:36",
                         5
                     ]
                 },
@@ -923,8 +1104,8 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 08:13",
-                        15
+                        "2025-01-06 07:36",
+                        14
                     ]
                 }
             ],
@@ -965,8 +1146,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 17:44",
-                        3.48
+                        "2025-01-06 08:53",
+                        3.44
                     ]
                 },
                 {
@@ -974,8 +1155,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:47",
-                        203
+                        "2025-01-06 20:07",
+                        217
                     ]
                 },
                 {
@@ -983,8 +1164,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 17:44",
-                        16.5
+                        "2025-01-06 08:53",
+                        7.5
                     ]
                 },
                 {
@@ -992,16 +1173,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 17:44",
-                        5
+                        "2025-01-06 08:53",
+                        4
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 17:44",
-                        14
+                        "2025-01-06 08:53",
+                        15
                     ]
                 },
                 {
@@ -1009,7 +1190,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:47",
+                        "2025-01-06 20:07",
                         0
                     ]
                 }
@@ -1052,8 +1233,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 17:36",
-                        3.48
+                        "2025-01-06 18:01",
+                        3.44
                     ]
                 },
                 {
@@ -1061,8 +1242,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:37",
-                        500
+                        "2025-01-06 21:04",
+                        497
                     ]
                 },
                 {
@@ -1070,8 +1251,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 17:36",
-                        14.5
+                        "2025-01-06 18:01",
+                        2
                     ]
                 },
                 {
@@ -1079,16 +1260,16 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 17:36",
-                        5
+                        "2025-01-06 18:01",
+                        2
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 17:36",
-                        14
+                        "2025-01-06 18:01",
+                        15
                     ]
                 },
                 {
@@ -1096,7 +1277,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:37",
+                        "2025-01-06 21:04",
                         0
                     ]
                 }
@@ -1139,8 +1320,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 06:07",
-                        3.48
+                        "2025-01-06 11:37",
+                        3.43
                     ]
                 },
                 {
@@ -1148,8 +1329,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:14",
-                        464
+                        "2025-01-06 20:47",
+                        456
                     ]
                 },
                 {
@@ -1157,8 +1338,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 06:07",
-                        14
+                        "2025-01-06 11:37",
+                        4
                     ]
                 },
                 {
@@ -1166,7 +1347,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 06:07",
+                        "2025-01-06 11:37",
                         5
                     ]
                 },
@@ -1174,7 +1355,7 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 06:07",
+                        "2025-01-06 11:37",
                         15
                     ]
                 },
@@ -1183,7 +1364,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:14",
+                        "2025-01-06 20:47",
                         0
                     ]
                 }
@@ -1226,8 +1407,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 14:07",
-                        3.49
+                        "2025-01-06 14:57",
+                        3.42
                     ]
                 },
                 {
@@ -1235,8 +1416,8 @@
                     "description": "Distance below Sensor",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:06",
-                        222
+                        "2025-01-06 21:01",
+                        221
                     ]
                 },
                 {
@@ -1244,8 +1425,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 14:07",
-                        13
+                        "2025-01-06 14:57",
+                        2
                     ]
                 },
                 {
@@ -1253,7 +1434,7 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 14:07",
+                        "2025-01-06 14:57",
                         5
                     ]
                 },
@@ -1261,7 +1442,7 @@
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 14:07",
+                        "2025-01-06 14:57",
                         15
                     ]
                 },
@@ -1270,7 +1451,7 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:06",
+                        "2025-01-06 21:01",
                         0
                     ]
                 }
@@ -1298,14 +1479,20 @@
             "archived": 0,
             "hh_alarm_state": 0,
             "alarm_state": 0,
-            "alert_state": 0,
+            "alert_state": 1,
             "advisory_state": 0,
+            "alerts": [
+                {
+                    "type": 2,
+                    "description": "Delayed Comm"
+                }
+            ],
             "high_alarm_enabled": 0,
-            "high_alarm_threshold": 233,
+            "high_alarm_threshold": 360,
             "high_advisory_enabled": 1,
-            "high_advisory_threshold": 182,
+            "high_advisory_threshold": 309,
             "low_alarm_enabled": 0,
-            "low_alarm_threshold": -1723,
+            "low_alarm_threshold": 360,
             "flow_width": 14.7638,
             "data_types": [
                 {
@@ -1313,8 +1500,8 @@
                     "description": "PowerPack Voltage",
                     "unit": "V",
                     "last_reading": [
-                        "2024-10-15 09:21",
-                        3.56
+                        "2025-01-01 20:47",
+                        3.52
                     ]
                 },
                 {
@@ -1322,7 +1509,7 @@
                     "description": "Water Level above Bottom",
                     "unit": "mm",
                     "last_reading": [
-                        "2024-10-15 20:30",
+                        "2025-01-01 20:47",
                         -2
                     ]
                 },
@@ -1331,8 +1518,8 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 09:21",
-                        11.5
+                        "2025-01-01 20:47",
+                        7
                     ]
                 },
                 {
@@ -1340,15 +1527,15 @@
                     "description": "Signal Strength",
                     "unit": "B",
                     "last_reading": [
-                        "2024-10-15 09:21",
-                        3
+                        "2025-01-01 20:47",
+                        4
                     ]
                 },
                 {
                     "id": 5,
                     "description": "Signal Quality",
                     "last_reading": [
-                        "2024-10-15 09:21",
+                        "2025-01-01 20:47",
                         15
                     ]
                 },
@@ -1357,17 +1544,104 @@
                     "description": "SmartFLOE(TM)",
                     "unit": "L/s",
                     "last_reading": [
-                        "2024-10-15 20:30",
+                        "2025-01-01 20:47",
                         0
                     ]
                 }
             ],
             "alarm_holdoff": null,
-            "tilt_alarm_1_enabled": 1,
+            "tilt_alarm_1_enabled": 0,
             "tilt_alarm_2_enabled": 0,
             "tilt_recheck_enabled": 0,
             "system_timing": 5,
             "is_valid_flow": true
+        },
+        {
+            "id": 44576,
+            "description": "Wellington & Russell \u2013 MH1125",
+            "application": 20,
+            "application_description": "SmartFLOE(tm)",
+            "install_date": "2024-11-15",
+            "latitude": 42.968468,
+            "longitude": -82.391595,
+            "elevation": 600.4879,
+            "sensor_to_bottom": 35.7,
+            "manhole_depth": 0,
+            "distance_style": 3,
+            "asm_type": "SmartFLOE",
+            "archived": 0,
+            "hh_alarm_state": 0,
+            "alarm_state": 0,
+            "alert_state": 0,
+            "advisory_state": 0,
+            "high_alarm_enabled": 1,
+            "high_alarm_threshold": 780,
+            "high_advisory_enabled": 1,
+            "high_advisory_threshold": 729,
+            "low_alarm_enabled": 0,
+            "low_alarm_threshold": -1176,
+            "flow_width": 12,
+            "data_types": [
+                {
+                    "id": 1,
+                    "description": "PowerPack Voltage",
+                    "unit": "V",
+                    "last_reading": [
+                        "2025-01-06 12:45",
+                        3.52
+                    ]
+                },
+                {
+                    "id": 2,
+                    "description": "Water Level above Bottom",
+                    "unit": "mm",
+                    "last_reading": [
+                        "2025-01-06 20:50",
+                        70
+                    ]
+                },
+                {
+                    "id": 3,
+                    "description": "Temperature",
+                    "unit": "C",
+                    "last_reading": [
+                        "2025-01-06 12:45",
+                        2.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "description": "Signal Strength",
+                    "unit": "B",
+                    "last_reading": [
+                        "2025-01-06 12:45",
+                        4
+                    ]
+                },
+                {
+                    "id": 5,
+                    "description": "Signal Quality",
+                    "last_reading": [
+                        "2025-01-06 12:45",
+                        15
+                    ]
+                },
+                {
+                    "id": 6,
+                    "description": "SmartFLOE(TM)",
+                    "unit": "L/s",
+                    "last_reading": [
+                        "2025-01-06 20:50",
+                        0
+                    ]
+                }
+            ],
+            "alarm_holdoff": null,
+            "tilt_alarm_1_enabled": 0,
+            "tilt_alarm_2_enabled": 0,
+            "tilt_recheck_enabled": 0,
+            "system_timing": 5,
+            "is_valid_flow": false
         },
         {
             "id": 26343,
@@ -1390,7 +1664,7 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 19:00",
+                        "2025-01-06 19:00",
                         0
                     ]
                 },
@@ -1399,7 +1673,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-10-15 19:00",
+                        "2025-01-06 19:00",
                         0
                     ]
                 },
@@ -1433,7 +1707,7 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 19:00",
+                        "2025-01-06 19:00",
                         0
                     ]
                 },
@@ -1442,7 +1716,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-10-15 19:00",
+                        "2025-01-06 19:00",
                         0
                     ]
                 },
@@ -1476,7 +1750,7 @@
                     "description": "Temperature",
                     "unit": "C",
                     "last_reading": [
-                        "2024-10-15 19:00",
+                        "2025-01-06 19:00",
                         0
                     ]
                 },
@@ -1485,7 +1759,7 @@
                     "description": "Rain",
                     "unit": "mm/hr",
                     "last_reading": [
-                        "2024-10-15 19:00",
+                        "2025-01-06 19:00",
                         0
                     ]
                 },
