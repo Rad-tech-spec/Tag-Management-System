@@ -56,7 +56,7 @@ SENSORS = dict(
     LEVEL_2 = "Distance below Sensor"
 )
 
-IG_ID = (39583, 39704, 40694)
+IG_ID = (2000, 40694)
 
 
 

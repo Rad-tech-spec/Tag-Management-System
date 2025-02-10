@@ -1,7 +1,4 @@
 #!/bin/bash
-
-#!/bin/bash
-
 # Check if the script is already running
 if pidof -o %PPID -x "$0"; then
     echo "Script is already running." >> /home/actemiumsumma/Historian-Sarnia/crontaboutput.txt

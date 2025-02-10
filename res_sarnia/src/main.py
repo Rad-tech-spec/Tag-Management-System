@@ -65,7 +65,7 @@ def main():
         logging.error("Failed to manage tag data: %s\n", repr(e))
 
     try:
-        q = Queue(106)
+        q = Queue(118)
         var.HS_TOKEN = security.load_HS_tk(Fernet(key_))
 
         utili.pathassigner("tags")  
